@@ -1,0 +1,357 @@
+ubuntu@ip-172-31-36-179:~$ systemclt status sshd
+Command 'systemclt' not found, did you mean:
+  command 'systemctl' from deb systemd (249.11-0ubuntu3.9)
+  command 'systemctl' from deb systemctl (1.4.4181-1.1)
+Try: sudo apt install <deb name>
+ubuntu@ip-172-31-36-179:~$ systemctl status
+● ip-172-31-36-179
+    State: running
+     Jobs: 0 queued
+   Failed: 0 units
+    Since: Wed 2023-07-26 17:48:50 UTC; 45min ago
+   CGroup: /
+           ├─user.slice 
+           │ └─user-1000.slice 
+           │   ├─user@1000.service 
+           │   │ └─init.scope 
+           │   │   ├─1161 /lib/systemd/systemd --user
+           │   │   └─1162 (sd-pam)
+           │   └─session-2.scope 
+           │     ├─ 816 sshd: ubuntu [priv]
+           │     ├─1243 sshd: ubuntu@pts/0
+           │     ├─1246 -bash
+           │     ├─2307 vim .profile
+           │     ├─3222 systemctl status
+           │     └─3223 pager
+           ├─init.scope 
+           │ └─1 /sbin/init
+           └─system.slice 
+             ├─irqbalance.service 
+             │ └─437 /usr/sbin/irqbalance --foreground
+             ├─packagekit.service 
+             │ └─1384 /usr/libexec/packagekitd
+             ├─systemd-networkd.service 
+             │ └─390 /lib/systemd/systemd-networkd
+             ├─systemd-udevd.service 
+             │ └─214 /lib/systemd/systemd-udevd
+             ├─cron.service 
+             │ └─430 /usr/sbin/cron -f -P
+             ├─system-serial\x2dgetty.slice 
+             │ └─serial-getty@ttyS0.service 
+             │   └─462 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 ttyS0 vt220
+             ├─polkit.service 
+             │ └─565 /usr/libexec/polkitd --no-debug
+             ├─networkd-dispatcher.service 
+             │ └─438 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+             ├─multipathd.service 
+             │ └─211 /sbin/multipathd -d -s
+             ├─snap.amazon-ssm-agent.amazon-ssm-agent.service 
+             │ ├─440 /snap/amazon-ssm-agent/6563/amazon-ssm-agent
+             │ └─760 /snap/amazon-ssm-agent/6563/ssm-agent-worker
+             ├─wpa_supplicant.service 
+             │ └─3074 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+             ├─ModemManager.service 
+             │ └─2812 /usr/sbin/ModemManager
+           │ └─1 /sbin/init
+           └─system.slice 
+             ├─irqbalance.service 
+             │ └─437 /usr/sbin/irqbalance --foreground
+             ├─packagekit.service 
+             │ └─1384 /usr/libexec/packagekitd
+             ├─systemd-networkd.service 
+             │ └─390 /lib/systemd/systemd-networkd
+             ├─systemd-udevd.service 
+             │ └─214 /lib/systemd/systemd-udevd
+             ├─cron.service 
+             │ └─430 /usr/sbin/cron -f -P
+             ├─system-serial\x2dgetty.slice 
+             │ └─serial-getty@ttyS0.service 
+             │   └─462 /sbin/agetty -o -p -- \u --keep-baud 115200,57600,38400,9600 ttyS0 vt220
+             ├─polkit.service 
+             │ └─565 /usr/libexec/polkitd --no-debug
+             ├─networkd-dispatcher.service 
+             │ └─438 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+             ├─multipathd.service 
+             │ └─211 /sbin/multipathd -d -s
+             ├─snap.amazon-ssm-agent.amazon-ssm-agent.service 
+             │ ├─440 /snap/amazon-ssm-agent/6563/amazon-ssm-agent
+             │ └─760 /snap/amazon-ssm-agent/6563/ssm-agent-worker
+             ├─wpa_supplicant.service 
+             │ └─3074 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+             ├─ModemManager.service 
+             │ └─2812 /usr/sbin/ModemManager
+ubuntu@ip-172-31-36-179:~$ systemclt status ssh
+Command 'systemclt' not found, did you mean:
+  command 'systemctl' from deb systemd (249.11-0ubuntu3.9)
+  command 'systemctl' from deb systemctl (1.4.4181-1.1)
+Try: sudo apt install <deb name>
+ubuntu@ip-172-31-36-179:~$ systemctl status sshd
+● ssh.service - OpenBSD Secure Shell server
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+    Drop-In: /usr/lib/systemd/system/ssh.service.d
+             └─ec2-instance-connect.conf
+     Active: active (running) since Wed 2023-07-26 17:48:59 UTC; 47min ago
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+   Main PID: 630 (sshd)
+      Tasks: 1 (limit: 1096)
+     Memory: 5.9M
+        CPU: 751ms
+     CGroup: /system.slice/ssh.service
+             └─630 "sshd: /usr/sbin/sshd -D -o AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys %u %f -o AuthorizedKeysCommandUser ec2-instanc>
+
+Jul 26 17:48:58 ip-172-31-36-179 systemd[1]: Starting OpenBSD Secure Shell server...
+Jul 26 17:48:59 ip-172-31-36-179 sshd[630]: Server listening on 0.0.0.0 port 22.
+Jul 26 17:48:59 ip-172-31-36-179 sshd[630]: Server listening on :: port 22.
+Jul 26 17:48:59 ip-172-31-36-179 systemd[1]: Started OpenBSD Secure Shell server.
+Jul 26 17:56:50 ip-172-31-36-179 sshd[816]: Accepted publickey for ubuntu from 13.48.4.202 port 54383 ssh2: ED25519 SHA256:xfvy/t4741M1BYCNIuDh8CEKuVT3w+o7owx/V4eZKLM
+Jul 26 17:56:50 ip-172-31-36-179 sshd[816]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by (uid=0)
+Jul 26 18:02:00 ip-172-31-36-179 sshd[1295]: error: kex_exchange_identification: banner line contains invalid characters
+Jul 26 18:02:00 ip-172-31-36-179 sshd[1295]: banner exchange: Connection from 46.40.123.135 port 60374: invalid format
+Jul 26 18:13:55 ip-172-31-36-179 sshd[2380]: error: kex_exchange_identification: client sent invalid protocol identifier "GET / HTTP/1.1"
+Jul 26 18:13:55 ip-172-31-36-179 sshd[2380]: banner exchange: Connection from 94.102.49.205 port 52190: invalid format
+...skipping...
+● ssh.service - OpenBSD Secure Shell server
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+    Drop-In: /usr/lib/systemd/system/ssh.service.d
+             └─ec2-instance-connect.conf
+     Active: active (running) since Wed 2023-07-26 17:48:59 UTC; 47min ago
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+   Main PID: 630 (sshd)
+      Tasks: 1 (limit: 1096)
+     Memory: 5.9M
+        CPU: 751ms
+     CGroup: /system.slice/ssh.service
+             └─630 "sshd: /usr/sbin/sshd -D -o AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys %u %f -o AuthorizedKeysCommandUser ec2-instanc>
+
+Jul 26 17:48:58 ip-172-31-36-179 systemd[1]: Starting OpenBSD Secure Shell server...
+Jul 26 17:48:59 ip-172-31-36-179 sshd[630]: Server listening on 0.0.0.0 port 22.
+Jul 26 17:48:59 ip-172-31-36-179 sshd[630]: Server listening on :: port 22.
+Jul 26 17:48:59 ip-172-31-36-179 systemd[1]: Started OpenBSD Secure Shell server.
+Jul 26 17:56:50 ip-172-31-36-179 sshd[816]: Accepted publickey for ubuntu from 13.48.4.202 port 54383 ssh2: ED25519 SHA256:xfvy/t4741M1BYCNIuDh8CEKuVT3w+o7owx/V4eZKLM
+Jul 26 17:56:50 ip-172-31-36-179 sshd[816]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by (uid=0)
+Jul 26 18:02:00 ip-172-31-36-179 sshd[1295]: error: kex_exchange_identification: banner line contains invalid characters
+Jul 26 18:02:00 ip-172-31-36-179 sshd[1295]: banner exchange: Connection from 46.40.123.135 port 60374: invalid format
+Jul 26 18:13:55 ip-172-31-36-179 sshd[2380]: error: kex_exchange_identification: client sent invalid protocol identifier "GET / HTTP/1.1"
+Jul 26 18:13:55 ip-172-31-36-179 sshd[2380]: banner exchange: Connection from 94.102.49.205 port 52190: invalid format
+~
+~
+~
+~
+ubuntu@ip-172-31-36-179:~$ systemctl restart sshd
+==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ===
+Authentication is required to restart 'ssh.service'.
+Authenticating as: Ubuntu (ubuntu)
+Password: Failed to restart sshd.service: Connection timed out
+See system logs and 'systemctl status sshd.service' for details.
+polkit-agent-helper-1: pam_authenticate failed: Authentication failure
+ubuntu@ip-172-31-36-179:~$ sudo passwd root
+New password: 
+Retype new password: 
+passwd: password updated successfully
+ubuntu@ip-172-31-36-179:~$ systemctl restart sshd
+==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ===
+Authentication is required to restart 'ssh.service'.
+Authenticating as: Ubuntu (ubuntu)
+Password: 
+polkit-agent-helper-1: pam_authenticate failed: Authentication failure
+==== AUTHENTICATION FAILED ===
+Failed to restart sshd.service: Access denied
+See system logs and 'systemctl status sshd.service' for details.
+ubuntu@ip-172-31-36-179:~$ sudo systemctl start ssh
+ubuntu@ip-172-31-36-179:~$ systemctl status ssh
+● ssh.service - OpenBSD Secure Shell server
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+    Drop-In: /usr/lib/systemd/system/ssh.service.d
+             └─ec2-instance-connect.conf
+     Active: active (running) since Wed 2023-07-26 17:48:59 UTC; 51min ago
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+   Main PID: 630 (sshd)
+      Tasks: 1 (limit: 1096)
+     Memory: 5.9M
+        CPU: 751ms
+     CGroup: /system.slice/ssh.service
+             └─630 "sshd: /usr/sbin/sshd -D -o AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys %u %f -o AuthorizedKeysCommandUser ec2-instanc>
+
+Jul 26 17:48:58 ip-172-31-36-179 systemd[1]: Starting OpenBSD Secure Shell server...
+Jul 26 17:48:59 ip-172-31-36-179 sshd[630]: Server listening on 0.0.0.0 port 22.
+Jul 26 17:48:59 ip-172-31-36-179 sshd[630]: Server listening on :: port 22.
+Jul 26 17:48:59 ip-172-31-36-179 systemd[1]: Started OpenBSD Secure Shell server.
+Jul 26 17:56:50 ip-172-31-36-179 sshd[816]: Accepted publickey for ubuntu from 13.48.4.202 port 54383 ssh2: ED25519 SHA256:xfvy/t4741M1BYCNIuDh8CEKuVT3w+o7owx/V4eZKLM
+Jul 26 17:56:50 ip-172-31-36-179 sshd[816]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by (uid=0)
+Jul 26 18:02:00 ip-172-31-36-179 sshd[1295]: error: kex_exchange_identification: banner line contains invalid characters
+Jul 26 18:02:00 ip-172-31-36-179 sshd[1295]: banner exchange: Connection from 46.40.123.135 port 60374: invalid format
+Jul 26 18:13:55 ip-172-31-36-179 sshd[2380]: error: kex_exchange_identification: client sent invalid protocol identifier "GET / HTTP/1.1"
+Jul 26 18:13:55 ip-172-31-36-179 sshd[2380]: banner exchange: Connection from 94.102.49.205 port 52190: invalid format
+...skipping...
+● ssh.service - OpenBSD Secure Shell server
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+    Drop-In: /usr/lib/systemd/system/ssh.service.d
+             └─ec2-instance-connect.conf
+     Active: active (running) since Wed 2023-07-26 17:48:59 UTC; 51min ago
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+   Main PID: 630 (sshd)
+      Tasks: 1 (limit: 1096)
+     Memory: 5.9M
+        CPU: 751ms
+     CGroup: /system.slice/ssh.service
+             └─630 "sshd: /usr/sbin/sshd -D -o AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys %u %f -o AuthorizedKeysCommandUser ec2-instanc>
+
+Jul 26 17:48:58 ip-172-31-36-179 systemd[1]: Starting OpenBSD Secure Shell server...
+Jul 26 17:48:59 ip-172-31-36-179 sshd[630]: Server listening on 0.0.0.0 port 22.
+Jul 26 17:48:59 ip-172-31-36-179 sshd[630]: Server listening on :: port 22.
+Jul 26 17:48:59 ip-172-31-36-179 systemd[1]: Started OpenBSD Secure Shell server.
+Jul 26 17:56:50 ip-172-31-36-179 sshd[816]: Accepted publickey for ubuntu from 13.48.4.202 port 54383 ssh2: ED25519 SHA256:xfvy/t4741M1BYCNIuDh8CEKuVT3w+o7owx/V4eZKLM
+Jul 26 17:56:50 ip-172-31-36-179 sshd[816]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by (uid=0)
+Jul 26 18:02:00 ip-172-31-36-179 sshd[1295]: error: kex_exchange_identification: banner line contains invalid characters
+Jul 26 18:02:00 ip-172-31-36-179 sshd[1295]: banner exchange: Connection from 46.40.123.135 port 60374: invalid format
+Jul 26 18:13:55 ip-172-31-36-179 sshd[2380]: error: kex_exchange_identification: client sent invalid protocol identifier "GET / HTTP/1.1"
+Jul 26 18:13:55 ip-172-31-36-179 sshd[2380]: banner exchange: Connection from 94.102.49.205 port 52190: invalid format
+~
+~
+~
+~
+ubuntu@ip-172-31-36-179:~$ sudo systemctl stop ssh
+ubuntu@ip-172-31-36-179:~$ systemctl status ssh
+○ ssh.service - OpenBSD Secure Shell server
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+    Drop-In: /usr/lib/systemd/system/ssh.service.d
+             └─ec2-instance-connect.conf
+     Active: inactive (dead) since Wed 2023-07-26 18:41:07 UTC; 5s ago
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+    Process: 630 ExecStart=/usr/sbin/sshd -D -o AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys %u %f -o AuthorizedKeysCommandUser ec2-instan>
+   Main PID: 630 (code=exited, status=0/SUCCESS)
+        CPU: 754ms
+
+Jul 26 17:56:50 ip-172-31-36-179 sshd[816]: Accepted publickey for ubuntu from 13.48.4.202 port 54383 ssh2: ED25519 SHA256:xfvy/t4741M1BYCNIuDh8CEKuVT3w+o7owx/V4eZKLM
+Jul 26 17:56:50 ip-172-31-36-179 sshd[816]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by (uid=0)
+Jul 26 18:02:00 ip-172-31-36-179 sshd[1295]: error: kex_exchange_identification: banner line contains invalid characters
+Jul 26 18:02:00 ip-172-31-36-179 sshd[1295]: banner exchange: Connection from 46.40.123.135 port 60374: invalid format
+Jul 26 18:13:55 ip-172-31-36-179 sshd[2380]: error: kex_exchange_identification: client sent invalid protocol identifier "GET / HTTP/1.1"
+Jul 26 18:13:55 ip-172-31-36-179 sshd[2380]: banner exchange: Connection from 94.102.49.205 port 52190: invalid format
+Jul 26 18:41:07 ip-172-31-36-179 systemd[1]: Stopping OpenBSD Secure Shell server...
+Jul 26 18:41:07 ip-172-31-36-179 sshd[630]: Received signal 15; terminating.
+Jul 26 18:41:07 ip-172-31-36-179 systemd[1]: ssh.service: Deactivated successfully.
+Jul 26 18:41:07 ip-172-31-36-179 systemd[1]: Stopped OpenBSD Secure Shell server.
+...skipping...
+○ ssh.service - OpenBSD Secure Shell server
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+    Drop-In: /usr/lib/systemd/system/ssh.service.d
+             └─ec2-instance-connect.conf
+     Active: inactive (dead) since Wed 2023-07-26 18:41:07 UTC; 5s ago
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+    Process: 630 ExecStart=/usr/sbin/sshd -D -o AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys %u %f -o AuthorizedKeysCommandUser ec2-instan>
+   Main PID: 630 (code=exited, status=0/SUCCESS)
+        CPU: 754ms
+
+Jul 26 17:56:50 ip-172-31-36-179 sshd[816]: Accepted publickey for ubuntu from 13.48.4.202 port 54383 ssh2: ED25519 SHA256:xfvy/t4741M1BYCNIuDh8CEKuVT3w+o7owx/V4eZKLM
+Jul 26 17:56:50 ip-172-31-36-179 sshd[816]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by (uid=0)
+Jul 26 18:02:00 ip-172-31-36-179 sshd[1295]: error: kex_exchange_identification: banner line contains invalid characters
+Jul 26 18:02:00 ip-172-31-36-179 sshd[1295]: banner exchange: Connection from 46.40.123.135 port 60374: invalid format
+Jul 26 18:13:55 ip-172-31-36-179 sshd[2380]: error: kex_exchange_identification: client sent invalid protocol identifier "GET / HTTP/1.1"
+Jul 26 18:13:55 ip-172-31-36-179 sshd[2380]: banner exchange: Connection from 94.102.49.205 port 52190: invalid format
+Jul 26 18:41:07 ip-172-31-36-179 systemd[1]: Stopping OpenBSD Secure Shell server...
+Jul 26 18:41:07 ip-172-31-36-179 sshd[630]: Received signal 15; terminating.
+Jul 26 18:41:07 ip-172-31-36-179 systemd[1]: ssh.service: Deactivated successfully.
+Jul 26 18:41:07 ip-172-31-36-179 systemd[1]: Stopped OpenBSD Secure Shell server.
+~
+~
+~
+~
+~
+~
+~
+ubuntu@ip-172-31-36-179:~$ sudo systemctl enable ssh
+Synchronizing state of ssh.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable ssh
+ubuntu@ip-172-31-36-179:~$ systemctl status ssh
+○ ssh.service - OpenBSD Secure Shell server
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+    Drop-In: /usr/lib/systemd/system/ssh.service.d
+             └─ec2-instance-connect.conf
+     Active: inactive (dead) since Wed 2023-07-26 18:41:07 UTC; 2min 15s ago
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+   Main PID: 630 (code=exited, status=0/SUCCESS)
+        CPU: 754ms
+
+Jul 26 17:56:50 ip-172-31-36-179 sshd[816]: Accepted publickey for ubuntu from 13.48.4.202 port 54383 ssh2: ED25519 SHA256:xfvy/t4741M1BYCNIuDh8CEKuVT3w+o7owx/V4eZKLM
+Jul 26 17:56:50 ip-172-31-36-179 sshd[816]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by (uid=0)
+Jul 26 18:02:00 ip-172-31-36-179 sshd[1295]: error: kex_exchange_identification: banner line contains invalid characters
+Jul 26 18:02:00 ip-172-31-36-179 sshd[1295]: banner exchange: Connection from 46.40.123.135 port 60374: invalid format
+Jul 26 18:13:55 ip-172-31-36-179 sshd[2380]: error: kex_exchange_identification: client sent invalid protocol identifier "GET / HTTP/1.1"
+Jul 26 18:13:55 ip-172-31-36-179 sshd[2380]: banner exchange: Connection from 94.102.49.205 port 52190: invalid format
+Jul 26 18:41:07 ip-172-31-36-179 systemd[1]: Stopping OpenBSD Secure Shell server...
+Jul 26 18:41:07 ip-172-31-36-179 sshd[630]: Received signal 15; terminating.
+Jul 26 18:41:07 ip-172-31-36-179 systemd[1]: ssh.service: Deactivated successfully.
+Jul 26 18:41:07 ip-172-31-36-179 systemd[1]: Stopped OpenBSD Secure Shell server.
+ubuntu@ip-172-31-36-179:~$ sudo systemctl enable ssh
+Synchronizing state of ssh.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable ssh
+ubuntu@ip-172-31-36-179:~$ sudo systemctl disabled ssh
+Unknown command verb disabled.
+ubuntu@ip-172-31-36-179:~$ sudo systemctl disable sshd
+Removed /etc/systemd/system/sshd.service.
+Removed /etc/systemd/system/multi-user.target.wants/ssh.service.
+ubuntu@ip-172-31-36-179:~$ sudo systemctl enable sshd
+Failed to enable unit: Unit file sshd.service does not exist.
+ubuntu@ip-172-31-36-179:~$ sudo systemctl enable ssh
+Synchronizing state of ssh.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable ssh
+Created symlink /etc/systemd/system/sshd.service → /lib/systemd/system/ssh.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ssh.service → /lib/systemd/system/ssh.service.
+ubuntu@ip-172-31-36-179:~$ systemctl status ssh
+○ ssh.service - OpenBSD Secure Shell server
+     Loaded: loaded (/lib/systemd/system/ssh.service; enabled; vendor preset: enabled)
+    Drop-In: /usr/lib/systemd/system/ssh.service.d
+             └─ec2-instance-connect.conf
+     Active: inactive (dead) since Wed 2023-07-26 18:41:07 UTC; 5min ago
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+   Main PID: 630 (code=exited, status=0/SUCCESS)
+        CPU: 754ms
+
+Jul 26 17:56:50 ip-172-31-36-179 sshd[816]: Accepted publickey for ubuntu from 13.48.4.202 port 54383 ssh2: ED25519 SHA256:xfvy/t4741M1BYCNIuDh8CEKuVT3w+o7owx/V4eZKLM
+Jul 26 17:56:50 ip-172-31-36-179 sshd[816]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by (uid=0)
+Jul 26 18:02:00 ip-172-31-36-179 sshd[1295]: error: kex_exchange_identification: banner line contains invalid characters
+Jul 26 18:02:00 ip-172-31-36-179 sshd[1295]: banner exchange: Connection from 46.40.123.135 port 60374: invalid format
+Jul 26 18:13:55 ip-172-31-36-179 sshd[2380]: error: kex_exchange_identification: client sent invalid protocol identifier "GET / HTTP/1.1"
+Jul 26 18:13:55 ip-172-31-36-179 sshd[2380]: banner exchange: Connection from 94.102.49.205 port 52190: invalid format
+Jul 26 18:41:07 ip-172-31-36-179 systemd[1]: Stopping OpenBSD Secure Shell server...
+Jul 26 18:41:07 ip-172-31-36-179 sshd[630]: Received signal 15; terminating.
+Jul 26 18:41:07 ip-172-31-36-179 systemd[1]: ssh.service: Deactivated successfully.
+Jul 26 18:41:07 ip-172-31-36-179 systemd[1]: Stopped OpenBSD Secure Shell server.
+ubuntu@ip-172-31-36-179:~$ sudo systemctl disable ssh
+Synchronizing state of ssh.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install disable ssh
+Removed /etc/systemd/system/sshd.service.
+Removed /etc/systemd/system/multi-user.target.wants/ssh.service.
+ubuntu@ip-172-31-36-179:~$ systemctl status ssh
+○ ssh.service - OpenBSD Secure Shell server
+     Loaded: loaded (/lib/systemd/system/ssh.service; disabled; vendor preset: enabled)
+    Drop-In: /usr/lib/systemd/system/ssh.service.d
+             └─ec2-instance-connect.conf
+     Active: inactive (dead) since Wed 2023-07-26 18:41:07 UTC; 6min ago
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+   Main PID: 630 (code=exited, status=0/SUCCESS)
+        CPU: 754ms
+
+Jul 26 17:56:50 ip-172-31-36-179 sshd[816]: Accepted publickey for ubuntu from 13.48.4.202 port 54383 ssh2: ED25519 SHA256:xfvy/t4741M1BYCNIuDh8CEKuVT3w+o7owx/V4eZKLM
+Jul 26 17:56:50 ip-172-31-36-179 sshd[816]: pam_unix(sshd:session): session opened for user ubuntu(uid=1000) by (uid=0)
+Jul 26 18:02:00 ip-172-31-36-179 sshd[1295]: error: kex_exchange_identification: banner line contains invalid characters
+Jul 26 18:02:00 ip-172-31-36-179 sshd[1295]: banner exchange: Connection from 46.40.123.135 port 60374: invalid format
+Jul 26 18:13:55 ip-172-31-36-179 sshd[2380]: error: kex_exchange_identification: client sent invalid protocol identifier "GET / HTTP/1.1"
+Jul 26 18:13:55 ip-172-31-36-179 sshd[2380]: banner exchange: Connection from 94.102.49.205 port 52190: invalid format
+Jul 26 18:41:07 ip-172-31-36-179 systemd[1]: Stopping OpenBSD Secure Shell server...
+Jul 26 18:41:07 ip-172-31-36-179 sshd[630]: Received signal 15; terminating.
+Jul 26 18:41:07 ip-172-31-36-179 systemd[1]: ssh.service: Deactivated successfully.
+Jul 26 18:41:07 ip-172-31-36-179 systemd[1]: Stopped OpenBSD Secure Shell server.
+ubuntu@ip-172-31-36-179:~$ sudo systemctl is-enabled sshd
+Failed to get unit file state for sshd.service: No such file or directory
+ubuntu@ip-172-31-36-179:~$ 

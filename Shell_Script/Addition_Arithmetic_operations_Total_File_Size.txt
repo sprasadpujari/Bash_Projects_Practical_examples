@@ -1,0 +1,31 @@
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+Add_Array.sh  Del_Array.sh  F2.txt   addition.sh  constant_variable.sh  creative_arguments.sh  firt_array.sh  multiple_argument.sh  sorted.sh             upper.sh
+Arguments.sh  F1.txt        File.sh  cal.sh       cores.sh              first_array.sh         hello.sh       reverse_array.sh      special_arguments.sh  variable.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./addition.sh  /etc/passwd /etc/group
+File /etc/passwd  has 1943 bytes
+File /etc/group has 881 bytes
+Total number of bytes:2824
+ubuntu@ip-172-31-37-87:~/linux_script$ cat addition.sh 
+#!/bin/bash
+
+fs1=$(du -b $1 | cut -f1)
+fs2=$(du -b $2 | cut -f1)
+
+echo "File $1  has $fs1 bytes"
+
+echo "File $2 has $fs2 bytes"
+
+total=$(($fs1 + $fs2))
+
+echo "Total number of bytes:$total"
+
+
+
+ubuntu@ip-172-31-37-87:~/linux_script$ du -b addition.sh 
+192     addition.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ du -b /etc/passwd
+1943    /etc/passwd
+ubuntu@ip-172-31-37-87:~/linux_script$ du -b /etc/group
+881     /etc/group
+ubuntu@ip-172-31-37-87:~/linux_script$ 
+

@@ -1,0 +1,228 @@
+ubuntu@ip-172-31-37-87:~/linux_practise$ type cp
+cp is /usr/bin/cp
+ubuntu@ip-172-31-37-87:~/linux_practise$ cd /usr/bin/
+ubuntu@ip-172-31-37-87:/usr/bin$ ls
+ NF                                   encguess                 lsb_release                        resolvectl              systemd-detect-virt
+ VGAuthService                        env                      lsblk                              rev                     systemd-escape
+ X11                                  envsubst                 lscpu                              rgrep                   systemd-hwdb
+'['                                   eqn                      lshw                               rlogin                  systemd-id128
+ aa-enabled                           ex                       lsinitramfs                        rm                      systemd-inhibit
+ aa-exec                              expand                   lsipc                              rmdir                   systemd-machine-id-setup
+ aa-features-abi                      expiry                   lslocks                            rmiregistry             systemd-mount
+ acpi_listen                          expr                     lslogins                           rnano                   systemd-notify
+ add-apt-repository                   factor                   lsmem                              routef                  systemd-path
+ addpart                              faillog                  lsmod                              routel                  systemd-run
+ addr2line                            fallocate                lsns                               rrsync                  systemd-socket-activate
+ apport-bug                           false                    lsof                               rsh                     systemd-stdio-bridge
+ apport-cli                           fc-cache                 lspci                              rsync                   systemd-sysext
+ apport-collect                       fc-cat                   lspgpot                            rsync-ssl               systemd-sysusers
+ apport-unpack                        fc-conflist              lsusb                              rtstat                  systemd-tmpfiles
+ appres                               fc-list                  luit                               run-one                 systemd-tty-ask-password-agent
+ apropos                              fc-match                 lzcat                              run-one-constantly      systemd-umount
+ apt                                  fc-pattern               lzcmp                              run-one-until-failure   tabs
+ apt-add-repository                   fc-query                 lzdiff                             run-one-until-success   tac
+ apt-cache                            fc-scan                  lzegrep                            run-parts               tail
+ apt-cdrom                            fc-validate              lzfgrep                            run-this-one            tar
+ apt-config                           fgconsole                lzgrep                             runcon                  taskset
+ apt-extracttemplates                 fgrep                    lzless                             rview                   tbl
+ apt-ftparchive                       file                     lzma                               rvim                    tclsh
+ apt-get                              finalrd                  lzmainfo                           savelog                 tclsh8.6
+ apt-key                              fincore                  lzmore                             sbattach                tcpdump
+ apt-mark                             find                     mailmail3                          sbkeysync               tee
+ apt-sortpkgs                         findmnt                  man                                sbsiglist               telnet
+ ar                                   flock                    man-recode                         sbsign                  telnet.netkit
+ arch                                 fmt                      mandb                              sbvarsign               tempfile
+ as                                   fold                     manifest                           sbverify                test
+ automat-visualize3                   free                     manpath                            scandeps                tic
+ awk                                  ftp                      mapscrn                            scp                     time
+ b2sum                                fuser                    mawk                               screen                  timedatectl
+ base32                               fusermount               mcookie                            screendump              timeout
+ base64                               fusermount3              md5sum                             script                  tkconch3
+ basename                             gapplication             md5sum.textutils                   scriptlive              tload
+ basenc                               gawk                     mdig                               scriptreplay            tmux
+ bash                                 gdbus                    mesg                               scsi_logging_level      tnftp
+ bashbug                              gdk-pixbuf-csource       migrate-pubring-from-classic-gpg   scsi_mandat             toe
+ bc                                   gdk-pixbuf-pixdata       mk_modmap                          scsi_readcap            top
+ boltctl                              gdk-pixbuf-thumbnailer   mkdir                              scsi_ready              touch
+ bootctl                              geqn                     mkfifo                             scsi_satl               tput
+ btrfs                                getconf                  mknod                              scsi_start              tr
+ btrfs-convert                        getent                   mksquashfs                         scsi_stop               tracepath
+ btrfs-find-root                      getkeycodes              mktemp                             scsi_temperature        trial3
+ btrfs-image                          getopt                   mokutil                            sdiff                   troff
+ btrfs-map-logical                    gettext                  more                               sed                     true
+ btrfs-select-super                   gettext.sh               mount                              select-editor           truncate
+ btrfsck                              ginstall-info            mountpoint                         sensible-browser        tset
+ btrfstune                            gio                      mt                                 sensible-editor         tsort
+ busctl                               gio-querymodules         mt-gnu                             sensible-pager          tty
+ busybox                              git                      mtr                                seq                     twist3
+ byobu                                git-receive-pack         mtr-packet                         session-migration       twistd3
+ byobu-config                         git-shell                mv                                 setarch                 tzselect
+ byobu-ctrl-a                         git-upload-archive       namei                              setfont                 ua
+ byobu-disable                        git-upload-pack          nano                               setkeycodes             ubuntu-advantage
+ byobu-disable-prompt                 glib-compile-schemas     nawk                               setleds                 ubuntu-bug
+ byobu-enable                         gold                     nc                                 setlogcons              ubuntu-core-launcher
+ byobu-enable-prompt                  gpasswd                  nc.openbsd                         setmetamode             ubuntu-distro-info
+ byobu-export                         gpg                      neqn                               setpci                  ubuntu-security-status
+ byobu-janitor                        gpg-agent                netcat                             setpriv                 ucf
+ byobu-keybindings                    gpg-connect-agent        networkctl                         setsid                  ucfq
+ byobu-launch                         gpg-wks-server           networkd-dispatcher                setterm                 ucfr
+ byobu-launcher                       gpg-zip                  newgrp                             setupcon                uclampset
+ byobu-launcher-install               gpgcompose               ngettext                           sftp                    udevadm
+ byobu-launcher-uninstall             gpgconf                  nice                               sg                      ul
+ byobu-layout                         gpgparsemail             nisdomainname                      sg_bg_ctl               umount
+ byobu-prompt                         gpgsm                    nl                                 sg_compare_and_write    uname
+ byobu-quiet                          gpgsplit                 nm                                 sg_copy_results         unattended-upgrade
+ byobu-reconnect-sockets              gpgtar                   nohup                              sg_dd                   unattended-upgrades
+ byobu-screen                         gpgv                     nproc                              sg_decode_sense         uncompress
+ byobu-select-backend                 gpic                     nroff                              sg_emc_trespass         unexpand
+ byobu-select-profile                 gprof                    nsenter                            sg_format               unicode_start
+ byobu-select-session                 grep                     nslookup                           sg_get_config           unicode_stop
+ byobu-shell                          gresource                nstat                              sg_get_elem_status      uniq
+ byobu-silent                         groff                    nsupdate                           sg_get_lba_status       unlink
+ byobu-status                         grog                     ntfs-3g                            sg_ident                unlzma
+ byobu-status-detail                  grops                    ntfs-3g.probe                      sg_inq                  unmkinitramfs
+ byobu-tmux                           grotty                   ntfscat                            sg_logs                 unshare
+ byobu-ugraph                         groups                   ntfscluster                        sg_luns                 unsquashfs
+ byobu-ulevel                         growpart                 ntfscmp                            sg_map                  unxz
+ c++filt                              grub-editenv             ntfsdecrypt                        sg_map26                unzstd
+ c_rehash                             grub-file                ntfsfallocate                      sg_modes                update-alternatives
+ captoinfo                            grub-fstest              ntfsfix                            sg_opcodes              update-microcode-initrd
+ cat                                  grub-glue-efi            ntfsinfo                           sg_persist              update-mime-database
+ catman                               grub-kbdcomp             ntfsls                             sg_prevent              uptime
+ cftp3                                grub-menulst2cfg         ntfsmove                           sg_raw                  usb-devices
+ chage                                grub-mkfont              ntfsrecover                        sg_rbuf                 usbhid-dump
+ chardet                              grub-mkimage             ntfssecaudit                       sg_rdac                 usbreset
+ chardetect                           grub-mklayout            ntfstruncate                       sg_read                 users
+ chattr                               grub-mknetdir            ntfsusermap                        sg_read_attr            utmpdump
+ chcon                                grub-mkpasswd-pbkdf2     ntfswipe                           sg_read_block_limits    uuidgen
+ chfn                                 grub-mkrelpath           numfmt                             sg_read_buffer          uuidparse
+ chgrp                                grub-mkrescue            objcopy                            sg_read_long            vcs-run
+ chmod                                grub-mkstandalone        objdump                            sg_readcap              vdir
+ choom                                grub-mount               od                                 sg_reassign             vi
+ chown                                grub-ntldr-img           oem-getlogs                        sg_referrals            view
+ chronyc                              grub-render-label        on_ac_power                        sg_rep_pip              viewres
+ chrt                                 grub-script-check        openssl                            sg_rep_zones            vigpg
+ chsh                                 grub-syslinux2cfg        openvt                             sg_requests             vim
+ chvt                                 gsettings                os-prober                          sg_reset                vim.basic
+ ckbcomp                              gtbl                     pager                              sg_reset_wp             vim.tiny
+ ckeygen3                             gtk-update-icon-cache    partx                              sg_rmsn                 vimdiff
+ cksum                                gunzip                   passwd                             sg_rtpg                 vimtutor
+ clear                                gzexe                    paste                              sg_safte                vm-support
+ clear_console                        gzip                     pastebinit                         sg_sanitize             vmhgfs-fuse
+ cloud-id                             h2ph                     patch                              sg_sat_identify         vmstat
+ cloud-init                           h2xs                     pathchk                            sg_sat_phy_event        vmtoolsd
+ cloud-init-per                       hardlink                 pbget                              sg_sat_read_gplog       vmware-alias-import
+ cmp                                  hd                       pbput                              sg_sat_set_features     vmware-checkvm
+ codepage                             head                     pbputs                             sg_scan                 vmware-hgfsclient
+ col                                  helpztags                pdb3                               sg_seek                 vmware-namespace-cmd
+ col1                                 hexdump                  pdb3.10                            sg_senddiag             vmware-rpctool
+ col2                                 hibagent                 peekfd                             sg_ses                  vmware-toolbox-cmd
+ col3                                 hibinit-agent            perl                               sg_ses_microcode        vmware-vgauth-cmd
+ col4                                 host                     perl5.34-x86_64-linux-gnu          sg_start                vmware-vmblock-fuse
+ col5                                 hostid                   perl5.34.0                         sg_stpg                 vmware-xferlogs
+ col6                                 hostname                 perlbug                            sg_stream_ctl           w
+ col7                                 hostnamectl              perldoc                            sg_sync                 wall
+ col8                                 htop                     perlivp                            sg_test_rwbuf           watch
+ col9                                 hwe-support-status       perlthanks                         sg_timestamp            watchgnupg
+ colcrt                               i386                     pgrep                              sg_turs                 wc
+ colrm                                iconv                    pic                                sg_unmap                wdctl
+ column                               id                       pico                               sg_verify               wget
+ comm                                 info                     piconv                             sg_vpd                  whatis
+ conch3                               infobrowser              pidof                              sg_wr_mode              whereis
+ corelist                             infocmp                  pidwait                            sg_write_buffer         which
+ cp                                   infotocap                pinentry                           sg_write_long           which.debianutils
+ cpan                                 install                  pinentry-curses                    sg_write_same           whiptail
+ cpan5.34-x86_64-linux-gnu            install-info             ping                               sg_write_verify         who
+ cpio                                 instmodsh                ping4                              sg_write_x              whoami
+ crontab                              ionice                   ping6                              sg_xcopy                wifi-status
+ csplit                               ip                       pinky                              sg_zone                 write
+ ctail                                ipcmk                    pkaction                           sginfo                  write.ul
+ ctstat                               ipcrm                    pkcheck                            sgm_dd                  x86_64
+ curl                                 ipcs                     pkcon                              sgp_dd                  x86_64-linux-gnu-addr2line
+ cut                                  iptables-xml             pkexec                             sh                      x86_64-linux-gnu-ar
+ cvtsudoers                           ischroot                 pkill                              sha1sum                 x86_64-linux-gnu-as
+ dash                                 iscsiadm                 pkmon                              sha224sum               x86_64-linux-gnu-c++filt
+ date                                 java                     pkttyagent                         sha256sum               x86_64-linux-gnu-dwp
+ dbus-cleanup-sockets                 jexec                    pl2pm                              sha384sum               x86_64-linux-gnu-elfedit
+ dbus-daemon                          join                     pldd                               sha512sum               x86_64-linux-gnu-gold
+ dbus-monitor                         journalctl               plymouth                           shasum                  x86_64-linux-gnu-gprof
+ dbus-run-session                     jpackage                 pmap                               showconsolefont         x86_64-linux-gnu-ld
+ dbus-send                            json-patch-jsondiff      pod2html                           showkey                 x86_64-linux-gnu-ld.bfd
+ dbus-update-activation-environment   json_pp                  pod2man                            shred                   x86_64-linux-gnu-ld.gold
+ dbus-uuidgen                         jsondiff                 pod2text                           shuf                    x86_64-linux-gnu-nm
+ dd                                   jsonpatch                pod2usage                          size                    x86_64-linux-gnu-objcopy
+ deallocvt                            jsonpointer              podchecker                         skill                   x86_64-linux-gnu-objdump
+ deb-systemd-helper                   jsonschema               pollinate                          slabtop                 x86_64-linux-gnu-ranlib
+ deb-systemd-invoke                   kbd_mode                 pr                                 sleep                   x86_64-linux-gnu-readelf
+ debconf                              kbdinfo                  preconv                            slogin                  x86_64-linux-gnu-size
+ debconf-apt-progress                 kbxutil                  printenv                           snap                    x86_64-linux-gnu-strings
+ debconf-communicate                  keep-one-running         printf                             snapctl                 x86_64-linux-gnu-strip
+ debconf-copydb                       kernel-install           prlimit                            snapfuse                xargs
+ debconf-escape                       keyring                  pro                                snice                   xauth
+ debconf-set-selections               keytool                  prove                              soelim                  xdg-user-dir
+ debconf-show                         kill                     prtstat                            sort                    xdg-user-dirs-update
+ debian-distro-info                   killall                  ps                                 sos                     xdpyinfo
+ delpart                              kmod                     psfaddtable                        sos-collector           xdriinfo
+ delv                                 kmodsign                 psfgettable                        sosreport               xev
+ df                                   landscape-sysinfo        psfstriptable                      splain                  xfd
+ dh_bash-completion                   last                     psfxtable                          split                   xfontsel
+ diff                                 lastb                    pslog                              splitfont               xkill
+ diff3                                lastlog                  pstree                             sqfscat                 xlsatoms
+ dig                                  lcf                      pstree.x11                         sqfstar                 xlsclients
+ dir                                  ld                       ptar                               ss                      xlsfonts
+ dircolors                            ld.bfd                   ptardiff                           ssh                     xmessage
+ dirmngr                              ld.gold                  ptargrep                           ssh-add                 xprop
+ dirmngr-client                       ldd                      ptx                                ssh-agent               xsubpp
+ dirname                              less                     purge-old-kernels                  ssh-argv0               xvinfo
+ distro-info                          lessecho                 pwd                                ssh-copy-id             xwininfo
+ dmesg                                lessfile                 pwdx                               ssh-import-id           xxd
+ dnsdomainname                        lesskey                  py3clean                           ssh-import-id-gh        xz
+ do-release-upgrade                   lesspipe                 py3compile                         ssh-import-id-lp        xzcat
+ domainname                           lexgrog                  py3versions                        ssh-keygen              xzcmp
+ dpkg                                 libnetcfg                pybabel                            ssh-keyscan             xzdiff
+ dpkg-deb                             link                     pybabel-python3                    stat                    xzegrep
+ dpkg-divert                          linux-boot-prober        pydoc3                             static-sh               xzfgrep
+ dpkg-maintscript-helper              linux-check-removal      pydoc3.10                          stdbuf                  xzgrep
+ dpkg-query                           linux-update-symlinks    pygettext3                         strace                  xzless
+ dpkg-realpath                        linux-version            pygettext3.10                      strace-log-merge        xzmore
+ dpkg-split                           linux32                  pyhtmlizer3                        streamzip               yes
+ dpkg-statoverride                    linux64                  pyserial-miniterm                  strings                 ypdomainname
+ dpkg-trigger                         listres                  pyserial-ports                     strip                   zcat
+ du                                   ln                       python3                            stty                    zcmp
+ dumpkeys                             lnstat                   python3.10                         su                      zdiff
+ dwp                                  loadkeys                 pzstd                              sudo                    zdump
+ eatmydata                            loadunimap               ranlib                             sudoedit                zegrep
+ ec2metadata                          locale                   rbash                              sudoreplay              zfgrep
+ echo                                 locale-check             rcp                                sum                     zforce
+ ed                                   localectl                rdma                               sync                    zgrep
+ editor                               localedef                readelf                            systemctl               zipdetails
+ editres                              logger                   readlink                           systemd                 zless
+ efibootdump                          login                    realpath                           systemd-analyze         zmore
+ efibootmgr                           loginctl                 red                                systemd-ask-password    znew
+ egrep                                logname                  renice                             systemd-cat             zstd
+ eject                                look                     rescan-scsi-bus.sh                 systemd-cgls            zstdcat
+ elfedit                              lowntfs-3g               reset                              systemd-cgtop           zstdgrep
+ enable-ec2-spot-hibernation          ls                       resizecons                         systemd-cryptenroll     zstdless
+ enc2xs                               lsattr                   resizepart                         systemd-delta           zstdmt
+ubuntu@ip-172-31-37-87:/usr/bin$ type egrep
+egrep is aliased to `egrep --color=auto'
+ubuntu@ip-172-31-37-87:/usr/bin$ type cd
+cd is a shell builtin
+ubuntu@ip-172-31-37-87:/usr/bin$ type ls
+ls is aliased to `ls --color=auto'
+ubuntu@ip-172-31-37-87:/usr/bin$ cd /
+ubuntu@ip-172-31-37-87:/$ ls
+bin  boot  dev  etc  home  lib  lib32  lib64  libx32  lost+found  media  mnt  opt  proc  root  run  sbin  snap  srv  sys  tmp  usr  var
+ubuntu@ip-172-31-37-87:/$ type echo
+echo is a shell builtin
+ubuntu@ip-172-31-37-87:/$ type rm
+rm is /usr/bin/rm
+ubuntu@ip-172-31-37-87:/$ type vim
+vim is hashed (/usr/bin/vim)
+ubuntu@ip-172-31-37-87:/$ type cal
+-bash: type: cal: not found
+ubuntu@ip-172-31-37-87:/$ file /usr/bin/cal
+/usr/bin/cal: cannot open `/usr/bin/cal' (No such file or directory)
+ubuntu@ip-172-31-37-87:/$ file /usr/bin/ncal
+/usr/bin/ncal: cannot open `/usr/bin/ncal' (No such file or directory)
+ubuntu@ip-172-31-37-87:/$ 

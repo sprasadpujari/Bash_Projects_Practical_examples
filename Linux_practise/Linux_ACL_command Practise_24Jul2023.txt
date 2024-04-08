@@ -1,0 +1,122 @@
+ubuntu@ip-172-31-36-179:~$ getfacl dir1
+Command 'getfacl' not found, but can be installed with:
+sudo apt install acl
+ubuntu@ip-172-31-36-179:~$ ls
+A  File2  File2.txt  FileM3  colors.txt  devops.txt  dir1  dir2  fruits.txt  loops.sh  take_backup.sh
+ubuntu@ip-172-31-36-179:~$ getfacl /dir1
+Command 'getfacl' not found, but can be installed with:
+sudo apt install acl
+ubuntu@ip-172-31-36-179:~$ sudo getfacl dir1
+sudo: getfacl: command not found
+ubuntu@ip-172-31-36-179:~$ sudo getfacl /dir1
+sudo: getfacl: command not found
+ubuntu@ip-172-31-36-179:~$ getfacl loops.sh 
+Command 'getfacl' not found, but can be installed with:
+sudo apt install acl
+ubuntu@ip-172-31-36-179:~$ sudo apt install acl
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following NEW packages will be installed:
+  acl
+0 upgraded, 1 newly installed, 0 to remove and 33 not upgraded.
+Need to get 38.5 kB of archives.
+After this operation, 205 kB of additional disk space will be used.
+Get:1 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy/main amd64 acl amd64 2.3.1-1 [38.5 kB]
+Fetched 38.5 kB in 0s (224 kB/s)
+Selecting previously unselected package acl.
+(Reading database ... 93693 files and directories currently installed.)
+Preparing to unpack .../archives/acl_2.3.1-1_amd64.deb ...
+Unpacking acl (2.3.1-1) ...
+Setting up acl (2.3.1-1) ...
+Processing triggers for man-db (2.10.2-1) ...
+Scanning processes...                                                                                                                                                       
+Scanning linux images...                                                                                                                                                    
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+ubuntu@ip-172-31-36-179:~$ getfacl loops.sh 
+# file: loops.sh
+# owner: ubuntu
+# group: ubuntu
+user::rwx
+group::---
+other::---
+
+ubuntu@ip-172-31-36-179:~$ sudo getfacl /dir1
+getfacl: /dir1: No such file or directory
+ubuntu@ip-172-31-36-179:~$ sudo getfacl dir1
+# file: dir1
+# owner: ubuntu
+# group: ubuntu
+user::rwx
+group::rwx
+other::r-x
+
+ubuntu@ip-172-31-36-179:~$ setfacl -m u:mayur:rwx colors.txt
+ubuntu@ip-172-31-36-179:~$ sudo getfacl colors.txt
+# file: colors.txt
+# owner: ubuntu
+# group: ubuntu
+user::rwx
+user:mayur:rwx
+group::rw-
+mask::rwx
+other::r--
+
+ubuntu@ip-172-31-36-179:~$ setfacl -m x:mayur:rwx colors.txt
+setfacl: Option -m: Invalid argument near character 1
+ubuntu@ip-172-31-36-179:~$ setfacl -x u:mayur colors.txt
+ubuntu@ip-172-31-36-179:~$ sudo getfacl colors.txt
+# file: colors.txt
+# owner: ubuntu
+# group: ubuntu
+user::rwx
+group::rw-
+mask::rw-
+other::r--
+
+ubuntu@ip-172-31-36-179:~$ setfacl -m g:Testing:rwx Testing
+setfacl: Testing: No such file or directory
+ubuntu@ip-172-31-36-179:~$ setfacl -m g:Impl:rwx colors.txt
+ubuntu@ip-172-31-36-179:~$ sudo getfacl colors.txt
+# file: colors.txt
+# owner: ubuntu
+# group: ubuntu
+user::rwx
+group::rw-
+group:Impl:rwx
+mask::rwx
+other::r--
+
+ubuntu@ip-172-31-36-179:~$ setfacl -x g:Impl:rwx colors.txt
+setfacl: Option -x: Invalid argument near character 8
+ubuntu@ip-172-31-36-179:~$ setfacl -x g:Impl Impl
+setfacl: Impl: No such file or directory
+ubuntu@ip-172-31-36-179:~$ setfacl -x g:Impl colors.txt
+ubuntu@ip-172-31-36-179:~$ sudo getfacl colors.txt
+# file: colors.txt
+# owner: ubuntu
+# group: ubuntu
+user::rwx
+group::rw-
+mask::rw-
+other::r--
+
+ubuntu@ip-172-31-36-179:~$ setfacl -b Impl
+setfacl: Impl: No such file or directory
+ubuntu@ip-172-31-36-179:~$ setfacl -b colors.txt
+ubuntu@ip-172-31-36-179:~$ sudo getfacl colors.txt
+# file: colors.txt
+# owner: ubuntu
+# group: ubuntu
+user::rwx
+group::rw-
+other::r--

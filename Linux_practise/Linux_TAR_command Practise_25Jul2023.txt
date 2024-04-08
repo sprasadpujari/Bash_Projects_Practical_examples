@@ -1,0 +1,128 @@
+ubuntu@ip-172-31-36-179:~$ ls
+A  File2  File2.txt  FileM3  colors.txt  devops.txt  dir1  dir2  find.txt  fruits.txt  loops.sh  take_backup.sh
+ubuntu@ip-172-31-36-179:~$ tar -c find.txt
+tar: Refusing to write archive contents to terminal (missing -f option?)
+tar: Error is not recoverable: exiting now
+ubuntu@ip-172-31-36-179:~$ tar -cvf find.txt
+tar: Cowardly refusing to create an empty archive
+Try 'tar --help' or 'tar --usage' for more information.
+ubuntu@ip-172-31-36-179:~$ tar -cvf A
+tar: Cowardly refusing to create an empty archive
+Try 'tar --help' or 'tar --usage' for more information.
+ubuntu@ip-172-31-36-179:~$ pwd
+/home/ubuntu
+ubuntu@ip-172-31-36-179:~$ tar -cvf /home/ubuntu/backup.tar fruits.txt
+fruits.txt
+ubuntu@ip-172-31-36-179:~$ ls
+A  File2  File2.txt  FileM3  backup.tar  colors.txt  devops.txt  dir1  dir2  find.txt  fruits.txt  loops.sh  take_backup.sh
+ubuntu@ip-172-31-36-179:~$ du -sh fruits.txt
+4.0K    fruits.txt
+ubuntu@ip-172-31-36-179:~$ du -sh dir1
+60K     dir1
+ubuntu@ip-172-31-36-179:~$ du -sh backup.tar
+12K     backup.tar
+ubuntu@ip-172-31-36-179:~$ tar -x /home/ubuntu/backup.tar
+tar: Refusing to read archive contents from terminal (missing -f option?)
+tar: Error is not recoverable: exiting now
+ubuntu@ip-172-31-36-179:~$ tar -xvf  /home/ubuntu/backup.tar
+fruits.txt
+ubuntu@ip-172-31-36-179:~$ ls
+A  File2  File2.txt  FileM3  backup.tar  colors.txt  devops.txt  dir1  dir2  find.txt  fruits.txt  loops.sh  take_backup.sh
+ubuntu@ip-172-31-36-179:~$ tar -xvf /home/ubuntu/backup.tar -C /home/ubuntu/dir1
+fruits.txt
+ubuntu@ip-172-31-36-179:~$ cd dir1
+ubuntu@ip-172-31-36-179:~/dir1$ ls
+File1  FileM1  class1  class2  class3  class4  class5  devops  file1.txt  fruits.txt  my-backup.tar.gz
+ubuntu@ip-172-31-36-179:~/dir1$ cd ~
+ubuntu@ip-172-31-36-179:~$ ls
+A  File2  File2.txt  FileM3  backup.tar  colors.txt  devops.txt  dir1  dir2  find.txt  fruits.txt  loops.sh  take_backup.sh
+ubuntu@ip-172-31-36-179:~$ tar -cvfz /home/ubuntu/gzip.tar devops.txt
+tar: Removing leading `/' from member names
+tar: /home/ubuntu/gzip.tar: Cannot stat: No such file or directory
+devops.txt
+tar: Exiting with failure status due to previous errors
+ubuntu@ip-172-31-36-179:~$ ls
+A  File2  File2.txt  FileM3  backup.tar  colors.txt  devops.txt  dir1  dir2  find.txt  fruits.txt  loops.sh  take_backup.sh  z
+ubuntu@ip-172-31-36-179:~$ tar -cvzf /home/ubuntu/gzip.tar.gz devops.txt
+devops.txt
+ubuntu@ip-172-31-36-179:~$ ls
+A  File2  File2.txt  FileM3  backup.tar  colors.txt  devops.txt  dir1  dir2  find.txt  fruits.txt  gzip.tar.gz  loops.sh  take_backup.sh  z
+ubuntu@ip-172-31-36-179:~$ tar xvzf /home/ubuntu/dir1/gzip.tar.gz
+tar (child): /home/ubuntu/dir1/gzip.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+ubuntu@ip-172-31-36-179:~$ tar xvzf /home/ubuntu/gzip.tar.gz
+devops.txt
+ubuntu@ip-172-31-36-179:~$ ls
+A  File2  File2.txt  FileM3  backup.tar  colors.txt  devops.txt  dir1  dir2  find.txt  fruits.txt  gzip.tar.gz  loops.sh  take_backup.sh  z
+ubuntu@ip-172-31-36-179:~$ tar -xvzf /home/ubuntu/dir1/gzip.tar.gz
+tar (child): /home/ubuntu/dir1/gzip.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+ubuntu@ip-172-31-36-179:~$ tar -xvzf /home/ubuntu/dir1/gzip.tar.gz devops.txt
+tar (child): /home/ubuntu/dir1/gzip.tar.gz: Cannot open: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+ubuntu@ip-172-31-36-179:~$ tar -xvzf /home/ubuntu/gzip.tar.gz
+devops.txt
+ubuntu@ip-172-31-36-179:~$ ls
+A  File2  File2.txt  FileM3  backup.tar  colors.txt  devops.txt  dir1  dir2  find.txt  fruits.txt  gzip.tar.gz  loops.sh  take_backup.sh  z
+ubuntu@ip-172-31-36-179:~$ cat devops.txt
+Apple
+Orange
+Banana
+Kiwi
+Cherray
+Guva
+ubuntu@ip-172-31-36-179:~$ gpasswd cat/etc/passwd
+gpasswd: group 'cat/etc/passwd' does not exist in /etc/group
+ubuntu@ip-172-31-36-179:~$ 
+
+ubuntu@ip-172-31-36-179:~$ ls
+A  File2  File2.txt  FileM3  backup.tar  colors.txt  devops.txt  dir1  dir2  find.txt  fruits.txt  gzip.tar.gz  loops.sh  take_backup.sh  z
+ubuntu@ip-172-31-36-179:~$ tar -cvjf /home/ubuntu/backup_1.tar.bz2 colors.txt
+colors.txt
+/bin/sh: 1: bzip2: not found
+tar: Child returned status 127
+tar: Error is not recoverable: exiting now
+ubuntu@ip-172-31-36-179:~$ ls
+A  File2  File2.txt  FileM3  backup.tar  backup_1.tar.bz2  colors.txt  devops.txt  dir1  dir2  find.txt  fruits.txt  gzip.tar.gz  loops.sh  take_backup.sh  z
+ubuntu@ip-172-31-36-179:~$ tar -xvjf /home/ubuntu/backup_1.tar.bz2
+tar (child): bzip2: Cannot exec: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+ubuntu@ip-172-31-36-179:~$ ls
+A  File2  File2.txt  FileM3  backup.tar  backup_1.tar.bz2  colors.txt  devops.txt  dir1  dir2  find.txt  fruits.txt  gzip.tar.gz  loops.sh  take_backup.sh  z
+ubuntu@ip-172-31-36-179:~$ tar -xvjf /home/ubuntu/backup_1.tar.bz2
+tar (child): bzip2: Cannot exec: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+ubuntu@ip-172-31-36-179:~$ pwd
+/home/ubuntu
+ubuntu@ip-172-31-36-179:~$ tar -xvjf /home/ubuntu/backup_1.tar.bz2
+tar (child): bzip2: Cannot exec: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+ubuntu@ip-172-31-36-179:~$ tar -cvjf /home/ubuntu/bz2.tar.bz2 File2.txt
+File2.txt
+/bin/sh: 1: bzip2: not found
+tar: Child returned status 127
+tar: Error is not recoverable: exiting now
+ubuntu@ip-172-31-36-179:~$ ls
+A      File2.txt  backup.tar        bz2.tar.bz2  devops.txt  dir2      fruits.txt   loops.sh        z
+File2  FileM3     backup_1.tar.bz2  colors.txt   dir1        find.txt  gzip.tar.gz  take_backup.sh
+ubuntu@ip-172-31-36-179:~$ tar -xvjf /home/ubuntu/bz2.tar.bz2
+tar (child): bzip2: Cannot exec: No such file or directory
+tar (child): Error is not recoverable: exiting now
+tar: Child returned status 2
+tar: Error is not recoverable: exiting now
+ubuntu@ip-172-31-36-179:~$ ls
+A      File2.txt  backup.tar        bz2.tar.bz2  devops.txt  dir2      fruits.txt   loops.sh        z
+File2  FileM3     backup_1.tar.bz2  colors.txt   dir1        find.txt  gzip.tar.gz  take_backup.sh
+ubuntu@ip-172-31-36-179:~$ 

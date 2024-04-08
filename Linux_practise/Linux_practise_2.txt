@@ -1,0 +1,363 @@
+ubuntu@ip-172-31-36-179:~$ echo create directories
+create directories
+ubuntu@ip-172-31-36-179:~$ mkdir dir1
+ubuntu@ip-172-31-36-179:~$ ls
+dir1
+ubuntu@ip-172-31-36-179:~$ ls -l
+total 4
+drwxrwxr-x 2 ubuntu ubuntu 4096 Jul 17 13:32 dir1
+ubuntu@ip-172-31-36-179:~$ mkdir dir2 dir3
+ubuntu@ip-172-31-36-179:~$ ls
+dir1  dir2  dir3
+ubuntu@ip-172-31-36-179:~$ ls
+dir1  dir2  dir3
+ubuntu@ip-172-31-36-179:~$ path
+Command 'path' not found, did you mean:
+  command 'path6' from deb ipv6toolkit (2.0+ds.1-1)
+  command 'patch' from deb patch (2.7.6-7build2)
+  command 'xpath' from deb libxml-xpath-perl (1.44-1)
+  command 'pat' from deb dist (1:3.5-236-1)
+  command 'mpath' from deb libmodule-path-perl (0.19-1.1)
+Try: sudo apt install <deb name>
+ubuntu@ip-172-31-36-179:~$ /
+-bash: /: Is a directory
+ubuntu@ip-172-31-36-179:~$ cd /
+ubuntu@ip-172-31-36-179:/$ ls
+bin   dev  home  lib32  libx32      media  opt   root  sbin  srv  tmp  var
+boot  etc  lib   lib64  lost+found  mnt    proc  run   snap  sys  usr
+ubuntu@ip-172-31-36-179:/$ man dev
+No manual entry for dev
+ubuntu@ip-172-31-36-179:/$ man lib
+No manual entry for lib
+ubuntu@ip-172-31-36-179:/$ cd ~
+ubuntu@ip-172-31-36-179:~$ ls
+dir1  dir2  dir3
+ubuntu@ip-172-31-36-179:~$ mkdir dir1/file1.txt
+ubuntu@ip-172-31-36-179:~$ ls
+dir1  dir2  dir3
+ubuntu@ip-172-31-36-179:~$ cd dir1
+ubuntu@ip-172-31-36-179:~/dir1$ ls
+file1.txt
+ubuntu@ip-172-31-36-179:~/dir1$ mkdir class{1..5}
+ubuntu@ip-172-31-36-179:~/dir1$ ls
+class1  class2  class3  class4  class5  file1.txt
+ubuntu@ip-172-31-36-179:~/dir1$ echo create file using touch
+create file using touch
+ubuntu@ip-172-31-36-179:~/dir1$ cd ~
+ubuntu@ip-172-31-36-179:~$ touch File1
+ubuntu@ip-172-31-36-179:~$ ls
+File1  dir1  dir2  dir3
+ubuntu@ip-172-31-36-179:~$ touch File2 File3
+ubuntu@ip-172-31-36-179:~$ ls
+File1  File2  File3  dir1  dir2  dir3
+ubuntu@ip-172-31-36-179:~$ touch FileM{1..3}
+ubuntu@ip-172-31-36-179:~$ ls
+File1  File2  File3  FileM1  FileM2  FileM3  dir1  dir2  dir3
+ubuntu@ip-172-31-36-179:~$ echo copy paste command 
+copy paste command
+ubuntu@ip-172-31-36-179:~$ cp File2/dir2
+cp: missing destination file operand after 'File2/dir2'
+Try 'cp --help' for more information.
+ubuntu@ip-172-31-36-179:~$ cp File2 dir2
+ubuntu@ip-172-31-36-179:~$ ls
+File1  File2  File3  FileM1  FileM2  FileM3  dir1  dir2  dir3
+ubuntu@ip-172-31-36-179:~$ cd dir2
+ubuntu@ip-172-31-36-179:~/dir2$ ls
+File2
+ubuntu@ip-172-31-36-179:~/dir2$ #cp File2/dir2
+ubuntu@ip-172-31-36-179:~/dir2$ ls
+File2
+ubuntu@ip-172-31-36-179:~/dir2$ #cp File3/dir3
+ubuntu@ip-172-31-36-179:~/dir2$ ls
+File2
+ubuntu@ip-172-31-36-179:~/dir2$ cp File3 dir3
+cp: cannot stat 'File3': No such file or directory
+ubuntu@ip-172-31-36-179:~/dir2$ cd ~
+ubuntu@ip-172-31-36-179:~$ cp File3 dir3
+ubuntu@ip-172-31-36-179:~$ cp File4/*f dir4
+cp: cannot stat 'File4/*f': No such file or directory
+ubuntu@ip-172-31-36-179:~$ man cp
+ubuntu@ip-172-31-36-179:~$ ls
+File1  File2  File3  FileM1  FileM2  FileM3  dir1  dir2  dir3
+ubuntu@ip-172-31-36-179:~$ echo "Hello Shiv">File1
+ubuntu@ip-172-31-36-179:~$ ls
+File1  File2  File3  FileM1  FileM2  FileM3  dir1  dir2  dir3
+ubuntu@ip-172-31-36-179:~$ cat File1
+Hello Shiv
+ubuntu@ip-172-31-36-179:~$ echo "Hello File2">File2.txt
+ubuntu@ip-172-31-36-179:~$ ls
+File1  File2  File2.txt  File3  FileM1  FileM2  FileM3  dir1  dir2  dir3
+ubuntu@ip-172-31-36-179:~$ cat File3
+ubuntu@ip-172-31-36-179:~$ cat File2
+ubuntu@ip-172-31-36-179:~$ ls
+File1  File2  File2.txt  File3  FileM1  FileM2  FileM3  dir1  dir2  dir3
+ubuntu@ip-172-31-36-179:~$ cat File2.txt
+Hello File2
+ubuntu@ip-172-31-36-179:~$ echo "Hello Test file"> File3 FileM1 FileM2
+ubuntu@ip-172-31-36-179:~$ ls
+File1  File2  File2.txt  File3  FileM1  FileM2  FileM3  dir1  dir2  dir3
+ubuntu@ip-172-31-36-179:~$ car FileM1
+Command 'car' not found, but can be installed with:
+sudo apt install ucommon-utils
+ubuntu@ip-172-31-36-179:~$ cat FileM1
+ubuntu@ip-172-31-36-179:~$ ls
+File1  File2  File2.txt  File3  FileM1  FileM2  FileM3  dir1  dir2  dir3
+ubuntu@ip-172-31-36-179:~$ cat File3
+Hello Test file FileM1 FileM2
+ubuntu@ip-172-31-36-179:~$ echo "Hello Test file"> File3 /FileM1
+ubuntu@ip-172-31-36-179:~$ cat FileM1
+ubuntu@ip-172-31-36-179:~$ cat File3
+Hello Test file /FileM1
+ubuntu@ip-172-31-36-179:~$ ls
+File1  File2  File2.txt  File3  FileM1  FileM2  FileM3  dir1  dir2  dir3
+ubuntu@ip-172-31-36-179:~$ rmdir dir3
+rmdir: failed to remove 'dir3': Directory not empty
+ubuntu@ip-172-31-36-179:~$ rm dir3
+rm: cannot remove 'dir3': Is a directory
+ubuntu@ip-172-31-36-179:~$ rm -f dir3
+rm: cannot remove 'dir3': Is a directory
+ubuntu@ip-172-31-36-179:~$ rmdir -f dir3
+rmdir: invalid option -- 'f'
+Try 'rmdir --help' for more information.
+ubuntu@ip-172-31-36-179:~$ rmdir -r dir3
+rmdir: invalid option -- 'r'
+Try 'rmdir --help' for more information.
+ubuntu@ip-172-31-36-179:~$ rm -r dir3
+ubuntu@ip-172-31-36-179:~$ ls
+File1  File2  File2.txt  File3  FileM1  FileM2  FileM3  dir1  dir2
+ubuntu@ip-172-31-36-179:~$ mv File3 dir2
+ubuntu@ip-172-31-36-179:~$ ls
+File1  File2  File2.txt  FileM1  FileM2  FileM3  dir1  dir2
+ubuntu@ip-172-31-36-179:~$ mv FileM2 dir2
+ubuntu@ip-172-31-36-179:~$ ls
+File1  File2  File2.txt  FileM1  FileM3  dir1  dir2
+ubuntu@ip-172-31-36-179:~$ cd dir2
+ubuntu@ip-172-31-36-179:~/dir2$ ls
+File2  File3  FileM2
+ubuntu@ip-172-31-36-179:~/dir2$ cd ~
+ubuntu@ip-172-31-36-179:~$ ls
+File1  File2  File2.txt  FileM1  FileM3  dir1  dir2
+ubuntu@ip-172-31-36-179:~$ mv File1 dir1
+ubuntu@ip-172-31-36-179:~$ ls
+File2  File2.txt  FileM1  FileM3  dir1  dir2
+ubuntu@ip-172-31-36-179:~$ mv FileM1 dir1
+ubuntu@ip-172-31-36-179:~$ useradd shiv
+useradd: Permission denied.
+useradd: cannot lock /etc/passwd; try again later.
+ubuntu@ip-172-31-36-179:~$ cd /
+ubuntu@ip-172-31-36-179:/$ useradd shiv
+useradd: Permission denied.
+useradd: cannot lock /etc/passwd; try again later.
+ubuntu@ip-172-31-36-179:/$ history
+    1  ls
+    2  home /
+    3  /
+    4  mkdir dir1
+    5  ls
+    6  cat >file1.txt
+    7  ls
+    8  cp file1.txt dir1
+    9  ls
+   10  cd dir1
+   11  ls
+   12  cat file1.txt
+   13  history
+   14  home /
+   15  cd home/
+   16  cd home /
+   17  cd ~
+   18  ls
+   19  mkdir dir2 
+   20  touch file 2
+   21  mkdir dir3 dir4
+   22  touch file3.txt file4.txt
+   23  ls
+   24  echo Test the file1
+   25  cd dir1
+   26  cd /
+   27  ls
+   28  /root
+   29  /
+   30  cd /
+   31  ls
+   32  cd /bin
+   33  ls
+   34  cd /
+   35  cd /sbin
+   36  ls
+   37  cd /
+   38  cd /dev
+   39  ls
+   40  cd /
+   41  cd /var
+   42  ls
+   43  cd /var/log
+   44  ls
+   45  cd alternatives.log
+   46  cd /
+   47  cd /mnt
+   48  ls
+   49  cd /
+   50  cd /media
+   51  ls
+   52  cd /
+   53  cd /usr
+   54  ls
+   55  cd /
+   56  cd /etc
+   57  ls
+   58  cd /
+   59  cd /boot
+   60  ls
+   61  cd /
+   62  cd /opt
+   63  ls
+   64  cd /
+   65  cd /home
+   66  cd /
+   67  cd /tmp
+   68  ls
+   69  cd /home 
+   70  pwd
+   71  cd /bin
+   72  ls
+   73  cd ~
+   74  ls
+   75  uname
+   76  uname -r
+   77  uname -r uname
+   78  uname -i
+   79  uname -v
+   80  uname -t
+   81  whoiam
+   82  whoami
+   83  date -c
+   84  date
+   85  cal
+   86  history
+   87  quit
+   88  exit
+   89  echo Create single directory
+   90  ls
+   91  mkdir movies
+   92  ls
+   93  mkdir Music Videos
+   94  ls
+   95  mkdir -p dir1/Pathdir1
+   96  ls
+   97  cd dir 1
+   98  cd dir1
+   99  ls
+  100  mkdir /number10{1..5}
+  101  mkdir /class{1..5}
+  102  cd~
+  103  cd ~
+  104  mkdir /class{1..5}
+  105  cd dir 
+  106  cd dir1
+  107  mkdir class{1..5}
+  108  ls
+  109  clear
+  110  ls
+  111  rm pathdir1 class{1..5} 
+  112  rmdir pathdir1 class{1..5}
+  113  ls
+  114  rm pathdir1
+  115  rmdir pathdir1
+  116  cd ~
+  117  rm dir1
+  118  rm -r dir1
+  119  ls
+  120  rm -r Music Videos dir2 dir3 dir4 movies
+  121  ls
+  122  rm 2 file file1.txt file3.txt file4.txt
+  123  ls
+  124  clear
+  125  echo create directory
+  126  mkdir /dir1
+  127  clear
+  128  echo create directories
+  129  mkdir dir1
+  130  ls
+  131  ls -l
+  132  mkdir dir2 dir3
+  133  ls
+  134  path
+  135  /
+  136  cd /
+  137  ls
+  138  man dev
+  139  man lib
+  140  cd ~
+  141  ls
+  142  mkdir dir1/file1.txt
+  143  ls
+  144  cd dir1
+  145  ls
+  146  mkdir class{1..5}
+  147  ls
+  148  echo create file using touch
+  149  cd ~
+  150  touch File1
+  151  ls
+  152  touch File2 File3
+  153  ls
+  154  touch FileM{1..3}
+  155  ls
+  156  echo copy paste command 
+  157  cp File2/dir2
+  158  cp File2 dir2
+  159  ls
+  160  cd dir2
+  161  ls
+  162  #cp File2/dir2
+  163  ls
+  164  #cp File3/dir3
+  165  ls
+  166  cp File3 dir3
+  167  cd ~
+  168  cp File3 dir3
+  169  cp File4/*f dir4
+  170  man cp
+  171  ls
+  172  echo "Hello Shiv">File1
+  173  ls
+  174  cat File1
+  175  echo "Hello File2">File2.txt
+  176  ls
+  177  cat File3
+  178  cat File2
+  179  ls
+  180  cat File2.txt
+  181  echo "Hello Test file"> File3 FileM1 FileM2
+  182  ls
+  183  car FileM1
+  184  cat FileM1
+  185  ls
+  186  cat File3
+  187  echo "Hello Test file"> File3 /FileM1
+  188  cat FileM1
+  189  cat File3
+  190  ls
+  191  rmdir dir3
+  192  rm dir3
+  193  rm -f dir3
+  194  rmdir -f dir3
+  195  rmdir -r dir3
+  196  rm -r dir3
+  197  ls
+  198  mv File3 dir2
+  199  ls
+  200  mv FileM2 dir2
+  201  ls
+  202  cd dir2
+  203  ls
+  204  cd ~
+  205  ls
+  206  mv File1 dir1
+  207  ls
+  208  mv FileM1 dir1
+  209  useradd shiv
+  210  cd /
+  211  useradd shiv
+  212  history

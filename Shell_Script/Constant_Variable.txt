@@ -1,0 +1,28 @@
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+File.sh  cores.sh  hello.sh  variable.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ touch constant_variable.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+File.sh  constant_variable.sh  cores.sh  hello.sh  variable.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ vim constant_variable.sh 
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+File.sh  constant_variable.sh  cores.sh  hello.sh  variable.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ chmod 777 constant_variable.sh 
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+File.sh  constant_variable.sh  cores.sh  hello.sh  variable.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./constant_variable.sh 
+3.1520
+./constant_variable.sh: line 7: PI: readonly variable
+ubuntu@ip-172-31-37-87:~/linux_script$ cat constant_variable.sh 
+#!/bin/bash
+
+readonly PI=3.1520
+ 
+echo $PI
+
+PI=21456
+ubuntu@ip-172-31-37-87:~/linux_script$ readonly Name=prasad
+ubuntu@ip-172-31-37-87:~/linux_script$ echo $Name
+prasad
+ubuntu@ip-172-31-37-87:~/linux_script$ Name=sprasad
+-bash: Name: readonly variable
+ubuntu@ip-172-31-37-87:~/linux_script$ 

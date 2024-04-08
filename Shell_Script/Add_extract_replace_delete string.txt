@@ -1,0 +1,38 @@
+ubuntu@ip-172-31-37-87:~/linux_script$ str="Bash is cool"
+ubuntu@ip-172-31-37-87:~/linux_script$ expr index "$str" "cool"
+9
+ubuntu@ip-172-31-37-87:~/linux_script$ name="Test Pune Hello"
+ubuntu@ip-172-31-37-87:~/linux_script$ expr index "$name" "Hello"
+2
+ubuntu@ip-172-31-37-87:~/linux_script$ foss="Fedora is a free operating system"
+ubuntu@ip-172-31-37-87:~/linux_script$ echo ${foss:0:6}
+Fedora
+ubuntu@ip-172-31-37-87:~/linux_script$ echo ${foss:12}
+free operating system
+ubuntu@ip-172-31-37-87:~/linux_script$ echo ${foss:17}
+operating system
+ubuntu@ip-172-31-37-87:~/linux_script$ echo ${foss:18}
+perating system
+ubuntu@ip-172-31-37-87:~/linux_script$ echo ${foss:28}
+ystem
+ubuntu@ip-172-31-37-87:~/linux_script$ echo${foss/Fedora/ubuntu}
+echoubuntu: command not found
+ubuntu@ip-172-31-37-87:~/linux_script$ echo $foss
+Fedora is a free operating system
+ubuntu@ip-172-31-37-87:~/linux_script$ foss=${foss/Fedora/ubuntu}
+ubuntu@ip-172-31-37-87:~/linux_script$ echo $foss
+ubuntu is a free operating system
+ubuntu@ip-172-31-37-87:~/linux_script$ foss=${foss/free/popular}
+ubuntu@ip-172-31-37-87:~/linux_script$ echo $foss
+ubuntu is a popular operating system
+ubuntu@ip-172-31-37-87:~/linux_script$ fact="sun is big star
+> "
+ubuntu@ip-172-31-37-87:~/linux_script$ echo ${fact/big}
+sun is star
+ubuntu@ip-172-31-37-87:~/linux_script$ Mobile="91-9676-78596-10"
+ubuntu@ip-172-31-37-87:~/linux_script$ echo ${Mobile/-}
+919676-78596-10
+ubuntu@ip-172-31-37-87:~/linux_script$ 
+ubuntu@ip-172-31-37-87:~/linux_script$ echo ${Mobile//-}
+9196767859610
+ubuntu@ip-172-31-37-87:~/linux_script$ 

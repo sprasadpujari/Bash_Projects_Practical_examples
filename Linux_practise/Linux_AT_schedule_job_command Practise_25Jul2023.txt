@@ -1,0 +1,262 @@
+ubuntu@ip-172-31-36-179:~$ sudo dnf install at
+sudo: dnf: command not found
+ubuntu@ip-172-31-36-179:~$ sudo apt install at
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Suggested packages:
+  default-mta | mail-transport-agent
+The following NEW packages will be installed:
+  at
+0 upgraded, 1 newly installed, 0 to remove and 33 not upgraded.
+Need to get 41.1 kB of archives.
+After this operation, 166 kB of additional disk space will be used.
+Get:1 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy/universe amd64 at amd64 3.2.5-1ubuntu1 [41.1 kB]
+Fetched 41.1 kB in 0s (303 kB/s)
+Selecting previously unselected package at.
+(Reading database ... 123088 files and directories currently installed.)
+Preparing to unpack .../at_3.2.5-1ubuntu1_amd64.deb ...
+Unpacking at (3.2.5-1ubuntu1) ...
+Setting up at (3.2.5-1ubuntu1) ...
+Created symlink /etc/systemd/system/multi-user.target.wants/atd.service → /lib/systemd/system/atd.service.
+Processing triggers for man-db (2.10.2-1) ...
+Scanning processes...                                                                                                                                                       
+Scanning linux images...                                                                                                                                                    
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+ubuntu@ip-172-31-36-179:~$ sudo apt update
+Hit:1 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy InRelease
+Get:2 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+Get:3 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+Get:4 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-backports InRelease [108 kB]
+Get:5 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [850 kB]
+Get:6 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [208 kB]
+Get:7 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [949 kB]
+Get:8 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [204 kB]
+Get:9 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata [20.8 kB]
+Get:10 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages [631 kB]
+Get:11 http://security.ubuntu.com/ubuntu jammy-security/main Translation-en [148 kB]
+Get:12 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages [756 kB]
+Get:13 http://security.ubuntu.com/ubuntu jammy-security/universe Translation-en [136 kB]
+Get:14 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [15.9 kB]
+Fetched 4257 kB in 2s (2641 kB/s)                              
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+34 packages can be upgraded. Run 'apt list --upgradable' to see them.
+ubuntu@ip-172-31-36-179:~$ sudo apt install at
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+at is already the newest version (3.2.5-1ubuntu1).
+0 upgraded, 0 newly installed, 0 to remove and 34 not upgraded.
+ubuntu@ip-172-31-36-179:~$ sudo systemctl enable --now atd
+Synchronizing state of atd.service with SysV service script with /lib/systemd/systemd-sysv-install.
+Executing: /lib/systemd/systemd-sysv-install enable atd
+ubuntu@ip-172-31-36-179:~$ echo "Hello" | at 11.34PM
+warning: commands will be executed using /bin/sh
+job 1 at Tue Jul 25 23:34:00 2023
+ubuntu@ip-172-31-36-179:~$ echo "Hello Shiv" |at now +5 minutes
+warning: commands will be executed using /bin/sh
+job 2 at Tue Jul 25 18:09:00 2023
+ubuntu@ip-172-31-36-179:~$ atq
+1       Tue Jul 25 23:34:00 2023 a ubuntu
+2       Tue Jul 25 18:09:00 2023 a ubuntu
+ubuntu@ip-172-31-36-179:~$ at -c 1
+#!/bin/sh
+# atrun uid=1000 gid=1000
+# mail ubuntu 0
+umask 2
+PWD=/home/ubuntu; export PWD
+LOGNAME=ubuntu; export LOGNAME
+XDG_SESSION_TYPE=tty; export XDG_SESSION_TYPE
+MOTD_SHOWN=pam; export MOTD_SHOWN
+HOME=/home/ubuntu; export HOME
+LANG=C.UTF-8; export LANG
+LS_COLORS=rs=0:di=01\;34:ln=01\;36:mh=00:pi=40\;33:so=01\;35:do=01\;35:bd=40\;33\;01:cd=40\;33\;01:or=40\;31\;01:mi=00:su=37\;41:sg=30\;43:ca=30\;41:tw=30\;42:ow=34\;42:st=37\;44:ex=01\;32:\*.tar=01\;31:\*.tgz=01\;31:\*.arc=01\;31:\*.arj=01\;31:\*.taz=01\;31:\*.lha=01\;31:\*.lz4=01\;31:\*.lzh=01\;31:\*.lzma=01\;31:\*.tlz=01\;31:\*.txz=01\;31:\*.tzo=01\;31:\*.t7z=01\;31:\*.zip=01\;31:\*.z=01\;31:\*.dz=01\;31:\*.gz=01\;31:\*.lrz=01\;31:\*.lz=01\;31:\*.lzo=01\;31:\*.xz=01\;31:\*.zst=01\;31:\*.tzst=01\;31:\*.bz2=01\;31:\*.bz=01\;31:\*.tbz=01\;31:\*.tbz2=01\;31:\*.tz=01\;31:\*.deb=01\;31:\*.rpm=01\;31:\*.jar=01\;31:\*.war=01\;31:\*.ear=01\;31:\*.sar=01\;31:\*.rar=01\;31:\*.alz=01\;31:\*.ace=01\;31:\*.zoo=01\;31:\*.cpio=01\;31:\*.7z=01\;31:\*.rz=01\;31:\*.cab=01\;31:\*.wim=01\;31:\*.swm=01\;31:\*.dwm=01\;31:\*.esd=01\;31:\*.jpg=01\;35:\*.jpeg=01\;35:\*.mjpg=01\;35:\*.mjpeg=01\;35:\*.gif=01\;35:\*.bmp=01\;35:\*.pbm=01\;35:\*.pgm=01\;35:\*.ppm=01\;35:\*.tga=01\;35:\*.xbm=01\;35:\*.xpm=01\;35:\*.tif=01\;35:\*.tiff=01\;35:\*.png=01\;35:\*.svg=01\;35:\*.svgz=01\;35:\*.mng=01\;35:\*.pcx=01\;35:\*.mov=01\;35:\*.mpg=01\;35:\*.mpeg=01\;35:\*.m2v=01\;35:\*.mkv=01\;35:\*.webm=01\;35:\*.webp=01\;35:\*.ogm=01\;35:\*.mp4=01\;35:\*.m4v=01\;35:\*.mp4v=01\;35:\*.vob=01\;35:\*.qt=01\;35:\*.nuv=01\;35:\*.wmv=01\;35:\*.asf=01\;35:\*.rm=01\;35:\*.rmvb=01\;35:\*.flc=01\;35:\*.avi=01\;35:\*.fli=01\;35:\*.flv=01\;35:\*.gl=01\;35:\*.dl=01\;35:\*.xcf=01\;35:\*.xwd=01\;35:\*.yuv=01\;35:\*.cgm=01\;35:\*.emf=01\;35:\*.ogv=01\;35:\*.ogx=01\;35:\*.aac=00\;36:\*.au=00\;36:\*.flac=00\;36:\*.m4a=00\;36:\*.mid=00\;36:\*.midi=00\;36:\*.mka=00\;36:\*.mp3=00\;36:\*.mpc=00\;36:\*.ogg=00\;36:\*.ra=00\;36:\*.wav=00\;36:\*.oga=00\;36:\*.opus=00\;36:\*.spx=00\;36:\*.xspf=00\;36:; export LS_COLORS
+SSH_CONNECTION=13.48.4.202\ 25669\ 172.31.36.179\ 22; export SSH_CONNECTION
+LESSCLOSE=/usr/bin/lesspipe\ %s\ %s; export LESSCLOSE
+XDG_SESSION_CLASS=user; export XDG_SESSION_CLASS
+LESSOPEN=\|\ /usr/bin/lesspipe\ %s; export LESSOPEN
+USER=ubuntu; export USER
+SHLVL=0; export SHLVL
+XDG_SESSION_ID=6; export XDG_SESSION_ID
+XDG_RUNTIME_DIR=/run/user/1000; export XDG_RUNTIME_DIR
+SSH_CLIENT=13.48.4.202\ 25669\ 22; export SSH_CLIENT
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop; export XDG_DATA_DIRS
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin; export PATH
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus; export DBUS_SESSION_BUS_ADDRESS
+SSH_TTY=/dev/pts/0; export SSH_TTY
+cd /home/ubuntu || {
+         echo 'Execution directory inaccessible' >&2
+         exit 1
+}
+Hello
+
+ubuntu@ip-172-31-36-179:~$ at -c 2
+#!/bin/sh
+# atrun uid=1000 gid=1000
+# mail ubuntu 0
+umask 2
+PWD=/home/ubuntu; export PWD
+LOGNAME=ubuntu; export LOGNAME
+XDG_SESSION_TYPE=tty; export XDG_SESSION_TYPE
+MOTD_SHOWN=pam; export MOTD_SHOWN
+HOME=/home/ubuntu; export HOME
+LANG=C.UTF-8; export LANG
+LS_COLORS=rs=0:di=01\;34:ln=01\;36:mh=00:pi=40\;33:so=01\;35:do=01\;35:bd=40\;33\;01:cd=40\;33\;01:or=40\;31\;01:mi=00:su=37\;41:sg=30\;43:ca=30\;41:tw=30\;42:ow=34\;42:st=37\;44:ex=01\;32:\*.tar=01\;31:\*.tgz=01\;31:\*.arc=01\;31:\*.arj=01\;31:\*.taz=01\;31:\*.lha=01\;31:\*.lz4=01\;31:\*.lzh=01\;31:\*.lzma=01\;31:\*.tlz=01\;31:\*.txz=01\;31:\*.tzo=01\;31:\*.t7z=01\;31:\*.zip=01\;31:\*.z=01\;31:\*.dz=01\;31:\*.gz=01\;31:\*.lrz=01\;31:\*.lz=01\;31:\*.lzo=01\;31:\*.xz=01\;31:\*.zst=01\;31:\*.tzst=01\;31:\*.bz2=01\;31:\*.bz=01\;31:\*.tbz=01\;31:\*.tbz2=01\;31:\*.tz=01\;31:\*.deb=01\;31:\*.rpm=01\;31:\*.jar=01\;31:\*.war=01\;31:\*.ear=01\;31:\*.sar=01\;31:\*.rar=01\;31:\*.alz=01\;31:\*.ace=01\;31:\*.zoo=01\;31:\*.cpio=01\;31:\*.7z=01\;31:\*.rz=01\;31:\*.cab=01\;31:\*.wim=01\;31:\*.swm=01\;31:\*.dwm=01\;31:\*.esd=01\;31:\*.jpg=01\;35:\*.jpeg=01\;35:\*.mjpg=01\;35:\*.mjpeg=01\;35:\*.gif=01\;35:\*.bmp=01\;35:\*.pbm=01\;35:\*.pgm=01\;35:\*.ppm=01\;35:\*.tga=01\;35:\*.xbm=01\;35:\*.xpm=01\;35:\*.tif=01\;35:\*.tiff=01\;35:\*.png=01\;35:\*.svg=01\;35:\*.svgz=01\;35:\*.mng=01\;35:\*.pcx=01\;35:\*.mov=01\;35:\*.mpg=01\;35:\*.mpeg=01\;35:\*.m2v=01\;35:\*.mkv=01\;35:\*.webm=01\;35:\*.webp=01\;35:\*.ogm=01\;35:\*.mp4=01\;35:\*.m4v=01\;35:\*.mp4v=01\;35:\*.vob=01\;35:\*.qt=01\;35:\*.nuv=01\;35:\*.wmv=01\;35:\*.asf=01\;35:\*.rm=01\;35:\*.rmvb=01\;35:\*.flc=01\;35:\*.avi=01\;35:\*.fli=01\;35:\*.flv=01\;35:\*.gl=01\;35:\*.dl=01\;35:\*.xcf=01\;35:\*.xwd=01\;35:\*.yuv=01\;35:\*.cgm=01\;35:\*.emf=01\;35:\*.ogv=01\;35:\*.ogx=01\;35:\*.aac=00\;36:\*.au=00\;36:\*.flac=00\;36:\*.m4a=00\;36:\*.mid=00\;36:\*.midi=00\;36:\*.mka=00\;36:\*.mp3=00\;36:\*.mpc=00\;36:\*.ogg=00\;36:\*.ra=00\;36:\*.wav=00\;36:\*.oga=00\;36:\*.opus=00\;36:\*.spx=00\;36:\*.xspf=00\;36:; export LS_COLORS
+SSH_CONNECTION=13.48.4.202\ 25669\ 172.31.36.179\ 22; export SSH_CONNECTION
+LESSCLOSE=/usr/bin/lesspipe\ %s\ %s; export LESSCLOSE
+XDG_SESSION_CLASS=user; export XDG_SESSION_CLASS
+LESSOPEN=\|\ /usr/bin/lesspipe\ %s; export LESSOPEN
+USER=ubuntu; export USER
+SHLVL=0; export SHLVL
+XDG_SESSION_ID=6; export XDG_SESSION_ID
+XDG_RUNTIME_DIR=/run/user/1000; export XDG_RUNTIME_DIR
+SSH_CLIENT=13.48.4.202\ 25669\ 22; export SSH_CLIENT
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop; export XDG_DATA_DIRS
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin; export PATH
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus; export DBUS_SESSION_BUS_ADDRESS
+SSH_TTY=/dev/pts/0; export SSH_TTY
+cd /home/ubuntu || {
+         echo 'Execution directory inaccessible' >&2
+         exit 1
+}
+Hello Shiv
+
+ubuntu@ip-172-31-36-179:~$ at -l
+1       Tue Jul 25 23:34:00 2023 a ubuntu
+2       Tue Jul 25 18:09:00 2023 a ubuntu
+ubuntu@ip-172-31-36-179:~$ sudo atq
+1       Tue Jul 25 23:34:00 2023 a ubuntu
+2       Tue Jul 25 18:09:00 2023 a ubuntu
+ubuntu@ip-172-31-36-179:~$ atq -l
+atq: invalid option -- 'l'
+Usage: at [-V] [-q x] [-f file] [-u username] [-mMlbv] timespec ...
+       at [-V] [-q x] [-f file] [-u username] [-mMlbv] -t time
+       at -c job ...
+       at [-V] -l [-o timeformat] [job ...]
+       atq [-V] [-q x] [-o timeformat] [job ...]
+       at [ -rd ] job ...
+       atrm [-V] job ...
+       batch
+ubuntu@ip-172-31-36-179:~$ at -l
+1       Tue Jul 25 23:34:00 2023 a ubuntu
+ubuntu@ip-172-31-36-179:~$ at 11.45PM
+warning: commands will be executed using /bin/sh
+at Tue Jul 25 23:45:00 2023
+at> echo "This job is runtime schedule"
+at> <EOT>
+job 3 at Tue Jul 25 23:45:00 2023
+ubuntu@ip-172-31-36-179:~$ at -l
+1       Tue Jul 25 23:34:00 2023 a ubuntu
+3       Tue Jul 25 23:45:00 2023 a ubuntu
+ubuntu@ip-172-31-36-179:~$ echo "Test" >>fruits.txt | at now 
+-bash: fruits.txt: Permission denied
+warning: commands will be executed using /bin/sh
+job 4 at Tue Jul 25 18:21:00 2023
+ubuntu@ip-172-31-36-179:~$ sudo echo "Test" >>fruits.txt | at now
+-bash: fruits.txt: Permission denied
+warning: commands will be executed using /bin/sh
+job 5 at Tue Jul 25 18:21:00 2023
+ubuntu@ip-172-31-36-179:~$ cat fruits.txt
+cat: fruits.txt: Permission denied
+ubuntu@ip-172-31-36-179:~$ chmod 700 fruits.txt
+ubuntu@ip-172-31-36-179:~$ echo "Test" >>fruits.txt | at now 
+warning: commands will be executed using /bin/sh
+job 6 at Tue Jul 25 18:22:00 2023
+ubuntu@ip-172-31-36-179:~$ cat fruits.txt
+Kiwi
+Banana
+GuavaTest
+ubuntu@ip-172-31-36-179:~$ at -c
+Usage: at [-V] [-q x] [-f file] [-u username] [-mMlbv] timespec ...
+       at [-V] [-q x] [-f file] [-u username] [-mMlbv] -t time
+       at -c job ...
+       at [-V] -l [-o timeformat] [job ...]
+       atq [-V] [-q x] [-o timeformat] [job ...]
+       at [ -rd ] job ...
+       atrm [-V] job ...
+       batch
+ubuntu@ip-172-31-36-179:~$ at -c 6
+Cannot find jobid 6
+ubuntu@ip-172-31-36-179:~$ at -c 3
+#!/bin/sh
+# atrun uid=1000 gid=1000
+# mail ubuntu 0
+umask 2
+PWD=/home/ubuntu; export PWD
+LOGNAME=ubuntu; export LOGNAME
+XDG_SESSION_TYPE=tty; export XDG_SESSION_TYPE
+MOTD_SHOWN=pam; export MOTD_SHOWN
+HOME=/home/ubuntu; export HOME
+LANG=C.UTF-8; export LANG
+LS_COLORS=rs=0:di=01\;34:ln=01\;36:mh=00:pi=40\;33:so=01\;35:do=01\;35:bd=40\;33\;01:cd=40\;33\;01:or=40\;31\;01:mi=00:su=37\;41:sg=30\;43:ca=30\;41:tw=30\;42:ow=34\;42:st=37\;44:ex=01\;32:\*.tar=01\;31:\*.tgz=01\;31:\*.arc=01\;31:\*.arj=01\;31:\*.taz=01\;31:\*.lha=01\;31:\*.lz4=01\;31:\*.lzh=01\;31:\*.lzma=01\;31:\*.tlz=01\;31:\*.txz=01\;31:\*.tzo=01\;31:\*.t7z=01\;31:\*.zip=01\;31:\*.z=01\;31:\*.dz=01\;31:\*.gz=01\;31:\*.lrz=01\;31:\*.lz=01\;31:\*.lzo=01\;31:\*.xz=01\;31:\*.zst=01\;31:\*.tzst=01\;31:\*.bz2=01\;31:\*.bz=01\;31:\*.tbz=01\;31:\*.tbz2=01\;31:\*.tz=01\;31:\*.deb=01\;31:\*.rpm=01\;31:\*.jar=01\;31:\*.war=01\;31:\*.ear=01\;31:\*.sar=01\;31:\*.rar=01\;31:\*.alz=01\;31:\*.ace=01\;31:\*.zoo=01\;31:\*.cpio=01\;31:\*.7z=01\;31:\*.rz=01\;31:\*.cab=01\;31:\*.wim=01\;31:\*.swm=01\;31:\*.dwm=01\;31:\*.esd=01\;31:\*.jpg=01\;35:\*.jpeg=01\;35:\*.mjpg=01\;35:\*.mjpeg=01\;35:\*.gif=01\;35:\*.bmp=01\;35:\*.pbm=01\;35:\*.pgm=01\;35:\*.ppm=01\;35:\*.tga=01\;35:\*.xbm=01\;35:\*.xpm=01\;35:\*.tif=01\;35:\*.tiff=01\;35:\*.png=01\;35:\*.svg=01\;35:\*.svgz=01\;35:\*.mng=01\;35:\*.pcx=01\;35:\*.mov=01\;35:\*.mpg=01\;35:\*.mpeg=01\;35:\*.m2v=01\;35:\*.mkv=01\;35:\*.webm=01\;35:\*.webp=01\;35:\*.ogm=01\;35:\*.mp4=01\;35:\*.m4v=01\;35:\*.mp4v=01\;35:\*.vob=01\;35:\*.qt=01\;35:\*.nuv=01\;35:\*.wmv=01\;35:\*.asf=01\;35:\*.rm=01\;35:\*.rmvb=01\;35:\*.flc=01\;35:\*.avi=01\;35:\*.fli=01\;35:\*.flv=01\;35:\*.gl=01\;35:\*.dl=01\;35:\*.xcf=01\;35:\*.xwd=01\;35:\*.yuv=01\;35:\*.cgm=01\;35:\*.emf=01\;35:\*.ogv=01\;35:\*.ogx=01\;35:\*.aac=00\;36:\*.au=00\;36:\*.flac=00\;36:\*.m4a=00\;36:\*.mid=00\;36:\*.midi=00\;36:\*.mka=00\;36:\*.mp3=00\;36:\*.mpc=00\;36:\*.ogg=00\;36:\*.ra=00\;36:\*.wav=00\;36:\*.oga=00\;36:\*.opus=00\;36:\*.spx=00\;36:\*.xspf=00\;36:; export LS_COLORS
+SSH_CONNECTION=13.48.4.202\ 25669\ 172.31.36.179\ 22; export SSH_CONNECTION
+LESSCLOSE=/usr/bin/lesspipe\ %s\ %s; export LESSCLOSE
+XDG_SESSION_CLASS=user; export XDG_SESSION_CLASS
+LESSOPEN=\|\ /usr/bin/lesspipe\ %s; export LESSOPEN
+USER=ubuntu; export USER
+SHLVL=1; export SHLVL
+XDG_SESSION_ID=6; export XDG_SESSION_ID
+XDG_RUNTIME_DIR=/run/user/1000; export XDG_RUNTIME_DIR
+SSH_CLIENT=13.48.4.202\ 25669\ 22; export SSH_CLIENT
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop; export XDG_DATA_DIRS
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin; export PATH
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus; export DBUS_SESSION_BUS_ADDRESS
+SSH_TTY=/dev/pts/0; export SSH_TTY
+cd /home/ubuntu || {
+         echo 'Execution directory inaccessible' >&2
+         exit 1
+}
+echo "This job is runtime schedule"
+
+ubuntu@ip-172-31-36-179:~$ at -l
+1       Tue Jul 25 23:34:00 2023 a ubuntu
+3       Tue Jul 25 23:45:00 2023 a ubuntu
+ubuntu@ip-172-31-36-179:~$ at -c 1
+#!/bin/sh
+# atrun uid=1000 gid=1000
+# mail ubuntu 0
+umask 2
+PWD=/home/ubuntu; export PWD
+LOGNAME=ubuntu; export LOGNAME
+XDG_SESSION_TYPE=tty; export XDG_SESSION_TYPE
+MOTD_SHOWN=pam; export MOTD_SHOWN
+HOME=/home/ubuntu; export HOME
+LANG=C.UTF-8; export LANG
+LS_COLORS=rs=0:di=01\;34:ln=01\;36:mh=00:pi=40\;33:so=01\;35:do=01\;35:bd=40\;33\;01:cd=40\;33\;01:or=40\;31\;01:mi=00:su=37\;41:sg=30\;43:ca=30\;41:tw=30\;42:ow=34\;42:st=37\;44:ex=01\;32:\*.tar=01\;31:\*.tgz=01\;31:\*.arc=01\;31:\*.arj=01\;31:\*.taz=01\;31:\*.lha=01\;31:\*.lz4=01\;31:\*.lzh=01\;31:\*.lzma=01\;31:\*.tlz=01\;31:\*.txz=01\;31:\*.tzo=01\;31:\*.t7z=01\;31:\*.zip=01\;31:\*.z=01\;31:\*.dz=01\;31:\*.gz=01\;31:\*.lrz=01\;31:\*.lz=01\;31:\*.lzo=01\;31:\*.xz=01\;31:\*.zst=01\;31:\*.tzst=01\;31:\*.bz2=01\;31:\*.bz=01\;31:\*.tbz=01\;31:\*.tbz2=01\;31:\*.tz=01\;31:\*.deb=01\;31:\*.rpm=01\;31:\*.jar=01\;31:\*.war=01\;31:\*.ear=01\;31:\*.sar=01\;31:\*.rar=01\;31:\*.alz=01\;31:\*.ace=01\;31:\*.zoo=01\;31:\*.cpio=01\;31:\*.7z=01\;31:\*.rz=01\;31:\*.cab=01\;31:\*.wim=01\;31:\*.swm=01\;31:\*.dwm=01\;31:\*.esd=01\;31:\*.jpg=01\;35:\*.jpeg=01\;35:\*.mjpg=01\;35:\*.mjpeg=01\;35:\*.gif=01\;35:\*.bmp=01\;35:\*.pbm=01\;35:\*.pgm=01\;35:\*.ppm=01\;35:\*.tga=01\;35:\*.xbm=01\;35:\*.xpm=01\;35:\*.tif=01\;35:\*.tiff=01\;35:\*.png=01\;35:\*.svg=01\;35:\*.svgz=01\;35:\*.mng=01\;35:\*.pcx=01\;35:\*.mov=01\;35:\*.mpg=01\;35:\*.mpeg=01\;35:\*.m2v=01\;35:\*.mkv=01\;35:\*.webm=01\;35:\*.webp=01\;35:\*.ogm=01\;35:\*.mp4=01\;35:\*.m4v=01\;35:\*.mp4v=01\;35:\*.vob=01\;35:\*.qt=01\;35:\*.nuv=01\;35:\*.wmv=01\;35:\*.asf=01\;35:\*.rm=01\;35:\*.rmvb=01\;35:\*.flc=01\;35:\*.avi=01\;35:\*.fli=01\;35:\*.flv=01\;35:\*.gl=01\;35:\*.dl=01\;35:\*.xcf=01\;35:\*.xwd=01\;35:\*.yuv=01\;35:\*.cgm=01\;35:\*.emf=01\;35:\*.ogv=01\;35:\*.ogx=01\;35:\*.aac=00\;36:\*.au=00\;36:\*.flac=00\;36:\*.m4a=00\;36:\*.mid=00\;36:\*.midi=00\;36:\*.mka=00\;36:\*.mp3=00\;36:\*.mpc=00\;36:\*.ogg=00\;36:\*.ra=00\;36:\*.wav=00\;36:\*.oga=00\;36:\*.opus=00\;36:\*.spx=00\;36:\*.xspf=00\;36:; export LS_COLORS
+SSH_CONNECTION=13.48.4.202\ 25669\ 172.31.36.179\ 22; export SSH_CONNECTION
+LESSCLOSE=/usr/bin/lesspipe\ %s\ %s; export LESSCLOSE
+XDG_SESSION_CLASS=user; export XDG_SESSION_CLASS
+LESSOPEN=\|\ /usr/bin/lesspipe\ %s; export LESSOPEN
+USER=ubuntu; export USER
+SHLVL=0; export SHLVL
+XDG_SESSION_ID=6; export XDG_SESSION_ID
+XDG_RUNTIME_DIR=/run/user/1000; export XDG_RUNTIME_DIR
+SSH_CLIENT=13.48.4.202\ 25669\ 22; export SSH_CLIENT
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop; export XDG_DATA_DIRS
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin; export PATH
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus; export DBUS_SESSION_BUS_ADDRESS
+SSH_TTY=/dev/pts/0; export SSH_TTY
+cd /home/ubuntu || {
+         echo 'Execution directory inaccessible' >&2
+         exit 1
+}
+Hello
+
+ubuntu@ip-172-31-36-179:~$ atq
+1       Tue Jul 25 23:34:00 2023 a ubuntu
+3       Tue Jul 25 23:45:00 2023 a ubuntu
+ubuntu@ip-172-31-36-179:~$ atrm 3
+ubuntu@ip-172-31-36-179:~$ atq
+1       Tue Jul 25 23:34:00 2023 a ubuntu
+ubuntu@ip-172-31-36-179:~$ 

@@ -1,0 +1,28 @@
+ubuntu@ip-172-31-37-87:~$ ls
+190125.txt  Basic_linux  Test  Test.tar  Test_new  Test_perm  latest.zip  linux_practise  linux_script  ping_result.txt  remoting  remoting.jar  wildcards  workspace
+ubuntu@ip-172-31-37-87:~$ cd linux_script
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+Add_Array.sh  F2.txt       case_statement.sh        creative_arguments.sh  hello.sh              multiplication.sj  sorted.sh             variable.sh
+Arguments.sh  File.sh      concatenating_string.sh  else_if.sh             if_else.sh            nested_if.sh       special_arguments.sh
+Del_Array.sh  addition.sh  constant_variable.sh     first_array.sh         multiple_argument.sh  reverse_array.sh   test_conditions.sh
+F1.txt        cal.sh       cores.sh                 firt_array.sh          multiplication.sh     root.sh            upper.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ vim for_loops.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ chmod 777 for_loops.sh 
+ubuntu@ip-172-31-37-87:~/linux_script$ ./for_loops.sh 
+Hello Frinds 0
+Hello Frinds 1
+Hello Frinds 2
+Hello Frinds 3
+Hello Frinds 4
+Hello Frinds 5
+Hello Frinds 6
+Hello Frinds 7
+Hello Frinds 8
+Hello Frinds 9
+ubuntu@ip-172-31-37-87:~/linux_script$ cat for_loops.sh 
+#!/bin/bash
+
+for ((i=0;i<10;i++)); do
+        echo "Hello Frinds $i"
+done
+ubuntu@ip-172-31-37-87:~/linux_script$ 

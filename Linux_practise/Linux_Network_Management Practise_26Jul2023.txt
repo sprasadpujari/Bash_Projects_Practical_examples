@@ -1,0 +1,337 @@
+ubuntu@ip-172-31-36-179:~$ ipconfig
+Command 'ipconfig' not found, did you mean:
+  command 'iconfig' from deb ipmiutil (3.1.8-1)
+  command 'iwconfig' from deb wireless-tools (30~pre9-13.1ubuntu4)
+  command 'ifconfig' from deb net-tools (1.60+git20181103.0eebece-1ubuntu5)
+Try: sudo apt install <deb name>
+ubuntu@ip-172-31-36-179:~$ sudo apt install net-tools
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following NEW packages will be installed:
+  net-tools
+0 upgraded, 1 newly installed, 0 to remove and 0 not upgraded.
+Need to get 204 kB of archives.
+After this operation, 819 kB of additional disk space will be used.
+Get:1 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy/main amd64 net-tools amd64 1.60+git20181103.0eebece-1ubuntu5 [204 kB]
+Fetched 204 kB in 0s (782 kB/s)   
+Selecting previously unselected package net-tools.
+(Reading database ... 123123 files and directories currently installed.)
+Preparing to unpack .../net-tools_1.60+git20181103.0eebece-1ubuntu5_amd64.deb ...
+Unpacking net-tools (1.60+git20181103.0eebece-1ubuntu5) ...
+Setting up net-tools (1.60+git20181103.0eebece-1ubuntu5) ...
+Processing triggers for man-db (2.10.2-1) ...
+Scanning processes...                                                                                                                                                       
+Scanning linux images...                                                                                                                                                    
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+ubuntu@ip-172-31-36-179:~$ ipconfig
+Command 'ipconfig' not found, did you mean:
+  command 'iconfig' from deb ipmiutil (3.1.8-1)
+  command 'ifconfig' from deb net-tools (1.60+git20181103.0eebece-1ubuntu5)
+  command 'iwconfig' from deb wireless-tools (30~pre9-13.1ubuntu4)
+Try: sudo apt install <deb name>
+ubuntu@ip-172-31-36-179:~$ sudo pacman -S net-tools
+sudo: pacman: command not found
+ubuntu@ip-172-31-36-179:~$ sudo dnf install net-tools
+sudo: dnf: command not found
+ubuntu@ip-172-31-36-179:~$ sudo apt update
+Get:1 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+Hit:2 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy InRelease
+Get:3 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+Get:4 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-backports InRelease [108 kB]
+Get:5 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 c-n-f Metadata [15.9 kB]
+Get:6 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [853 kB]
+Get:7 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/main Translation-en [208 kB]
+Get:8 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 c-n-f Metadata [15.4 kB]
+Get:9 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages [668 kB]
+Get:10 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/restricted Translation-en [106 kB]
+Get:11 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [954 kB]
+Get:12 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/universe Translation-en [206 kB]
+Get:13 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata [20.8 kB]
+Get:14 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/multiverse Translation-en [9768 B]
+Fetched 3394 kB in 1s (2374 kB/s)                           
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+3 packages can be upgraded. Run 'apt list --upgradable' to see them.
+ubuntu@ip-172-31-36-179:~$ sudo apt list --upgradable
+Listing... Done
+ec2-hibinit-agent/jammy-updates 1.0.0-0ubuntu11.22.04.3 all [upgradable from: 1.0.0-0ubuntu11.22.04.2]
+libldap-2.5-0/jammy-updates 2.5.15+dfsg-0ubuntu0.22.04.1 amd64 [upgradable from: 2.5.14+dfsg-0ubuntu0.22.04.2]
+libldap-common/jammy-updates 2.5.15+dfsg-0ubuntu0.22.04.1 all [upgradable from: 2.5.14+dfsg-0ubuntu0.22.04.2]
+ubuntu@ip-172-31-36-179:~$ ipconfig
+Command 'ipconfig' not found, did you mean:
+  command 'iconfig' from deb ipmiutil (3.1.8-1)
+  command 'ifconfig' from deb net-tools (1.60+git20181103.0eebece-1ubuntu5)
+  command 'iwconfig' from deb wireless-tools (30~pre9-13.1ubuntu4)
+Try: sudo apt install <deb name>
+ubuntu@ip-172-31-36-179:~$ sudo apt install ipconfig
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package ipconfig
+ubuntu@ip-172-31-36-179:~$ sudo pacman -S net-tools
+sudo: pacman: command not found
+ubuntu@ip-172-31-36-179:~$ ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens5: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9001 qdisc mq state UP group default qlen 1000
+    link/ether 0a:08:68:5b:4f:34 brd ff:ff:ff:ff:ff:ff
+    inet 172.31.36.179/20 metric 100 brd 172.31.47.255 scope global dynamic ens5
+       valid_lft 2560sec preferred_lft 2560sec
+    inet6 fe80::808:68ff:fe5b:4f34/64 scope link 
+       valid_lft forever preferred_lft forever
+ubuntu@ip-172-31-36-179:~$ sudo ipconfig
+sudo: ipconfig: command not found
+ubuntu@ip-172-31-36-179:~$ /sbin/ipconfig
+-bash: /sbin/ipconfig: No such file or directory
+ubuntu@ip-172-31-36-179:~$ sudo /sbin/ipconfig
+[sudo] password for ubuntu: 
+Sorry, try again.
+[sudo] password for ubuntu: 
+Sorry, try again.
+[sudo] password for ubuntu: 
+sudo: 3 incorrect password attempts
+ubuntu@ip-172-31-36-179:~$ ip link show
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+2: ens5: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9001 qdisc mq state UP mode DEFAULT group default qlen 1000
+    link/ether 0a:08:68:5b:4f:34 brd ff:ff:ff:ff:ff:ff
+ubuntu@ip-172-31-36-179:~$ sudo apt update
+Hit:1 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:2 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy InRelease
+Hit:3 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Hit:4 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-backports InRelease
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+3 packages can be upgraded. Run 'apt list --upgradable' to see them.
+ubuntu@ip-172-31-36-179:~$ sudo apt install net-tools
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+net-tools is already the newest version (1.60+git20181103.0eebece-1ubuntu5).
+0 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
+ubuntu@ip-172-31-36-179:~$ ipconfig
+Command 'ipconfig' not found, did you mean:
+  command 'ifconfig' from deb net-tools (1.60+git20181103.0eebece-1ubuntu5)
+  command 'iwconfig' from deb wireless-tools (30~pre9-13.1ubuntu4)
+  command 'iconfig' from deb ipmiutil (3.1.8-1)
+Try: sudo apt install <deb name>
+ubuntu@ip-172-31-36-179:~$ su ipconfig
+su: user ipconfig does not exist or the user entry does not contain all the required fields
+ubuntu@ip-172-31-36-179:~$ sudo ipconfig
+sudo: ipconfig: command not found
+ubuntu@ip-172-31-36-179:~$ /sbin/ipconfig
+-bash: /sbin/ipconfig: No such file or directory
+ubuntu@ip-172-31-36-179:~$ vim .profile
+
+[1]+  Stopped                 vim .profile
+ubuntu@ip-172-31-36-179:~$ vim .profile
+ubuntu@ip-172-31-36-179:~$ vim .profile
+ubuntu@ip-172-31-36-179:~$ ip addr show
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens5: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9001 qdisc mq state UP group default qlen 1000
+    link/ether 0a:08:68:5b:4f:34 brd ff:ff:ff:ff:ff:ff
+    inet 172.31.36.179/20 metric 100 brd 172.31.47.255 scope global dynamic ens5
+       valid_lft 1995sec preferred_lft 1995sec
+    inet6 fe80::808:68ff:fe5b:4f34/64 scope link 
+       valid_lft forever preferred_lft forever
+ubuntu@ip-172-31-36-179:~$ ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: ens5: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9001 qdisc mq state UP group default qlen 1000
+    link/ether 0a:08:68:5b:4f:34 brd ff:ff:ff:ff:ff:ff
+    inet 172.31.36.179/20 metric 100 brd 172.31.47.255 scope global dynamic ens5
+       valid_lft 1971sec preferred_lft 1971sec
+    inet6 fe80::808:68ff:fe5b:4f34/64 scope link 
+       valid_lft forever preferred_lft forever
+ubuntu@ip-172-31-36-179:~$ nmcli con show
+Command 'nmcli' not found, but can be installed with:
+sudo snap install network-manager  # version 1.2.2-31, or
+sudo apt  install network-manager  # version 1.36.6-0ubuntu2
+See 'snap info network-manager' for additional versions.
+ubuntu@ip-172-31-36-179:~$ sudo apt install
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+0 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
+ubuntu@ip-172-31-36-179:~$ sudo apt install network-manager
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  dns-root-data dnsmasq-base libbluetooth3 libndp0 libnl-route-3-200 libnm0 libpcsclite1 libteamdctl0 modemmanager network-manager-pptp ppp pptp-linux wireless-regdb
+  wpasupplicant
+Suggested packages:
+  pcscd avahi-autoipd libteam-utils wpagui libengine-pkcs11-openssl
+The following NEW packages will be installed:
+  dns-root-data dnsmasq-base libbluetooth3 libndp0 libnl-route-3-200 libnm0 libpcsclite1 libteamdctl0 modemmanager network-manager network-manager-pptp ppp pptp-linux
+  wireless-regdb wpasupplicant
+0 upgraded, 15 newly installed, 0 to remove and 3 not upgraded.
+Need to get 6351 kB of archives.
+After this operation, 21.0 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy/main amd64 dns-root-data all 2021011101 [5256 B]
+Get:2 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 dnsmasq-base amd64 2.86-1.1ubuntu0.3 [354 kB]
+Get:3 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy/main amd64 libbluetooth3 amd64 5.64-0ubuntu1 [86.9 kB]
+Get:4 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy/main amd64 libndp0 amd64 1.8-0ubuntu3 [12.3 kB]
+Get:5 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy/main amd64 libnl-route-3-200 amd64 3.5.0-0.1 [180 kB]
+Get:6 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 libnm0 amd64 1.36.6-0ubuntu2 [456 kB]
+Get:7 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy/main amd64 libpcsclite1 amd64 1.9.5-3 [19.9 kB]
+Get:8 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy/main amd64 libteamdctl0 amd64 1.31-1build2 [12.6 kB]
+Get:9 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 modemmanager amd64 1.20.0-1~ubuntu22.04.2 [1094 kB]
+Get:10 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 network-manager amd64 1.36.6-0ubuntu2 [2203 kB]
+Get:11 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy/main amd64 ppp amd64 2.4.9-1+1ubuntu3 [363 kB]
+Get:12 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy/main amd64 pptp-linux amd64 1.10.0-1build3 [42.5 kB]
+Get:13 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy/main amd64 network-manager-pptp amd64 1.2.10-1 [30.9 kB]
+Get:14 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 wireless-regdb all 2022.06.06-0ubuntu1~22.04.1 [10.3 kB]
+Get:15 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 wpasupplicant amd64 2:2.10-6ubuntu2 [1481 kB]
+Fetched 6351 kB in 1s (10.4 MB/s)           
+Selecting previously unselected package dns-root-data.
+(Reading database ... 123172 files and directories currently installed.)
+Preparing to unpack .../00-dns-root-data_2021011101_all.deb ...
+Unpacking dns-root-data (2021011101) ...
+Selecting previously unselected package dnsmasq-base.
+Preparing to unpack .../01-dnsmasq-base_2.86-1.1ubuntu0.3_amd64.deb ...
+Unpacking dnsmasq-base (2.86-1.1ubuntu0.3) ...
+Selecting previously unselected package libbluetooth3:amd64.
+Preparing to unpack .../02-libbluetooth3_5.64-0ubuntu1_amd64.deb ...
+Unpacking libbluetooth3:amd64 (5.64-0ubuntu1) ...
+Selecting previously unselected package libndp0:amd64.
+Preparing to unpack .../03-libndp0_1.8-0ubuntu3_amd64.deb ...
+Unpacking libndp0:amd64 (1.8-0ubuntu3) ...
+Selecting previously unselected package libnl-route-3-200:amd64.
+Preparing to unpack .../04-libnl-route-3-200_3.5.0-0.1_amd64.deb ...
+Unpacking libnl-route-3-200:amd64 (3.5.0-0.1) ...
+Selecting previously unselected package libnm0:amd64.
+Preparing to unpack .../05-libnm0_1.36.6-0ubuntu2_amd64.deb ...
+Unpacking libnm0:amd64 (1.36.6-0ubuntu2) ...
+Selecting previously unselected package libpcsclite1:amd64.
+Preparing to unpack .../06-libpcsclite1_1.9.5-3_amd64.deb ...
+Unpacking libpcsclite1:amd64 (1.9.5-3) ...
+Selecting previously unselected package libteamdctl0:amd64.
+Preparing to unpack .../07-libteamdctl0_1.31-1build2_amd64.deb ...
+Unpacking libteamdctl0:amd64 (1.31-1build2) ...
+Selecting previously unselected package modemmanager.
+Preparing to unpack .../08-modemmanager_1.20.0-1~ubuntu22.04.2_amd64.deb ...
+Unpacking modemmanager (1.20.0-1~ubuntu22.04.2) ...
+Selecting previously unselected package network-manager.
+Preparing to unpack .../09-network-manager_1.36.6-0ubuntu2_amd64.deb ...
+Unpacking network-manager (1.36.6-0ubuntu2) ...
+Selecting previously unselected package ppp.
+Preparing to unpack .../10-ppp_2.4.9-1+1ubuntu3_amd64.deb ...
+Unpacking ppp (2.4.9-1+1ubuntu3) ...
+Selecting previously unselected package pptp-linux.
+Preparing to unpack .../11-pptp-linux_1.10.0-1build3_amd64.deb ...
+Unpacking pptp-linux (1.10.0-1build3) ...
+Selecting previously unselected package network-manager-pptp.
+Preparing to unpack .../12-network-manager-pptp_1.2.10-1_amd64.deb ...
+Unpacking network-manager-pptp (1.2.10-1) ...
+Selecting previously unselected package wireless-regdb.
+Preparing to unpack .../13-wireless-regdb_2022.06.06-0ubuntu1~22.04.1_all.deb ...
+Unpacking wireless-regdb (2022.06.06-0ubuntu1~22.04.1) ...
+Selecting previously unselected package wpasupplicant.
+Preparing to unpack .../14-wpasupplicant_2%3a2.10-6ubuntu2_amd64.deb ...
+Unpacking wpasupplicant (2:2.10-6ubuntu2) ...
+Setting up wireless-regdb (2022.06.06-0ubuntu1~22.04.1) ...
+Setting up dnsmasq-base (2.86-1.1ubuntu0.3) ...
+Setting up libnl-route-3-200:amd64 (3.5.0-0.1) ...
+Setting up dns-root-data (2021011101) ...
+Setting up libteamdctl0:amd64 (1.31-1build2) ...
+Setting up libpcsclite1:amd64 (1.9.5-3) ...
+Setting up libnm0:amd64 (1.36.6-0ubuntu2) ...
+Setting up ppp (2.4.9-1+1ubuntu3) ...
+Setting up libbluetooth3:amd64 (5.64-0ubuntu1) ...
+Setting up modemmanager (1.20.0-1~ubuntu22.04.2) ...
+Created symlink /etc/systemd/system/dbus-org.freedesktop.ModemManager1.service → /lib/systemd/system/ModemManager.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/ModemManager.service → /lib/systemd/system/ModemManager.service.
+Setting up libndp0:amd64 (1.8-0ubuntu3) ...
+Setting up pptp-linux (1.10.0-1build3) ...
+Setting up network-manager (1.36.6-0ubuntu2) ...
+Created symlink /etc/systemd/system/dbus-org.freedesktop.nm-dispatcher.service → /lib/systemd/system/NetworkManager-dispatcher.service.
+Created symlink /etc/systemd/system/network-online.target.wants/NetworkManager-wait-online.service → /lib/systemd/system/NetworkManager-wait-online.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/NetworkManager.service → /lib/systemd/system/NetworkManager.service.
+Setting up wpasupplicant (2:2.10-6ubuntu2) ...
+Created symlink /etc/systemd/system/dbus-fi.w1.wpa_supplicant1.service → /lib/systemd/system/wpa_supplicant.service.
+Created symlink /etc/systemd/system/multi-user.target.wants/wpa_supplicant.service → /lib/systemd/system/wpa_supplicant.service.
+Setting up network-manager-pptp (1.2.10-1) ...
+Processing triggers for libc-bin (2.35-0ubuntu3.1) ...
+Processing triggers for man-db (2.10.2-1) ...
+Processing triggers for dbus (1.12.20-2ubuntu4.1) ...
+Scanning processes...                                                                                                                                                       
+Scanning linux images...                                                                                                                                                    
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+ubuntu@ip-172-31-36-179:~$ sudo systemctl start network-manager
+Failed to start network-manager.service: Unit network-manager.service not found.
+ubuntu@ip-172-31-36-179:~$ ^C
+ubuntu@ip-172-31-36-179:~$ systemctl start NetworkManager
+==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ===
+Authentication is required to start 'NetworkManager.service'.
+Authenticating as: Ubuntu (ubuntu)
+Password: 
+polkit-agent-helper-1: pam_authenticate failed: Authentication failure
+==== AUTHENTICATION FAILED ===
+Failed to start NetworkManager.service: Access denied
+See system logs and 'systemctl status NetworkManager.service' for details.
+ubuntu@ip-172-31-36-179:~$ systemctl start NetworkManager
+==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ===
+Authentication is required to start 'NetworkManager.service'.
+Authenticating as: Ubuntu (ubuntu)
+Password: 
+polkit-agent-helper-1: pam_authenticate failed: Authentication failure
+==== AUTHENTICATION FAILED ===
+Failed to start NetworkManager.service: Access denied
+See system logs and 'systemctl status NetworkManager.service' for details.
+ubuntu@ip-172-31-36-179:~$ systemctl --user start appService.service
+Failed to start appService.service: Unit appService.service not found.
+ubuntu@ip-172-31-36-179:~$ sudo systemctl suspend
+Failed to suspend system via logind: Sleep verb "suspend" not supported
+ubuntu@ip-172-31-36-179:~$ sudo /etc/polkit-1/localauthority/50-local.d/allow_all_users_to_shutdown.pkla
+[sudo] password for ubuntu: 
+Sorry, try again.
+[sudo] password for ubuntu: 
+Sorry, try again.
+[sudo] password for ubuntu: 
+sudo: 3 incorrect password attempts
+ubuntu@ip-172-31-36-179:~$ cat /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy
+cat: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy: No such file or directory
+ubuntu@ip-172-31-36-179:~$ cd /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy
+-bash: cd: /usr/share/polkit-1/actions/org.freedesktop.consolekit.policy: No such file or directory
+ubuntu@ip-172-31-36-179:~$ nmcli con show
+
+ubuntu@ip-172-31-36-179:~$ 
+ubuntu@ip-172-31-36-179:~$ nmcli con show
+
+ubuntu@ip-172-31-36-179:~$ nmcli con show --active

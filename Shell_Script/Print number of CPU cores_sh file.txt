@@ -1,0 +1,23 @@
+ubuntu@ip-172-31-37-87:~$ ls
+linux_practise  linux_script  remoting  remoting.jar  wildcards  workspace
+ubuntu@ip-172-31-37-87:~$ cd linux_script
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+File.sh  hello.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ touch cores.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+File.sh  cores.sh  hello.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ vim cores.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./cores.sh
+-bash: ./cores.sh: Permission denied
+ubuntu@ip-172-31-37-87:~/linux_script$ chmod 777 cores.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./cores.sh
+The number of CPU processor: 1
+ubuntu@ip-172-31-37-87:~/linux_script$ nproc
+1
+ubuntu@ip-172-31-37-87:~/linux_script$ cat cores.sh
+#!/bin/bash
+
+echo "The number of CPU processor:" $(nproc)
+
+ubuntu@ip-172-31-37-87:~/linux_script$ ^C
+ubuntu@ip-172-31-37-87:~/linux_script$ 

@@ -1,0 +1,21 @@
+ubuntu@ip-172-31-37-87:~$ cd linux_script
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+Add_Array.sh  F2.txt       case_statement.sh        creative_arguments.sh  for_loops.sh          multiplication.sh  root.sh               until_loop.sh
+Arguments.sh  File.sh      concatenating_string.sh  else_if.sh             hello.sh              multiplication.sj  sorted.sh             upper.sh
+Del_Array.sh  addition.sh  constant_variable.sh     first_array.sh         if_else.sh            nested_if.sh       special_arguments.sh  variable.sh
+F1.txt        cal.sh       cores.sh                 firt_array.sh          multiple_argument.sh  reverse_array.sh   test_conditions.sh    while_loop.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ vim until_loop.sh 
+ubuntu@ip-172-31-37-87:~/linux_script$ ./until_loop.sh 
+3
+6
+9
+12
+15
+18
+21
+24
+27
+30
+ubuntu@ip-172-31-37-87:~/linux_script$ 
+
+

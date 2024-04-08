@@ -1,0 +1,33 @@
+ubuntu@ip-172-31-37-87:~$ ls
+linux_practise  linux_script  remoting  remoting.jar  wildcards  workspace
+ubuntu@ip-172-31-37-87:~$ cd linux_script
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+Add_Array.sh  F1.txt   addition.sh        concatenating_string.sh  creative_arguments.sh  firt_array.sh  multiple_argument.sh  nested_if.sh      sorted.sh             variable.sh
+Arguments.sh  F2.txt   cal.sh             constant_variable.sh     else_if.sh             hello.sh       multiplication.sh     reverse_array.sh  special_arguments.sh
+Del_Array.sh  File.sh  case_statement.sh  cores.sh                 first_array.sh         if_else.sh     multiplication.sj     root.sh           upper.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ vim case_statement.sh 
+ubuntu@ip-172-31-37-87:~/linux_script$ vim case_statement.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ chmod 777 case_statement.sh 
+ubuntu@ip-172-31-37-87:~/linux_script$ ./case_statement.sh a
+ a Small alpha
+ubuntu@ip-172-31-37-87:~/linux_script$ ./case_statement.sh Z
+Z capital alpha
+ubuntu@ip-172-31-37-87:~/linux_script$ ./case_statement.sh 9
+ubuntu@ip-172-31-37-87:~/linux_script$ cat case_statement.sh 
+#!/bin/bash
+
+CHAR=$1
+
+case $CHAR in
+
+        [a-z])
+        echo " $CHAR Small alpha";;
+[A-Z])
+        echo "$CHAR capital alpha";;
+[0-1])
+        echo "$CHAR It is number";;
+
+esac
+ubuntu@ip-172-31-37-87:~/linux_script$ ./case_statement.sh 1
+1 It is number
+ubuntu@ip-172-31-37-87:~/linux_script$

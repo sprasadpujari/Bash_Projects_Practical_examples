@@ -1,0 +1,1033 @@
+python3-tf2-sensor-msgs - Robot OS sensor messages for tf2 transform library - Python 3
+python3-theano - CPU/GPU math expression compiler for Python 3
+python3-threadpoolctl - Python helpers for common threading libraries (BLAS, OpenMP)
+python3-three-merge - Perform a 3-way merge between strings at a character level
+python3-thrift - Python 3 library for Thrift
+python3-thriftpy - Pure Python implementation of Apache Thrift
+python3-tidylib - Python 3 wrapper for HTML Tidy (tidylib)
+python3-tifffile - Read and write image data from and to TIFF files
+python3-tiledb - Python interface to the TileDB storage manager
+python3-tiledb-doc - Python interface to the TileDB storage manager (documentation)
+python3-timeline - Timeline module for modelling a series of actions (Python 3)
+python3-timeout-decorator - Timeout decorator
+python3-tinyalign - numerical representation of differences between strings
+python3-tinyarray - Arrays of numbers, optimized for small sizes
+python3-tinycss - complete yet simple CSS parser (Python3 version)
+python3-tinycss2 - Low-level CSS parser (Python3 version)
+python3-tinydb - document oriented database optimized
+python3-tinyobjloader - Tiny but powerful wavefront OBJ loader (Python 3 bindings)
+python3-tkrzw - set of implementations of DBM - python binding
+python3-tksnack - Sound extension to Tcl/Tk and Python/Tkinter - Python 3.x library
+python3-tktreectrl - Tkinter-based wrapper for Tk TreeCtrl for Python 3
+python3-tld - Extract the top level domain (TLD) from a given URL (Python 3)
+python3-tldextract - Python library for separating TLDs
+python3-tldp - automatic publishing tool for DocBook, Linuxdoc and Asciidoc
+python3-tlsh - fuzzy hashing library - Python3 module
+python3-tmdbsimple - Wrapper for The Movie Database API (Python3 version)
+python3-tmuxp - tmux session manager (Python 3)
+python3-tnetstring - python3 library for data serialization using typed netstrings
+python3-toml - library for Tom's Obvious, Minimal Language - Python 3.x
+python3-tomli - lil' TOML parser for Python
+python3-tomli-w - lil' TOML witer for Python
+python3-tomlkit - style-preserving TOML library for Python
+python3-tomogui - GUI for freeart and silx tomographic reconstructions
+python3-toolz - List processing tools and functional utilities
+python3-topic-tools - Python 3 library for working with Robot OS topics
+python3-toposort - topological sort algorithm - Python 3 module
+python3-topplot - Python modules to munge top logs using topplot
+python3-torch - Tensors and Dynamic neural networks in Python (Python Interface)
+python3-torch-ignite - High-level library to help with training and evaluating in PyTorch
+python3-torchaudio - Data manipulation and transformation for audio signal processing
+python3-torchtext - Data loaders and abstractions for text and NLP
+python3-torchvision - Datasets, Transforms and Models specific to Computer Vision
+python3-tornado - scalable, non-blocking web server and tools - Python 3 package
+python3-toro - Synchronization primitives for Tornado coroutines (python3)
+python3-torrequest - simple Python interface for HTTP(s) requests over Tor (Python 3)
+python3-tosca-parser - parser for TOSCA Simple Profile in YAML - Python 3.x
+python3-tpm2-pkcs11-tools - pkcs11 library for tpm2 - Python library
+python3-tpot - Automated Machine Learning tool built on top of scikit-learn
+python3-tqdm - fast, extensible progress bar for Python 3 and CLI tool
+python3-tr - Pure-Python implementation of tr
+python3-traitlets - Lightweight Traits-like package for Python 3
+python3-traits - Manifest typing and reactive programming for Python (Python 3)
+python3-traitsui - traits-capable user interfaces
+python3-traittypes - Scipy trait types
+python3-trajectory-msgs - Messages relating to Robot OS trajectory, Python 3 interface
+python3-transaction - Transaction management for Python
+python3-transforms3d - code to convert between various geometric transformations
+python3-transip - Implementation of the TransIP API (Python 3)
+python3-transitions - Lightweight state machine library (Python 3)
+python3-translate - Toolkit assisting in the localization of software (Python 3)
+python3-translation-finder - Translation file finder for Weblate
+python3-translationstring - Utility library for i18n relied on by various Repoze packages - Python 3.x
+python3-transliterate - Bi-directional transliterator for Python
+python3-transmissionrpc - Transmission RPC client module for Python 3
+python3-treetime - inference of time stamped phylogenies and ancestral reconstruction (Python 3)
+python3-treq - Higher level API for making HTTP requests with Twisted (Python 3)
+python3-trezor - library for communicating with TREZOR Bitcoin HW wallet (Python 3)
+python3-trie - Pure Python implementation of the trie data structure (Python 3)
+python3-trio - Python async concurrency and I/O library
+python3-trollimage - Pytroll imaging library
+python3-trollsched - Scheduling satellite passes in Python
+python3-trollsift - String parser/formatter for PyTroll packages
+python3-trololio - Trollius and asyncio compatibility library (Python 3)
+python3-trove - Database as a Service for OpenStack - Python 3 lib
+python3-trove-dashboard - Database as a Service for OpenStack - Python 3 dashboard plugin
+python3-trufont - Font-editing application (Python 3 libraries)
+python3-trustme - fake certificate authority for test use
+python3-tsk - Python Bindings for The Sleuth Kit
+python3-ttkthemes - Themes for the ttk extensions for python3-tk
+python3-ttystatus - terminal progress bar and status output for Python
+python3-tvdb-api - API interface to TheTVDB.com (Python 3)
+python3-tweepy - Twitter library for Python 3
+python3-twilio - Twilio API client and TwiML generator (Python 3)
+python3-twitter - Twitter API wrapper for Python 3
+python3-twodict - Simple two way ordered dictionary for Python 3
+python3-twython - Pure Python3 wrapper for the Twitter API
+python3-txacme - ACME protocol implementation for Twisted
+python3-txaio - compatibility API between asyncio/Twisted/Trollius - Python 3.x
+python3-txsni - easy-to-use SNI endpoint for Twisted (Python 3)
+python3-txtorcon - Twisted-based asynchronous Tor control protocol implementation (Python 3)
+python3-txws - Python module to add Websocket support to the Twisted framework (Python 3)
+python3-txzmq - ZeroMQ binding for the Twisted framework (Python3 version)
+python3-typechecks - express constraints on types
+python3-typed-ast - AST with PEP 484 type comments support
+python3-typedload - Load and dump json-like data into typed data structures in Python3
+python3-typedload-doc - Documentation and examples for python3-typedload
+python3-typeguard - Run-time type checker for Python
+python3-typer - Python library for building CLI applications (Python 3)
+python3-types-toml - Typing stubs for toml
+python3-types-typed-ast - Typing stubs for typed-ast
+python3-typeshed - collection of library stubs for Python, with static types
+python3-typing-extensions - Backported and Experimental Type Hints for Python
+python3-typing-inspect - API for runtime inspection of types in Python
+python3-typogrify - filters to transform text into typographically-improved HTML (Python 3)
+python3-tzlocal - tzinfo object for the local timezone
+python3-u-msgpack - Python3 MessagePack serializer and deserializer
+python3-u2flib-server - Universal 2nd Factor (U2F) server communication Python3 module
+python3-ua-parser - Python module for parsing HTTP User-Agent strings
+python3-uamqp - AMQP 1.0 client library for Python
+python3-ubjson - Universal Binary JSON encoder/decoder for Python 3
+python3-ubuntutools - useful APIs for Ubuntu developer tools — Python 3 library
+python3-udatetime - fast RFC3339 compliant date-time library (Python 3)
+python3-ufl - unified language for form-compilers (Python 3)
+python3-uflash - module and utility for flashing the BBC micro:bit
+python3-ufo-extractor - Extract data from font binaries into UFO objects (Python 3)
+python3-ufo2ft - Bridge from UFOs to fonttools objects
+python3-ufolib2 - Unified Font Object (UFO) fonts library
+python3-ufonormalizer - Python library to normalize the XML and other data inside of a UFO
+python3-ufoprocessor - Process and generate Unified Font Object (UFO) files
+python3-uhashring - full featured consistent hashing python library compatible with ketama
+python3-uhd - universal hardware driver for Ettus Research products - Python3
+python3-uinput - Pythonic API to Linux uinput kernel module (Python3)
+python3-ujson - ultra fast JSON encoder and decoder for Python 3
+python3-ukui-menu - implementation of the freedesktop menu specification for UKUI (Python bindings)
+python3-ulmo - Simple & fast Python 3 access to public hydrology & climatology data
+python3-unbound - library implementing DNS resolution and validation (Python3 bindings)
+python3-uncertainties - Python3 module for calculations with uncertainties
+python3-unicodecsv - drop-in replacement for Pythons CSV module with Unicode support
+python3-unicodedata2 - Python unicodedata backport/updates
+python3-unidecode - ASCII transliterations of Unicode text (Python 3 module)
+python3-unifrac - high-performance phylogenetic diversity calculations
+python3-unpaddedbase64 - unpadded Base64 implementation in Python 3
+python3-untokenize - Untokenize transforms tokens into source code (Python 3)
+python3-unyt - Python package for handling numpy arrays with units
+python3-upsetplot - Draw Lex et al.'s UpSet plots with Pandas and Matplotlib
+python3-upstream-ontologist - discover metadata about upstream projects
+python3-uranium - application framework for Cura (Python library)
+python3-uritemplate - implementation of RFC6570 - Python 3.x
+python3-uritools - RFC 3986 compliant replacement for urlparse
+python3-url-normalize - URL normalization for Python
+python3-urlobject - utility class for manipulating URLs.
+python3-urwid-satext - collection of urwid widgets for Libervia
+python3-urwid-utils - Collection of simple, straightforward, but extensible utilities for urwid
+python3-urwidtrees - Urwid Tree Container API
+python3-usagestats - Python3 module to collect usagestats from users
+python3-usb - USB interface for Python (Python3)
+python3-usb1 - Python wrapper for libusb1 (Python 3)
+python3-user-agents - Pure Python implementation for detecting which user agent is used
+python3-userpath - tool for adding locations to the user PATH - Python3 library
+python3-utf8-locale - Detect a UTF-8-capable locale for running programs in - Python library
+python3-utidylib - Python wrapper for TidyLib
+python3-utmp - python module for working with utmp
+python3-uvicorn - ASGI server implementation, using uvloop and httptools (Python3 version)
+python3-uvloop - fast implementation of asyncio event loop on top of libuv
+python3-uwsgidecorators - module of decorators for elegant access to uWSGI API (Python 3)
+python3-v-sim - Python bindings for V_Sim (a 3D visualization package)
+python3-vagrant - Python 3 bindings for interacting with Vagrant virtual machines
+python3-validators - Python Data Validation for Humans (Python 3)
+python3-validictory - general purpose Python data validator (Python 3)
+python3-vcf - Variant Call Format (VCF) parser for Python 3
+python3-vcr - record and replay HTML interactions (Python3 library)
+python3-vcstools - VCS/SCM Python source control library for svn, git, hg, and bzr (Python 3)
+python3-vcversioner - Use version control tags to discover version numbers (Python3 version)
+python3-vdf - Python module for VDF serialization and deserialization
+python3-vedo - python module for 3D scientific visualization with VTK
+python3-vedo-examples - 3D scientific visualization with VTK (examples)
+python3-vega-datasets - Python 3 package for offline access to vega datasets
+python3-venusian - library for deferring decorator actions
+python3-venv - venv module for python3 (default python3 version)
+python3-versioneer - determine version from repository tag
+python3-versiontools - Smart replacement for plain tuple used in __version__ (Python 3)
+python3-veusz - 2D and 3D scientific plotting application (Python interface)
+python3-veusz.helpers - 2D and 3D scientific plotting application (binary modules)
+python3-virtkey - Library to emulate keyboard keypresses.
+python3-virtualenv - Python virtual environment creator
+python3-virtualenv-clone - script for cloning a non-relocatable virtualenv (Python3)
+python3-virtualenvwrapper - extension to virtualenv for managing multiple environments (Py3)
+python3-virtualsmartcard - Smartcard emulator library in Python
+python3-virustotal-api - Virus Total Public/Private/Intel API for Python
+python3-vispy - interactive visualization in Python 3
+python3-visualization-msgs - Messages relating to Robot OS visualization, Python 3 interface
+python3-vitrage - OpenStack RCA as a Service - Python libs
+python3-vitrage-dashboard - OpenStack Vitrage - dashboard plugin
+python3-vlc - VLC Python bindings
+python3-vmware-nsxlib - A common library that interfaces with VMware NSX (Python 3)
+python3-vnlog - Toolkit to read/write/manipulate whitespace-separated ASCII logs
+python3-vobject - parse iCalendar and vCards in Python3
+python3-volatildap - Temporary slapd launcher for testing purposes
+python3-volatile - small extension for the Python tempfile module
+python3-volume-key - Python 3 bindings for volume-key
+python3-voluptuous-serialize - Code for converting voluptuous schemas to Python dictionaries
+python3-vsts-cd-manager - Visual Studio Team Services Continuous Delivery Manager
+python3-vtk-dicom - DICOM for VTK - Python
+python3-vtk7 - Python bindings for VTK
+python3-vtk9 - Python bindings for VTK
+python3-vtkgdcm - Grassroots DICOM VTK/Python bindings
+python3-vttlib - Python library to extract VTT (Microsoft Visual TrueType) font hinting data
+python3-vulndb - Python3 tool to provide access to the vulndb information
+python3-w3lib - Collection of web-related functions (Python 3)
+python3-waiting - Python module for waiting for events to happen (Python 3 version)
+python3-wand - Python interface for ImageMagick library (Python 3)
+python3-watchdog - Python API and shell utilities to monitor file system events
+python3-watcher - OpenStack Cloud Optimization as a Service - Python 3 libraries
+python3-watcher-dashboard - OpenStack Optimization as a service - dashboard plugin
+python3-watcherclient - OpenStack Cloud Optimization as a Service client - Python 3.x
+python3-watchgod - Simple, modern file watching and code reload (Python3 version)
+python3-watson - Library for Watson (Python 3)
+python3-wcag-contrast-ratio - Library computing contrast ratios required by WCAG 2.0 (Python3 version)
+python3-wchartype - handling double-byte (full-width) characters (Python 3)
+python3-wcmatch - Wildcard File Name matching library (Python 3)
+python3-wdlparse - Workflow Description Language (WDL) parser for Python
+python3-webargs - Python library for parsing and validating HTTP request arguments (Python 3)
+python3-webassets - Asset management application for Python web development (Python 3)
+python3-webcolors - python3 library of color names and value formats
+python3-webdav - WebDAV server implementation in Python (Python3)
+python3-webdavclient - Python 3 module for accessing WebDAV servers
+python3-webpy - Web framework for Python applications
+python3-websocket - WebSocket client library - Python 3.x
+python3-websockets - implementation of the WebSocket Protocol (RFC 6455)
+python3-webview - Build GUI for your Python program with JavaScript, HTML, and CSS
+python3-webvtt - Read, write and segment WebVTT caption files (Python3 version)
+python3-wget - pure Python download utility for Python 3
+python3-whatthepatch - Library for parsing patch files(Python 3)
+python3-wheel - built-package format for Python
+python3-wheel-whl - built-package format for Python (wheel wheel)
+python3-wheezy.template - a lightweight template library (Python 3 package)
+python3-whichcraft - cross-platform cross-python shutil.which functionality (Python 3 module)
+python3-whisper - database engine for fast, reliable fixed-sized databases
+python3-whiteboard - Make your own electronic whiteboard
+python3-whitenoise - static file serving for WSGI applications (Python 3)
+python3-whois - Python module for retrieving WHOIS information
+python3-whoosh - pure-Python full-text indexing, search, and spell checking library (Python 3)
+python3-widgetsnbextension - Interactive widgets - Jupyter notebook extension (Python 3)
+python3-wikitrans - MediaWiki markup translator (python3 library)
+python3-willow - Python image library combining Pillow, Wand and OpenCV (Python 3)
+python3-wimsapi - API to communicate with a WIMS server
+python3-windowmocker - create windows and applications from specifications
+python3-winrm - Python 3 library for Windows Remote Management
+python3-wither - XML/HTML Generation DSL (Python 3)
+python3-wokkel - Python 3 collection of enhancements for Twisted
+python3-wordcloud - little word cloud generator in Python
+python3-workqueue - cooperative computing tools work queue Python3 bindings
+python3-wreport - Python library to work with BUFR and CREX weather bulletins
+python3-ws4py - WebSocket library (Python 3)
+python3-wsaccel - Accelerator for ws4py and AutobahnPython - Python 3.x
+python3-wsgi-intercept - installs a WSGI application in place of a real URI for testing (python3)
+python3-wsgicors - WSGI middleware to handle CORS preflight requests for Python 3
+python3-wsgilog - WSGI logging and event reporting middleware (Python 3)
+python3-wsgiproxy - minimalist WSGI server implementation using async
+python3-wsproto - WebSockets state-machine based protocol implementation (Python3)
+python3-wstool - Commands to manage multi-VCS repositories (for Robot OS) Python 3
+python3-wtf-peewee - WTForms integration for peewee models (Python 3)
+python3-wtforms - flexible forms validation and rendering library for Python 3
+python3-wurlitzer - Capture C-level output in context managers
+python3-wxgtk-media4.0 - Python 3 interface to the wxWidgets Cross-platform C++ GUI toolkit (wx.media)
+python3-wxgtk-webview4.0 - Python 3 interface to the wxWidgets Cross-platform C++ GUI toolkit (wx.html2)
+python3-wxgtk4.0 - Python 3 interface to the wxWidgets Cross-platform C++ GUI toolkit
+python3-x2go - Python module providing X2Go client API (Python 3)
+python3-x2gobroker - X2Go Session Broker (Python3 modules)
+python3-x3dh - Python 3 implementation of the X3DH key agreement protocol
+python3-xapian - Xapian search engine interface for Python3
+python3-xapian-haystack - Xapian backend for Django-Haystack (Python3 version)
+python3-xapp - Python 3 XApp library
+python3-xarray - N-D labeled arrays and datasets in Python 3
+python3-xcbgen - X C Binding - protocol binding generator (Python 3)
+python3-xcffib - CFFI-based Python binding for X
+python3-xclarityclient - Python library for controlling XClarity by REST API.
+python3-xdmf - Python3 wrappers for the eXtensible Data Model and Format library
+python3-xdo - Python 3 library for simulating X11 keyboard/mouse input (libxdo bindings)
+python3-xeddsa - Python 3 implementation of the XEdDSA signature scheme
+python3-xgboost - Scalable and Flexible Gradient Boosting (Python3)
+python3-xhtml2pdf - A library for converting HTML into PDFs using ReportLab (Python 3 module)
+python3-xkcd - Python3 library for accessing xkcd.com
+python3-xlib - interface for Python 3 to the X11 protocol
+python3-xlrd - extract data from Microsoft Excel spreadsheet files (Python3 version)
+python3-xlsxwriter - Python 3 module for creating Excel XLSX files
+python3-xlwt - module for writing Microsoft Excel spreadsheet files - Python 3.x
+python3-xmlrunner - unit test runner reporting in xUnit format (Python 3)
+python3-xmlsec - Python bindings for the XML Security Library.
+python3-xmltodict - Makes working with XML feel like you are working with JSON (Python 3)
+python3-xmmsclient - XMMS2 - Python 3 bindings
+python3-xmodem - xmodem file transfer protocol library (Python 3)
+python3-xopen - Python3 module to open compressed files transparently
+python3-xphyle - opening, reading, and writing files while agnostic to compression
+python3-xrayutilities - X-rays data reduction and analysis (Python 3)
+python3-xrootd - Python 3 bindings for xrootd
+python3-xrstools - x-ray Raman scattering tools (Python 3)
+python3-xsdata - Naive XML Bindings for Python (Python 3)
+python3-xstatic - XStatic base package with minimal support code - Python 3.x
+python3-xstatic-angular - Angular JS XStatic support - Python 3.x
+python3-xstatic-angular-bootstrap - Angular-Bootstrap XStatic support - Python 3.x
+python3-xstatic-angular-cookies - Angular JS Cookies XStatic support - Python 3.x
+python3-xstatic-angular-fileupload - Angular-FileUpload  (XStatic packaging standard) - Python 3.x
+python3-xstatic-angular-gettext - Angular-Gettext (XStatic packaging standard) - Python 3.x
+python3-xstatic-angular-lrdragndrop - Angular-Lrdragndrop 1.0.2 (XStatic packaging standard) - Python 3.x
+python3-xstatic-angular-mock - Angular JS Mock XStatic support - Python 3.x
+python3-xstatic-angular-schema-form - Angular-Schema-Form (XStatic packaging standard) - Python 3.x
+python3-xstatic-angular-ui-router - Angular UI router XStatic support
+python3-xstatic-angular-uuid - Angular UUID XStatic support
+python3-xstatic-angular-vis - Angular Vis XStatic support
+python3-xstatic-bootstrap-datepicker - Bootstrap-Datepicker XStatic support - Python 3.x
+python3-xstatic-bootstrap-scss - Bootstrap-SCSS 3.2.0 (XStatic packaging standard) - Python 3.x
+python3-xstatic-bootswatch - Bootswatch XStatic support - Python 3.x
+python3-xstatic-d3 - D3 JS XStatic support - Python 3.x
+python3-xstatic-dagre - Graph layout for JavaScript XStatic support - Python 3.x
+python3-xstatic-dagre-d3 - D3-based renderer for Dagre XStatic support - Python 3.x
+python3-xstatic-filesaver - implements the saveAs() FileSaver interface - XStatic support
+python3-xstatic-font-awesome - Font Awesome XStatic support - Python 3.x
+python3-xstatic-graphlib - Directed multi-graph library for JavaScript XStatic support - Python 3.x
+python3-xstatic-hogan - Hogan.js XStatic support - Python 3.x
+python3-xstatic-jasmine - Jasmine JS XStatic support - Python 3.x
+python3-xstatic-jquery - jquery XStatic support - Python 3.x
+python3-xstatic-jquery-migrate - JQuery Migrate XStatic support - Python 3.x
+python3-xstatic-jquery-ui - JQuery UI XStatic support - Python 3.x
+python3-xstatic-jquery.bootstrap.wizard - JQuery.Bootstrap.Wizard XStatic support - Python 3.x
+python3-xstatic-jquery.quicksearch - jQuery.quicksearch XStatic support - Python 3.x
+python3-xstatic-jquery.tablesorter - JQuery Tablesorter XStatic support - Python 3.x
+python3-xstatic-js-yaml - JavaScript yaml implementation - XStatic support
+python3-xstatic-jsencrypt - JSEncrypt XStatic support - Python 3.x
+python3-xstatic-json2yaml - converts json or simple javascript objects into a yaml - XStatic support
+python3-xstatic-lodash - JavaScript utility library XStatic support - Python 3.x
+python3-xstatic-magic-search - Magic-Search XStatic support - Python 3.x
+python3-xstatic-mdi - Material Design Icons Webfont XStatic support - Python 3.x
+python3-xstatic-moment - Work with dates in JavaScript XStatic support - Python 3.x
+python3-xstatic-moment-timezone - Parse and display dates in any timezone XStatic support - Python 3.x
+python3-xstatic-objectpath - objectpath XStatic packaging standard - Python 3.x
+python3-xstatic-qunit - QUnit XStatic support - Python 3.x
+python3-xstatic-rickshaw - Rickshaw JS XStatic support - Python 3.x
+python3-xstatic-roboto-fontface - Roboto Fontface XStatic support - Python 3.x
+python3-xstatic-smart-table - AngularJS smart-table (XStatic packaging standard) - Python 3.x
+python3-xstatic-spin - Spin.js XStatic support - Python 3.x
+python3-xstatic-term.js - term.js XStatic support - Python 3.x
+python3-xstatic-tv4 - tv4 (XStatic packaging standard) - Python 3.x
+python3-xtermcolor - Python3 module to print coloured text on terminals
+python3-xvfbwrapper - headless display inside Xvfb - Python 3.x
+python3-yade - Platform for discrete element modeling. Python bindings
+python3-yamlordereddictloader - loader and dump for PyYAML keeping keys order
+python3-yapf - public modules for yapf (Python 3)
+python3-yappi - Yet Another Python Profiler - Python 3.x
+python3-yapps - Yet Another Python Parser System
+python3-yapsy - simple plugin system for Python3 applications
+python3-yara - Python 3 bindings for YARA
+python3-yaramod - YARA parser for C++ (Python 3 binding)
+python3-yarl - yet another URL library for Python
+python3-yaswfp - Yet Another SWF Parser (Python 3)
+python3-yattag - library for generating HTML or XML in a pythonic way (Python 3)
+python3-yenc - yEnc encoding/decoding extension (Python 3)
+python3-ykman - Python 3 library for configuring a YubiKey
+python3-yowsup - Python 3 library to implement a WhatsApp client
+python3-yoyo - database schema migration library
+python3-yt - Framework for analyzing and visualizing simulation data (Python 3)
+python3-yubico - Python3 library for talking to Yubico YubiKeys
+python3-yubikey-manager - Python 3 library for configuring a YubiKey — transitional package
+python3-yubiotp - Low-level implementation of the YubiKey OTP algorithm in Python
+python3-z3 - theorem prover from Microsoft Research - Python 3 bindings
+python3-zake - provides a set of testing utilities for the kazoo library - Python 3.x
+python3-zaqar - OpenStack Queueing as a Service - Python libraries
+python3-zaqar-ui - OpenStack Queueing as a Service - Dashboard plugin
+python3-zarr - chunked, compressed, N-dimensional arrays for Python
+python3-zbar - QR code / bar code scanner and decoder (Python bindings)
+python3-zc.buildout - system for managing development buildouts
+python3-zc.customdoctests - Use doctest with other languages (Python 3)
+python3-zeep - Modern SOAP client library (Python 3)
+python3-zeitgeist - event logging framework - Python 3 bindings
+python3-zeroc-ice - Python 3 extension for Ice
+python3-zeroconf - Pure Python implementation of multicast DNS service discovery (Python3)
+python3-zfec - fast erasure codec, with Python 3 bindings
+python3-zhmcclient - library for the IBM Z HMC Web Services API
+python3-zict - Mutable mapping tools for Python 3
+python3-zipstream - Zipfile generator
+python3-zipstream-ng - Modern and easy to use streamable zip file generator
+python3-zlmdb - Object-relational in-memory database layer based on LMDB
+python3-zmq - Python3 bindings for 0MQ library
+python3-zodbpickle - Fork of pickle module for uniform serialization between Python 2 and 3 (Py3)
+python3-zookeeper - Python bindings for zookeeper
+python3-zope.component - Zope Component Architecture
+python3-zope.configuration - Zope Configuration Markup Language (ZCML)
+python3-zope.deprecation - Zope Deprecation Infrastructure
+python3-zope.event - Very basic event publishing system
+python3-zope.exceptions - Zope exceptions for Python 3
+python3-zope.hookable - Hookable object support
+python3-zope.i18nmessageid - Message Identifiers for internationalization
+python3-zope.location - Tools for working with object locations
+python3-zope.proxy - Generic transparent proxies for Python
+python3-zope.schema - zope.interface extension for defining data schemas
+python3-zope.security - Zope Security Framework
+python3-zope.testing - Zope testing helpers for Python 3
+python3-zope.testrunner - Flexible test runner with layer support for Python 3
+python3-zstd - python bindings to Yann Collet ZSTD compression library
+python3-zunclient - OpenStack container management service API client - Python 3.x
+python3-zxcvbn - Realistic password strength estimator - Python3 module
+python3-zzzeeksphinx - Zzzeek's Sphinx layout and utilities
+python3.10-full - Python Interpreter with complete class library (version 3.10)
+python3.10-nopie - Python interpreter linked without PIE (version 3.10)
+python3.10-venv - Interactive high-level object-oriented language (pyvenv binary, version 3.10)
+pythonpy - 'python -c', with tab completion and shorthand
+quantlib-python - Python3 bindings for the Quantlib Quantitative Finance library
+r-cran-findpython - GNU R functions to find an acceptable Python binary
+ros-base-python-dev - Python Robot OS base development metapackage
+ros-core-python-dev - Python Robot OS core development metapackage
+ros-desktop-full-python-dev - Python Robot OS desktop-full development metapackage
+ros-desktop-python-dev - Python Robot OS desktop development metapackage
+ros-perception-python-dev - Python Robot OS perception development metapackage
+ros-robot-python-dev - Python Robot OS robot development metapackage
+ros-simulators-python-dev - Python Robot OS simulators development metapackage
+ros-viz-python-dev - Python Robot OS viz development metapackage
+solo-python - command line interface for SoloKeys
+spf-tools-python - sender policy framework (SPF) tools for Python
+syslog-ng-mod-python - Enhanced system logging daemon (Python plugin)
+texworks-scripting-python - Plugin to bring Python scripting to TeXworks
+thunarx-python - Python bindings for the Thunar file manager
+txt2tags - conversion tool to generating several file formats
+uwsgi-plugin-asyncio-python3 - asyncio plugin for uWSGI (Python 3)
+uwsgi-plugin-gevent-python3 - gevent plugin for uWSGI (Python 3)
+uwsgi-plugin-greenlet-python3 - greenlet plugin for uWSGI (Python 3)
+uwsgi-plugin-python3 - WSGI plugin for uWSGI (Python 3)
+uwsgi-plugin-tornado-python3 - tornado plugin for uWSGI (Python 3)
+vim-athena - Vi IMproved - enhanced vi editor - with Athena GUI
+vim-gtk3 - Vi IMproved - enhanced vi editor - with GTK3 GUI
+vim-nox - Vi IMproved - enhanced vi editor - with scripting languages support
+vim-python-jedi - autocompletion tool for Python - VIM addon files
+weechat-python - Fast, light and extensible chat client - Python 3 plugin
+wlc - Command line utility for Weblate
+wxpython-tools - Tools from the wxPython distribution
+xeus-python-dev - Native jupyter kernel for python (headers)
+xpython - Native jupyter kernel for python (binary)
+znc-python - advanced modular IRC bouncer (Python extension)
+libmyth-python - Python library to access some MythTV features
+python-cx-oracle-doc - Python interface to Oracle Database (common documentation)
+python-drf-yasg-nonfree-doc - Yet another Swagger generator (Documentation)
+python-pycuda-doc - module to access Nvidia‘s CUDA computation API (documentation)
+python-seqcluster-doc - analysis of small RNA in NGS data (documentation)
+python3-chargebee - Python library for integrating with Chargebee (Python 3/API v1)
+python3-chargebee2 - Python library for integrating with Chargebee (Python 3/API v2)
+python3-cx-oracle - Python interface to Oracle Database (Python 3)
+python3-django-anymail - Django email backend for multiple ESPs (Python 3)
+python3-doris - Delft object-oriented radar interferometric software - Python tools
+python3-drf-yasg-nonfree - Yet another Swagger generator (Python3)
+python3-hijra - Hijri Islamic Calendar converting functions for Python
+python3-okasha - trivial WSGI web framework for Python
+python3-okasha-examples - trivial WSGI web framework for Python (examples)
+python3-othman - library providing access to Quranic text with a fast search index
+python3-pycsw - OGC compliant metadata (Catalogue Service for the Web) server - Python 3
+python3-pycuda - Python 3 module to access Nvidia‘s CUDA parallel computation API
+python3-pyhst2-cuda - Python High Speed Tomographic reconstruction
+python3-pynliner - CSS-to-inline-styles conversion tool for HTML - Python 3.x
+python3-pynvml - Python3 bindings to the NVIDIA Management Library
+python3-pyvkfft - binding to the CUDA and OpenCL backends of VkFFT - Python3
+python3-rna - ViennaRNA Python wrappers
+python3-seqcluster - analysis of small RNA in NGS data
+python3-sparkpost - SparkPost Python API client (Python 3)
+python3-tomopy - Python package for tomographic data processing and image reconstruction
+python3-unrardll - Python wrapper for the unrar shared library
+python3-vertica - native Python client for the Vertica database (Python 3)
+python3-clang-15 - Clang Python Bindings
+python3-lldb-15 - Next generation, high-performance debugger, python3 lib
+idle-python3.11 - IDE for Python (v3.11) using Tkinter
+libpython3.11 - Shared Python runtime library (version 3.11)
+libpython3.11-dbg - Debug Build of the Python Interpreter (version 3.11)
+libpython3.11-dev - Header files and a static library for Python (v3.11)
+libpython3.11-minimal - Minimal subset of the Python language (version 3.11)
+libpython3.11-stdlib - Interactive high-level object-oriented language (standard library, version 3.11)
+libpython3.11-testsuite - Testsuite for the Python standard library (v3.11)
+python3-nvme - NVMe management library (Python)
+python3-qpageview - qpageview provides a document viewer widget for Qt5/PyQt5
+python3.11 - Interactive high-level object-oriented language (version 3.11)
+python3.11-dbg - Debug Build of the Python Interpreter (version 3.11)
+python3.11-dev - Header files and a static library for Python (v3.11)
+python3.11-doc - Documentation for the high-level object-oriented language Python (v3.11)
+python3.11-examples - Examples for the Python language (v3.11)
+python3.11-full - Python Interpreter with complete class library (version 3.11)
+python3.11-minimal - Minimal subset of the Python language (version 3.11)
+python3.11-nopie - Python interpreter linked without PIE (version 3.11)
+python3.11-venv - Interactive high-level object-oriented language (pyvenv binary, version 3.11)
+python3-socksio - Sans-I/O implementation of SOCKS4, SOCKS4A, and SOCKS5
+ubuntu@ip-172-31-36-179:/tmp$ apt-cache show cmatrix
+Package: cmatrix
+Architecture: amd64
+Version: 2.0-3
+Priority: optional
+Section: universe/misc
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Boyuan Yang <byang@debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 56
+Depends: libc6 (>= 2.4), libncurses6 (>= 6), libtinfo6 (>= 6)
+Recommends: kbd
+Suggests: cmatrix-xfont
+Filename: pool/universe/c/cmatrix/cmatrix_2.0-3_amd64.deb
+Size: 17120
+MD5sum: 0022b4303efefca3f93f6ecde10c56d3
+SHA1: 688bc9cceef5c9018b63b4d12732b41daeb56fb7
+SHA256: dbe51c32e2cc918fedc6d459f19ea25e450a4b27f28e6f3765c3f86a3ad9c85d
+SHA512: dd60073944c56a2094413042dcbadbe4a64ccba4fb3e6851663a6ba964a32ddaa277ec8f32c7c20855f40208d87d58224cb67873c8df98a9f40bb815674bf566
+Homepage: https://github.com/abishekvashok/cmatrix
+Description-en: simulates the display from "The Matrix"
+ Screen saver for the terminal based in the movie "The Matrix". It works in
+ terminals of all dimensions and have the following features:
+  * Support terminal resize.
+  * Screen saver mode: any key closes it.
+  * Selectable color.
+  * Change text scroll rate.
+Description-md5: 9af1f58e4b6301a6583f036c780c6ae6
+
+ubuntu@ip-172-31-36-179:/tmp$ apt-cache depends cmatrix
+cmatrix
+  Depends: libc6
+  Depends: libncurses6
+  Depends: libtinfo6
+  Recommends: kbd
+  Suggests: cmatrix-xfont
+ubuntu@ip-172-31-36-179:/tmp$ dpkg -l
+Desired=Unknown/Install/Remove/Purge/Hold
+| Status=Not/Inst/Conf-files/Unpacked/halF-conf/Half-inst/trig-aWait/Trig-pend
+|/ Err?=(none)/Reinst-required (Status,Err: uppercase=bad)
+||/ Name                                 Version                                 Architecture Description
++++-====================================-=======================================-============-=============================================================================>
+ii  acl                                  2.3.1-1                                 amd64        access control list - utilities
+ii  acpid                                1:2.0.33-1ubuntu1                       amd64        Advanced Configuration and Power Interface event daemon
+ii  adduser                              3.118ubuntu5                            all          add and remove users and groups
+ii  adwaita-icon-theme                   41.0-1ubuntu1                           all          default icon theme of GNOME (small subset)
+ii  alsa-topology-conf                   1.2.5.1-2                               all          ALSA topology configuration files
+ii  alsa-ucm-conf                        1.2.6.3-1ubuntu1.7                      all          ALSA Use Case Manager configuration files
+ii  amd64-microcode                      3.20191218.1ubuntu2.1                   amd64        Processor microcode firmware for AMD CPUs
+ii  apparmor                             3.0.4-2ubuntu2.2                        amd64        user-space parser utility for AppArmor
+ii  apport                               2.20.11-0ubuntu82.5                     all          automatically generate crash reports for debugging
+ii  apport-symptoms                      0.24                                    all          symptom scripts for apport
+ii  apt                                  2.4.9                                   amd64        commandline package manager
+ii  apt-utils                            2.4.9                                   amd64        package management related utility programs
+ii  aspell                               0.60.8-4build1                          amd64        GNU Aspell spell-checker
+ii  aspell-en                            2018.04.16-0-1                          all          English dictionary for GNU Aspell
+ii  at                                   3.2.5-1ubuntu1                          amd64        Delayed job execution and batch processing
+ii  at-spi2-core                         2.44.0-3                                amd64        Assistive Technology Service Provider Interface (dbus core)
+ii  base-files                           12ubuntu4.3                             amd64        Debian base system miscellaneous files
+ii  base-passwd                          3.5.52build1                            amd64        Debian base system master password and group files
+ii  bash                                 5.1-6ubuntu1                            amd64        GNU Bourne Again SHell
+ii  bash-completion                      1:2.11-5ubuntu1                         all          programmable completion for the bash shell
+ii  bc                                   1.07.1-3build1                          amd64        GNU bc arbitrary precision calculator language
+ii  bcache-tools                         1.0.8-4ubuntu3                          amd64        bcache userspace tools
+ii  bind9-dnsutils                       1:9.18.12-0ubuntu0.22.04.2              amd64        Clients provided with BIND 9
+ii  bind9-host                           1:9.18.12-0ubuntu0.22.04.2              amd64        DNS Lookup Utility
+ii  bind9-libs:amd64                     1:9.18.12-0ubuntu0.22.04.2              amd64        Shared Libraries used by BIND 9
+ii  binutils                             2.38-4ubuntu2.2                         amd64        GNU assembler, linker and binary utilities
+ii  binutils-common:amd64                2.38-4ubuntu2.2                         amd64        Common files for the GNU assembler, linker and binary utilities
+ii  binutils-x86-64-linux-gnu            2.38-4ubuntu2.2                         amd64        GNU binary utilities, for x86-64-linux-gnu target
+ii  bolt                                 0.9.2-1                                 amd64        system daemon to manage thunderbolt 3 devices
+ii  bsdextrautils                        2.37.2-4ubuntu3                         amd64        extra utilities from 4.4BSD-Lite
+ii  bsdutils                             1:2.37.2-4ubuntu3                       amd64        basic utilities from 4.4BSD-Lite
+ii  btrfs-progs                          5.16.2-1                                amd64        Checksumming Copy on Write Filesystem utilities
+ii  bubblewrap                           0.6.1-1                                 amd64        utility for unprivileged chroot and namespace manipulation
+ii  busybox-initramfs                    1:1.30.1-7ubuntu3                       amd64        Standalone shell setup for initramfs
+ii  busybox-static                       1:1.30.1-7ubuntu3                       amd64        Standalone rescue shell with tons of builtin utilities
+ii  byobu                                5.133-1                                 all          text window manager, shell multiplexer, integrated DevOps environment
+ii  ca-certificates                      20230311ubuntu0.22.04.1                 all          Common CA certificates
+ii  chrony                               4.2-2ubuntu2                            amd64        Versatile implementation of the Network Time Protocol
+ii  cloud-guest-utils                    0.32-22-g45fe84a5-0ubuntu1              all          cloud guest utilities
+ii  cloud-init                           23.2.1-0ubuntu0~22.04.1                 all          initialization and customization tool for cloud instances
+ii  cloud-initramfs-copymods             0.47ubuntu1                             all          copy initramfs modules into root filesystem for later use
+ii  cloud-initramfs-dyn-netconf          0.47ubuntu1                             all          write a network interface file in /run for BOOTIF
+ii  cmatrix                              2.0-3                                   amd64        simulates the display from "The Matrix"
+ii  command-not-found                    22.04.0                                 all          Suggest installation of packages in interactive bash sessions
+ii  console-setup                        1.205ubuntu3                            all          console font and keymap setup program
+ii  console-setup-linux                  1.205ubuntu3                            all          Linux specific part of console-setup
+ii  coreutils                            8.32-4.1ubuntu1                         amd64        GNU core utilities
+ii  cpio                                 2.13+dfsg-7                             amd64        GNU cpio -- a program to manage archives of files
+ii  cron                                 3.0pl1-137ubuntu3                       amd64        process scheduling daemon
+ii  cryptsetup                           2:2.4.3-1ubuntu1.1                      amd64        disk encryption support - startup scripts
+ii  cryptsetup-bin                       2:2.4.3-1ubuntu1.1                      amd64        disk encryption support - command line tools
+ii  cryptsetup-initramfs                 2:2.4.3-1ubuntu1.1                      all          disk encryption support - initramfs integration
+ii  curl                                 7.81.0-1ubuntu1.13                      amd64        command line tool for transferring data with URL syntax
+ii  dash                                 0.5.11+git20210903+057cd650a4ed-3build1 amd64        POSIX-compliant shell
+ii  dbus                                 1.12.20-2ubuntu4.1                      amd64        simple interprocess messaging system (daemon and utilities)
+ii  dbus-user-session                    1.12.20-2ubuntu4.1                      amd64        simple interprocess messaging system (systemd --user integration)
+ii  dconf-gsettings-backend:amd64        0.40.0-3                                amd64        simple configuration storage system - GSettings back-end
+ii  dconf-service                        0.40.0-3                                amd64        simple configuration storage system - D-Bus service
+ii  debconf                              1.5.79ubuntu1                           all          Debian configuration management system
+ii  debconf-i18n                         1.5.79ubuntu1                           all          full internationalization support for debconf
+ii  debianutils                          5.5-1ubuntu2                            amd64        Miscellaneous utilities specific to Debian
+ii  debugedit                            1:5.0-4build1                           amd64        tools for handling build-ids and paths rewriting in DWARF data
+ii  dictionaries-common                  1.28.14                                 all          spelling dictionaries - common utilities
+ii  diffutils                            1:3.8-0ubuntu2                          amd64        File comparison utilities
+ii  dirmngr                              2.2.27-3ubuntu2.1                       amd64        GNU privacy guard - network certificate management service
+ii  distro-info                          1.1build1                               amd64        provides information about the distributions' releases
+ii  distro-info-data                     0.52ubuntu0.4                           all          information about the distributions' releases (data files)
+ii  dmeventd                             2:1.02.175-2.1ubuntu4                   amd64        Linux Kernel Device Mapper event daemon
+ii  dmidecode                            3.3-3ubuntu0.1                          amd64        SMBIOS/DMI table decoder
+ii  dmsetup                              2:1.02.175-2.1ubuntu4                   amd64        Linux Kernel Device Mapper userspace library
+ii  dns-root-data                        2021011101                              all          DNS root data including root zone and DNSSEC key
+ii  dnsmasq-base                         2.86-1.1ubuntu0.3                       amd64        Small caching DNS proxy and DHCP/TFTP server
+ii  docbook-xml                          4.5-11                                  all          standard XML documentation system for software and systems
+ii  dosfstools                           4.2-1build3                             amd64        utilities for making and checking MS-DOS FAT filesystems
+ii  dpkg                                 1.21.1ubuntu2.2                         amd64        Debian package management system
+ii  e2fsprogs                            1.46.5-2ubuntu1.1                       amd64        ext2/ext3/ext4 file system utilities
+ii  eatmydata                            130-2build1                             all          Library and utilities designed to disable fsync and friends
+ii  ec2-hibinit-agent                    1.0.0-0ubuntu11.22.04.2                 all          Amazon EC2 hibernation agent
+ii  ec2-instance-connect                 1.1.14-0ubuntu1.1                       all          Configures ssh daemon to accept EC2 Instance Connect ssh keys
+ii  ed                                   1.18-1                                  amd64        classic UNIX line editor
+ii  efibootmgr                           17-1ubuntu2                             amd64        Interact with the EFI Boot Manager
+ii  eject                                2.37.2-4ubuntu3                         amd64        ejects CDs and operates CD-Changers under Linux
+ii  emacsen-common                       3.0.4                                   all          Common facilities for all emacsen
+ii  enchant-2                            2.3.2-1ubuntu2                          amd64        Wrapper for various spell checker engines (binary programs)
+ii  ethtool                              1:5.16-1                                amd64        display or change Ethernet device settings
+ii  fdisk                                2.37.2-4ubuntu3                         amd64        collection of partitioning utilities
+ii  file                                 1:5.41-3                                amd64        Recognize the type of data in a file using "magic" numbers
+ii  finalrd                              9build1                                 all          final runtime directory for shutdown
+ii  findutils                            4.8.0-1ubuntu3                          amd64        utilities for finding files--find, xargs
+ii  fontconfig                           2.13.1-4.2ubuntu5                       amd64        generic font configuration library - support binaries
+ii  fontconfig-config                    2.13.1-4.2ubuntu5                       all          generic font configuration library - configuration
+ii  fonts-dejavu-core                    2.37-2build1                            all          Vera font family derivate with additional characters
+ii  fonts-ubuntu-console                 0.83-6ubuntu1                           all          console version of the Ubuntu Mono font
+ii  friendly-recovery                    0.2.42                                  all          Make recovery boot mode more user-friendly
+ii  ftp                                  20210827-4build1                        all          dummy transitional package for tnftp
+ii  fuse3                                3.10.5-1build1                          amd64        Filesystem in Userspace (3.x version)
+ii  fwupd-signed                         1.51.1~22.04.1+1.4-0ubuntu0.1           amd64        Linux Firmware Updater EFI signed binary
+ii  gawk                                 1:5.1.0-1build3                         amd64        GNU awk, a pattern scanning and processing language
+ii  gcc-12-base:amd64                    12.1.0-2ubuntu1~22.04                   amd64        GCC, the GNU Compiler Collection (base package)
+ii  gdisk                                1.0.8-4build1                           amd64        GPT fdisk text-mode partitioning tool
+ii  gettext-base                         0.21-4ubuntu4                           amd64        GNU Internationalization utilities for the base system
+ii  gir1.2-glib-2.0:amd64                1.72.0-1                                amd64        Introspection data for GLib, GObject, Gio and GModule
+ii  gir1.2-packagekitglib-1.0            1.2.5-2ubuntu2                          amd64        GObject introspection data for the PackageKit GLib library
+ii  git                                  1:2.34.1-1ubuntu1.9                     amd64        fast, scalable, distributed revision control system
+ii  git-man                              1:2.34.1-1ubuntu1.9                     all          fast, scalable, distributed revision control system (manual pages)
+ii  glib-networking:amd64                2.72.0-1                                amd64        network-related giomodules for GLib
+ii  glib-networking-common               2.72.0-1                                all          network-related giomodules for GLib - data files
+ii  glib-networking-services             2.72.0-1                                amd64        network-related giomodules for GLib - D-Bus services
+rc  gnome-chess                          1:41.1-1                                amd64        simple chess game
+ii  gnupg                                2.2.27-3ubuntu2.1                       all          GNU privacy guard - a free PGP replacement
+ii  gnupg-l10n                           2.2.27-3ubuntu2.1                       all          GNU privacy guard - localization files
+ii  gnupg-utils                          2.2.27-3ubuntu2.1                       amd64        GNU privacy guard - utility programs
+ii  gpg                                  2.2.27-3ubuntu2.1                       amd64        GNU Privacy Guard -- minimalist public key operations
+ii  gpg-agent                            2.2.27-3ubuntu2.1                       amd64        GNU privacy guard - cryptographic agent
+ii  gpg-wks-client                       2.2.27-3ubuntu2.1                       amd64        GNU privacy guard - Web Key Service client
+ii  gpg-wks-server                       2.2.27-3ubuntu2.1                       amd64        GNU privacy guard - Web Key Service server
+ii  gpgconf                              2.2.27-3ubuntu2.1                       amd64        GNU privacy guard - core configuration utilities
+ii  gpgsm                                2.2.27-3ubuntu2.1                       amd64        GNU privacy guard - S/MIME version
+ii  gpgv                                 2.2.27-3ubuntu2.1                       amd64        GNU privacy guard - signature verification tool
+ii  grep                                 3.7-1build1                             amd64        GNU grep, egrep and fgrep
+ii  groff-base                           1.22.4-8build1                          amd64        GNU troff text-formatting system (base system components)
+ii  grub-common                          2.06-2ubuntu7.2                         amd64        GRand Unified Bootloader (common files)
+ii  grub-efi-amd64-bin                   2.06-2ubuntu14.1                        amd64        GRand Unified Bootloader, version 2 (EFI-AMD64 modules)
+ii  grub-efi-amd64-signed                1.187.3~22.04.1+2.06-2ubuntu14.1        amd64        GRand Unified Bootloader, version 2 (EFI-AMD64 version, signed)
+ii  grub-gfxpayload-lists                0.7                                     amd64        GRUB gfxpayload blacklist
+ii  grub-pc                              2.06-2ubuntu7.2                         amd64        GRand Unified Bootloader, version 2 (PC/BIOS version)
+ii  grub-pc-bin                          2.06-2ubuntu7.2                         amd64        GRand Unified Bootloader, version 2 (PC/BIOS modules)
+ii  grub2-common                         2.06-2ubuntu7.2                         amd64        GRand Unified Bootloader (common files for version 2)
+ii  gsettings-desktop-schemas            42.0-1ubuntu1                           all          GSettings desktop-wide schemas
+ii  gstreamer1.0-gl:amd64                1.20.1-1                                amd64        GStreamer plugins for GL
+ii  gstreamer1.0-plugins-base:amd64      1.20.1-1                                amd64        GStreamer plugins from the "base" set
+ii  gnupg                                2.2.27-3ubuntu2.1                       all          GNU privacy guard - a free PGP replacement
+ii  gnupg-l10n                           2.2.27-3ubuntu2.1                       all          GNU privacy guard - localization files
+ii  gnupg-utils                          2.2.27-3ubuntu2.1                       amd64        GNU privacy guard - utility programs
+ii  gpg                                  2.2.27-3ubuntu2.1                       amd64        GNU Privacy Guard -- minimalist public key operations
+ii  gpg-agent                            2.2.27-3ubuntu2.1                       amd64        GNU privacy guard - cryptographic agent
+ii  gpg-wks-client                       2.2.27-3ubuntu2.1                       amd64        GNU privacy guard - Web Key Service client
+ii  gpg-wks-server                       2.2.27-3ubuntu2.1                       amd64        GNU privacy guard - Web Key Service server
+ii  gpgconf                              2.2.27-3ubuntu2.1                       amd64        GNU privacy guard - core configuration utilities
+ii  gpgsm                                2.2.27-3ubuntu2.1                       amd64        GNU privacy guard - S/MIME version
+ii  gpgv                                 2.2.27-3ubuntu2.1                       amd64        GNU privacy guard - signature verification tool
+ii  grep                                 3.7-1build1                             amd64        GNU grep, egrep and fgrep
+ii  groff-base                           1.22.4-8build1                          amd64        GNU troff text-formatting system (base system components)
+ii  grub-common                          2.06-2ubuntu7.2                         amd64        GRand Unified Bootloader (common files)
+ii  grub-efi-amd64-bin                   2.06-2ubuntu14.1                        amd64        GRand Unified Bootloader, version 2 (EFI-AMD64 modules)
+ii  grub-efi-amd64-signed                1.187.3~22.04.1+2.06-2ubuntu14.1        amd64        GRand Unified Bootloader, version 2 (EFI-AMD64 version, signed)
+ii  grub-gfxpayload-lists                0.7                                     amd64        GRUB gfxpayload blacklist
+ii  grub-pc                              2.06-2ubuntu7.2                         amd64        GRand Unified Bootloader, version 2 (PC/BIOS version)
+ii  grub-pc-bin                          2.06-2ubuntu7.2                         amd64        GRand Unified Bootloader, version 2 (PC/BIOS modules)
+ii  grub2-common                         2.06-2ubuntu7.2                         amd64        GRand Unified Bootloader (common files for version 2)
+ii  gsettings-desktop-schemas            42.0-1ubuntu1                           all          GSettings desktop-wide schemas
+ii  gstreamer1.0-gl:amd64                1.20.1-1                                amd64        GStreamer plugins for GL
+ii  gstreamer1.0-plugins-base:amd64      1.20.1-1                                amd64        GStreamer plugins from the "base" set
+ii  gstreamer1.0-plugins-good:amd64      1.20.3-0ubuntu1                         amd64        GStreamer plugins from the "good" set
+ii  gstreamer1.0-x:amd64                 1.20.1-1                                amd64        GStreamer plugins for X11 and Pango
+ii  gtk-update-icon-cache                3.24.33-1ubuntu2                        amd64        icon theme caching utility
+ii  gzip                                 1.10-4ubuntu4.1                         amd64        GNU compression utilities
+ii  hdparm                               9.60+ds-1build3                         amd64        tune hard disk parameters for high performance
+ii  hibagent                             1.0.1-0ubuntu2.22.04.1                  all          Agent that triggers hibernation on EC2 instances
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$            3.24.33-1ubuntu2                        amd64        icon theme caching utility
+ubuntu@ip-172-31-36-179:/tmp$            1.10-4ubuntu4.1                         amd64        GNU compression utilities
+ubuntu@ip-172-31-36-179:/tmp$            9.60+ds-1build3                         amd64        tune hard disk parameters for high performance
+ubuntu@ip-172-31-36-179:/tmp$            1.0.1-0ubuntu2.22.04.1                  all          Agent that triggers hibernation on EC2 instances
+ubuntu@ip-172-31-36-179:/tmp$            0.17-2                                  all          default fallback theme for FreeDesktop.org icon themes
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ 
+ubuntu@ip-172-31-36-179:/tmp$ apt-cache policy
+Package files:
+ 100 /var/lib/dpkg/status
+     release a=now
+ 500 http://security.ubuntu.com/ubuntu jammy-security/multiverse amd64 Packages
+     release v=22.04,o=Ubuntu,a=jammy-security,n=jammy,l=Ubuntu,c=multiverse,b=amd64
+     origin security.ubuntu.com
+ 500 http://security.ubuntu.com/ubuntu jammy-security/universe amd64 Packages
+     release v=22.04,o=Ubuntu,a=jammy-security,n=jammy,l=Ubuntu,c=universe,b=amd64
+     origin security.ubuntu.com
+ 500 http://security.ubuntu.com/ubuntu jammy-security/restricted amd64 Packages
+     release v=22.04,o=Ubuntu,a=jammy-security,n=jammy,l=Ubuntu,c=restricted,b=amd64
+     origin security.ubuntu.com
+ 500 http://security.ubuntu.com/ubuntu jammy-security/main amd64 Packages
+     release v=22.04,o=Ubuntu,a=jammy-security,n=jammy,l=Ubuntu,c=main,b=amd64
+     origin security.ubuntu.com
+ 100 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-backports/universe amd64 Packages
+     release v=22.04,o=Ubuntu,a=jammy-backports,n=jammy,l=Ubuntu,c=universe,b=amd64
+     origin eu-north-1.ec2.archive.ubuntu.com
+ 100 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-backports/main amd64 Packages
+     release v=22.04,o=Ubuntu,a=jammy-backports,n=jammy,l=Ubuntu,c=main,b=amd64
+     origin eu-north-1.ec2.archive.ubuntu.com
+ 500 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/multiverse amd64 Packages
+     release v=22.04,o=Ubuntu,a=jammy-updates,n=jammy,l=Ubuntu,c=multiverse,b=amd64
+     origin eu-north-1.ec2.archive.ubuntu.com
+ 500 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages
+     release v=22.04,o=Ubuntu,a=jammy-updates,n=jammy,l=Ubuntu,c=universe,b=amd64
+     origin eu-north-1.ec2.archive.ubuntu.com
+ 500 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/restricted amd64 Packages
+     release v=22.04,o=Ubuntu,a=jammy-updates,n=jammy,l=Ubuntu,c=restricted,b=amd64
+     origin eu-north-1.ec2.archive.ubuntu.com
+ 500 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages
+     release v=22.04,o=Ubuntu,a=jammy-updates,n=jammy,l=Ubuntu,c=main,b=amd64
+     origin eu-north-1.ec2.archive.ubuntu.com
+ 500 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy/multiverse amd64 Packages
+     release v=22.04,o=Ubuntu,a=jammy,n=jammy,l=Ubuntu,c=multiverse,b=amd64
+     origin eu-north-1.ec2.archive.ubuntu.com
+ 500 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy/universe amd64 Packages
+     release v=22.04,o=Ubuntu,a=jammy,n=jammy,l=Ubuntu,c=universe,b=amd64
+     origin eu-north-1.ec2.archive.ubuntu.com
+ 500 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy/restricted amd64 Packages
+     release v=22.04,o=Ubuntu,a=jammy,n=jammy,l=Ubuntu,c=restricted,b=amd64
+     origin eu-north-1.ec2.archive.ubuntu.com
+ 500 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy/main amd64 Packages
+     release v=22.04,o=Ubuntu,a=jammy,n=jammy,l=Ubuntu,c=main,b=amd64
+     origin eu-north-1.ec2.archive.ubuntu.com
+Pinned packages:
+ubuntu@ip-172-31-36-179:/tmp$ apt-get update
+Reading package lists... Done
+E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock directory /var/lib/apt/lists/
+W: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)
+W: Problem unlinking the file /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permission denied)
+ubuntu@ip-172-31-36-179:/tmp$ sudo apt-get update
+Hit:1 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy InRelease
+Get:2 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates InRelease [119 kB]
+Get:3 http://security.ubuntu.com/ubuntu jammy-security InRelease [110 kB]
+Get:4 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-backports InRelease [108 kB]
+Get:5 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/main amd64 c-n-f Metadata [15.4 kB]
+Get:6 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 c-n-f Metadata [20.9 kB]
+Fetched 373 kB in 1s (555 kB/s)                                            
+Reading package lists... Done
+ubuntu@ip-172-31-36-179:/tmp$ sudo apt-get upgrade
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Calculating upgrade... Done
+The following packages were automatically installed and are no longer required:
+  adwaita-icon-theme alsa-topology-conf alsa-ucm-conf aspell aspell-en at-spi2-core bubblewrap dconf-gsettings-backend dconf-service dictionaries-common docbook-xml
+  emacsen-common enchant-2 fontconfig fontconfig-config fonts-dejavu-core glib-networking glib-networking-common glib-networking-services gsettings-desktop-schemas
+  gstreamer1.0-gl gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-x gtk-update-icon-cache hicolor-icon-theme hoichess humanity-icon-theme hunspell-en-us
+  libaa1 libasound2 libasound2-data libaspell15 libasyncns0 libatk-bridge2.0-0 libatk1.0-0 libatk1.0-data libatomic1 libatspi2.0-0 libavahi-client3 libavahi-common-data
+  libavahi-common3 libavc1394-0 libcaca0 libcairo-gobject2 libcairo-script-interpreter2 libcairo2 libcanberra0 libcdparanoia0 libcolord2 libcups2 libdatrie1 libdconf1
+  libdeflate0 libdrm-amdgpu1 libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libdv4 libegl-mesa0 libegl1 libenchant-2-2 libepoxy0 libevdev2 libflac8 libfontconfig1 libgbm1
+  libgdk-pixbuf-2.0-0 libgdk-pixbuf2.0-bin libgdk-pixbuf2.0-common libgl1 libgl1-amber-dri libgl1-mesa-dri libglapi-mesa libglvnd0 libglx-mesa0 libglx0 libgraphene-1.0-0
+  libgraphite2-3 libgstreamer-gl1.0-0 libgstreamer-plugins-base1.0-0 libgstreamer-plugins-good1.0-0 libgtk-3-0 libgtk-3-bin libgtk-3-common libgtk-4-1 libgtk-4-bin
+  libgtk-4-common libhandy-1-0 libharfbuzz-icu0 libharfbuzz0b libhunspell-1.7-0 libhyphen0 libiec61883-0 libjack-jackd2-0 libjavascriptcoregtk-4.0-18 libjbig0
+  libjpeg-turbo8 libjpeg8 liblcms2-2 libllvm15 libltdl7 libmanette-0.2-0 libmp3lame0 libmpg123-0 libogg0 libopengl0 libopenjp2-7 libopus0 liborc-0.4-0 libpango-1.0-0
+  libpangocairo-1.0-0 libpangoft2-1.0-0 libpciaccess0 libpipewire-0.3-0 libpipewire-0.3-common libpipewire-0.3-modules libpixman-1-0 libproxy1v5 libpulse0 libraw1394-11
+  librsvg2-2 librsvg2-common libsamplerate0 libsecret-1-0 libsecret-common libsensors-config libsensors5 libshout3 libsndfile1 libsoup2.4-1 libsoup2.4-common
+  libspa-0.2-modules libspeex1 libtag1v5 libtag1v5-vanilla libtdb1 libthai-data libthai0 libtheora0 libtiff5 libtwolame0 libv4l-0 libv4lconvert0 libvisual-0.4-0
+  libvorbis0a libvorbisenc2 libvorbisfile3 libvpx7 libwavpack1 libwayland-client0 libwayland-cursor0 libwayland-egl1 libwayland-server0 libwebkit2gtk-4.0-37 libwebp7
+  libwebpdemux2 libwebrtc-audio-processing1 libwoff1 libx11-xcb1 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0 libxcb-present0 libxcb-render0 libxcb-shm0 libxcb-sync1
+  libxcb-xfixes0 libxcomposite1 libxcursor1 libxdamage1 libxfixes3 libxi6 libxinerama1 libxkbcommon0 libxrandr2 libxrender1 libxshmfence1 libxtst6 libxv1 libxxf86vm1
+  libyelp0 pipewire pipewire-bin pipewire-media-session rtkit session-migration sgml-base sgml-data sound-theme-freedesktop ubuntu-mono x11-common xdg-dbus-proxy
+  xdg-desktop-portal xdg-desktop-portal-gtk xml-core yelp yelp-xsl
+Use 'sudo apt autoremove' to remove them.
+The following packages have been kept back:
+  ec2-hibinit-agent libldap-2.5-0 libldap-common
+0 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
+ubuntu@ip-172-31-36-179:/tmp$ apt-get install tmux
+E: Could not open lock file /var/lib/dpkg/lock-frontend - open (13: Permission denied)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), are you root?
+ubuntu@ip-172-31-36-179:/tmp$ sudo apt-get install tmux
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+tmux is already the newest version (3.2a-4ubuntu0.2).
+tmux set to manually installed.
+The following packages were automatically installed and are no longer required:
+  adwaita-icon-theme alsa-topology-conf alsa-ucm-conf aspell aspell-en at-spi2-core bubblewrap dconf-gsettings-backend dconf-service dictionaries-common docbook-xml
+  emacsen-common enchant-2 fontconfig fontconfig-config fonts-dejavu-core glib-networking glib-networking-common glib-networking-services gsettings-desktop-schemas
+  gstreamer1.0-gl gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-x gtk-update-icon-cache hicolor-icon-theme hoichess humanity-icon-theme hunspell-en-us
+  libaa1 libasound2 libasound2-data libaspell15 libasyncns0 libatk-bridge2.0-0 libatk1.0-0 libatk1.0-data libatomic1 libatspi2.0-0 libavahi-client3 libavahi-common-data
+  libavahi-common3 libavc1394-0 libcaca0 libcairo-gobject2 libcairo-script-interpreter2 libcairo2 libcanberra0 libcdparanoia0 libcolord2 libcups2 libdatrie1 libdconf1
+  libdeflate0 libdrm-amdgpu1 libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libdv4 libegl-mesa0 libegl1 libenchant-2-2 libepoxy0 libevdev2 libflac8 libfontconfig1 libgbm1
+  libgdk-pixbuf-2.0-0 libgdk-pixbuf2.0-bin libgdk-pixbuf2.0-common libgl1 libgl1-amber-dri libgl1-mesa-dri libglapi-mesa libglvnd0 libglx-mesa0 libglx0 libgraphene-1.0-0
+  libgraphite2-3 libgstreamer-gl1.0-0 libgstreamer-plugins-base1.0-0 libgstreamer-plugins-good1.0-0 libgtk-3-0 libgtk-3-bin libgtk-3-common libgtk-4-1 libgtk-4-bin
+  libgtk-4-common libhandy-1-0 libharfbuzz-icu0 libharfbuzz0b libhunspell-1.7-0 libhyphen0 libiec61883-0 libjack-jackd2-0 libjavascriptcoregtk-4.0-18 libjbig0
+  libjpeg-turbo8 libjpeg8 liblcms2-2 libllvm15 libltdl7 libmanette-0.2-0 libmp3lame0 libmpg123-0 libogg0 libopengl0 libopenjp2-7 libopus0 liborc-0.4-0 libpango-1.0-0
+  libpangocairo-1.0-0 libpangoft2-1.0-0 libpciaccess0 libpipewire-0.3-0 libpipewire-0.3-common libpipewire-0.3-modules libpixman-1-0 libproxy1v5 libpulse0 libraw1394-11
+  librsvg2-2 librsvg2-common libsamplerate0 libsecret-1-0 libsecret-common libsensors-config libsensors5 libshout3 libsndfile1 libsoup2.4-1 libsoup2.4-common
+  libspa-0.2-modules libspeex1 libtag1v5 libtag1v5-vanilla libtdb1 libthai-data libthai0 libtheora0 libtiff5 libtwolame0 libv4l-0 libv4lconvert0 libvisual-0.4-0
+  libvorbis0a libvorbisenc2 libvorbisfile3 libvpx7 libwavpack1 libwayland-client0 libwayland-cursor0 libwayland-egl1 libwayland-server0 libwebkit2gtk-4.0-37 libwebp7
+  libwebpdemux2 libwebrtc-audio-processing1 libwoff1 libx11-xcb1 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0 libxcb-present0 libxcb-render0 libxcb-shm0 libxcb-sync1
+  libxcb-xfixes0 libxcomposite1 libxcursor1 libxdamage1 libxfixes3 libxi6 libxinerama1 libxkbcommon0 libxrandr2 libxrender1 libxshmfence1 libxtst6 libxv1 libxxf86vm1
+  libyelp0 pipewire pipewire-bin pipewire-media-session rtkit session-migration sgml-base sgml-data sound-theme-freedesktop ubuntu-mono x11-common xdg-dbus-proxy
+  xdg-desktop-portal xdg-desktop-portal-gtk xml-core yelp yelp-xsl
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
+ubuntu@ip-172-31-36-179:/tmp$ apt-cache show vim
+Package: vim
+Architecture: amd64
+Version: 2:8.2.3995-1ubuntu2.9
+Priority: optional
+Section: editors
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3923
+Provides: editor
+Depends: vim-common (= 2:8.2.3995-1ubuntu2.9), vim-runtime (= 2:8.2.3995-1ubuntu2.9), libacl1 (>= 2.2.23), libc6 (>= 2.34), libgpm2 (>= 1.20.7), libpython3.10 (>= 3.10.0), libselinux1 (>= 3.1~), libsodium23 (>= 1.0.14), libtinfo6 (>= 6)
+Suggests: ctags, vim-doc, vim-scripts
+Filename: pool/main/v/vim/vim_8.2.3995-1ubuntu2.9_amd64.deb
+Size: 1731886
+MD5sum: 1e8204ad3c7e309c8895795b8a2e872b
+SHA1: 27b3d9ceec8f71aac55ac74fe282714fc9dfef70
+SHA256: 7a2ee69708e1e6c1af563ecbfb98f3552e94dc785af7be7cba3ab703a78c9b1e
+SHA512: 56d146e55c1e3a20bf9213570772ad58ede443a7f3500be6e295ce75f16776c0d0cf63c72d72003027297db5336d9fbda7dbdddb6f907ee311846cbe7c3a68e3
+Homepage: https://www.vim.org/
+Description-en: Vi IMproved - enhanced vi editor
+ Vim is an almost compatible version of the UNIX editor Vi.
+ .
+ Many new features have been added: multi level undo, syntax
+ highlighting, command line history, on-line help, filename
+ completion, block operations, folding, Unicode support, etc.
+ .
+ This package contains a version of vim compiled with a rather
+ standard set of features.  This package does not provide a GUI
+ version of Vim.  See the other vim-* packages if you need more
+ (or less).
+Description-md5: 59e8b8f7757db8b53566d5d119872de8
+Task: cloud-image, ubuntu-wsl, server, ubuntu-server-raspi, lubuntu-desktop
+
+Package: vim
+Architecture: amd64
+Version: 2:8.2.3995-1ubuntu2
+Priority: optional
+Section: editors
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Vim Maintainers <team+vim@tracker.debian.org>
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 3916
+Provides: editor
+Depends: vim-common (= 2:8.2.3995-1ubuntu2), vim-runtime (= 2:8.2.3995-1ubuntu2), libacl1 (>= 2.2.23), libc6 (>= 2.34), libgpm2 (>= 1.20.7), libpython3.10 (>= 3.10.0), libselinux1 (>= 3.1~), libsodium23 (>= 1.0.14), libtinfo6 (>= 6)
+Suggests: ctags, vim-doc, vim-scripts
+Filename: pool/main/v/vim/vim_8.2.3995-1ubuntu2_amd64.deb
+Size: 1723566
+MD5sum: 3b0145d5f4ab60dde45b0b02259c6d5d
+SHA1: a5cb8feca431a2ce584bcd6f1ebf0f8e6b40c163
+SHA256: 13684fabc8fd8765cf55e03cbf2558392a3682be4d0929e71c3ad5adfc14643d
+SHA512: 1eccbe94bec70eab284fb35276fe61b2e13b43a23f9a80ab3caa945986e23c0d4776aef5b28bab177cfba1f6f493b73a0be4014a5255f388ee17b697bb73a48b
+Homepage: https://www.vim.org/
+Description-en: Vi IMproved - enhanced vi editor
+ Vim is an almost compatible version of the UNIX editor Vi.
+ .
+ Many new features have been added: multi level undo, syntax
+ highlighting, command line history, on-line help, filename
+ completion, block operations, folding, Unicode support, etc.
+ .
+ This package contains a version of vim compiled with a rather
+ standard set of features.  This package does not provide a GUI
+ version of Vim.  See the other vim-* packages if you need more
+ (or less).
+Description-md5: 59e8b8f7757db8b53566d5d119872de8
+Task: cloud-image, ubuntu-wsl, server, ubuntu-server-raspi, lubuntu-desktop
+
+ubuntu@ip-172-31-36-179:/tmp$ sudo apt-get install cowsay
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  adwaita-icon-theme alsa-topology-conf alsa-ucm-conf aspell aspell-en at-spi2-core bubblewrap dconf-gsettings-backend dconf-service dictionaries-common docbook-xml
+  emacsen-common enchant-2 fontconfig fontconfig-config fonts-dejavu-core glib-networking glib-networking-common glib-networking-services gsettings-desktop-schemas
+  gstreamer1.0-gl gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-x gtk-update-icon-cache hicolor-icon-theme hoichess humanity-icon-theme hunspell-en-us
+  libaa1 libasound2 libasound2-data libaspell15 libasyncns0 libatk-bridge2.0-0 libatk1.0-0 libatk1.0-data libatomic1 libatspi2.0-0 libavahi-client3 libavahi-common-data
+  libavahi-common3 libavc1394-0 libcaca0 libcairo-gobject2 libcairo-script-interpreter2 libcairo2 libcanberra0 libcdparanoia0 libcolord2 libcups2 libdatrie1 libdconf1
+  libdeflate0 libdrm-amdgpu1 libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libdv4 libegl-mesa0 libegl1 libenchant-2-2 libepoxy0 libevdev2 libflac8 libfontconfig1 libgbm1
+  libgdk-pixbuf-2.0-0 libgdk-pixbuf2.0-bin libgdk-pixbuf2.0-common libgl1 libgl1-amber-dri libgl1-mesa-dri libglapi-mesa libglvnd0 libglx-mesa0 libglx0 libgraphene-1.0-0
+  libgraphite2-3 libgstreamer-gl1.0-0 libgstreamer-plugins-base1.0-0 libgstreamer-plugins-good1.0-0 libgtk-3-0 libgtk-3-bin libgtk-3-common libgtk-4-1 libgtk-4-bin
+  libgtk-4-common libhandy-1-0 libharfbuzz-icu0 libharfbuzz0b libhunspell-1.7-0 libhyphen0 libiec61883-0 libjack-jackd2-0 libjavascriptcoregtk-4.0-18 libjbig0
+  libjpeg-turbo8 libjpeg8 liblcms2-2 libllvm15 libltdl7 libmanette-0.2-0 libmp3lame0 libmpg123-0 libogg0 libopengl0 libopenjp2-7 libopus0 liborc-0.4-0 libpango-1.0-0
+  libpangocairo-1.0-0 libpangoft2-1.0-0 libpciaccess0 libpipewire-0.3-0 libpipewire-0.3-common libpipewire-0.3-modules libpixman-1-0 libproxy1v5 libpulse0 libraw1394-11
+  librsvg2-2 librsvg2-common libsamplerate0 libsecret-1-0 libsecret-common libsensors-config libsensors5 libshout3 libsndfile1 libsoup2.4-1 libsoup2.4-common
+  libspa-0.2-modules libspeex1 libtag1v5 libtag1v5-vanilla libtdb1 libthai-data libthai0 libtheora0 libtiff5 libtwolame0 libv4l-0 libv4lconvert0 libvisual-0.4-0
+  libvorbis0a libvorbisenc2 libvorbisfile3 libvpx7 libwavpack1 libwayland-client0 libwayland-cursor0 libwayland-egl1 libwayland-server0 libwebkit2gtk-4.0-37 libwebp7
+  libwebpdemux2 libwebrtc-audio-processing1 libwoff1 libx11-xcb1 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0 libxcb-present0 libxcb-render0 libxcb-shm0 libxcb-sync1
+  libxcb-xfixes0 libxcomposite1 libxcursor1 libxdamage1 libxfixes3 libxi6 libxinerama1 libxkbcommon0 libxrandr2 libxrender1 libxshmfence1 libxtst6 libxv1 libxxf86vm1
+  libyelp0 pipewire pipewire-bin pipewire-media-session rtkit session-migration sgml-base sgml-data sound-theme-freedesktop ubuntu-mono x11-common xdg-dbus-proxy
+  xdg-desktop-portal xdg-desktop-portal-gtk xml-core yelp yelp-xsl
+Use 'sudo apt autoremove' to remove them.
+Suggested packages:
+  filters cowsay-off
+The following NEW packages will be installed:
+  cowsay
+0 upgraded, 1 newly installed, 0 to remove and 3 not upgraded.
+Need to get 18.6 kB of archives.
+After this operation, 93.2 kB of additional disk space will be used.
+Get:1 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy/universe amd64 cowsay all 3.03+dfsg2-8 [18.6 kB]
+Fetched 18.6 kB in 0s (120 kB/s)  
+Selecting previously unselected package cowsay.
+(Reading database ... 141237 files and directories currently installed.)
+Preparing to unpack .../cowsay_3.03+dfsg2-8_all.deb ...
+Unpacking cowsay (3.03+dfsg2-8) ...
+Setting up cowsay (3.03+dfsg2-8) ...
+Processing triggers for man-db (2.10.2-1) ...
+Scanning processes...                                                                                                                                                       
+Scanning linux images...                                                                                                                                                    
+
+Running kernel seems to be up-to-date.
+
+No services need to be restarted.
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+ubuntu@ip-172-31-36-179:/tmp$ sudo apt-get remove cowsay
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following packages were automatically installed and are no longer required:
+  adwaita-icon-theme alsa-topology-conf alsa-ucm-conf aspell aspell-en at-spi2-core bubblewrap dconf-gsettings-backend dconf-service dictionaries-common docbook-xml
+  emacsen-common enchant-2 fontconfig fontconfig-config fonts-dejavu-core glib-networking glib-networking-common glib-networking-services gsettings-desktop-schemas
+  gstreamer1.0-gl gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-x gtk-update-icon-cache hicolor-icon-theme hoichess humanity-icon-theme hunspell-en-us
+  libaa1 libasound2 libasound2-data libaspell15 libasyncns0 libatk-bridge2.0-0 libatk1.0-0 libatk1.0-data libatomic1 libatspi2.0-0 libavahi-client3 libavahi-common-data
+  libavahi-common3 libavc1394-0 libcaca0 libcairo-gobject2 libcairo-script-interpreter2 libcairo2 libcanberra0 libcdparanoia0 libcolord2 libcups2 libdatrie1 libdconf1
+  libdeflate0 libdrm-amdgpu1 libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libdv4 libegl-mesa0 libegl1 libenchant-2-2 libepoxy0 libevdev2 libflac8 libfontconfig1 libgbm1
+  libgdk-pixbuf-2.0-0 libgdk-pixbuf2.0-bin libgdk-pixbuf2.0-common libgl1 libgl1-amber-dri libgl1-mesa-dri libglapi-mesa libglvnd0 libglx-mesa0 libglx0 libgraphene-1.0-0
+  libgraphite2-3 libgstreamer-gl1.0-0 libgstreamer-plugins-base1.0-0 libgstreamer-plugins-good1.0-0 libgtk-3-0 libgtk-3-bin libgtk-3-common libgtk-4-1 libgtk-4-bin
+  libgtk-4-common libhandy-1-0 libharfbuzz-icu0 libharfbuzz0b libhunspell-1.7-0 libhyphen0 libiec61883-0 libjack-jackd2-0 libjavascriptcoregtk-4.0-18 libjbig0
+  libjpeg-turbo8 libjpeg8 liblcms2-2 libllvm15 libltdl7 libmanette-0.2-0 libmp3lame0 libmpg123-0 libogg0 libopengl0 libopenjp2-7 libopus0 liborc-0.4-0 libpango-1.0-0
+  libpangocairo-1.0-0 libpangoft2-1.0-0 libpciaccess0 libpipewire-0.3-0 libpipewire-0.3-common libpipewire-0.3-modules libpixman-1-0 libproxy1v5 libpulse0 libraw1394-11
+  librsvg2-2 librsvg2-common libsamplerate0 libsecret-1-0 libsecret-common libsensors-config libsensors5 libshout3 libsndfile1 libsoup2.4-1 libsoup2.4-common
+  libspa-0.2-modules libspeex1 libtag1v5 libtag1v5-vanilla libtdb1 libthai-data libthai0 libtheora0 libtiff5 libtwolame0 libv4l-0 libv4lconvert0 libvisual-0.4-0
+  libvorbis0a libvorbisenc2 libvorbisfile3 libvpx7 libwavpack1 libwayland-client0 libwayland-cursor0 libwayland-egl1 libwayland-server0 libwebkit2gtk-4.0-37 libwebp7
+  libwebpdemux2 libwebrtc-audio-processing1 libwoff1 libx11-xcb1 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0 libxcb-present0 libxcb-render0 libxcb-shm0 libxcb-sync1
+  libxcb-xfixes0 libxcomposite1 libxcursor1 libxdamage1 libxfixes3 libxi6 libxinerama1 libxkbcommon0 libxrandr2 libxrender1 libxshmfence1 libxtst6 libxv1 libxxf86vm1
+  libyelp0 pipewire pipewire-bin pipewire-media-session rtkit session-migration sgml-base sgml-data sound-theme-freedesktop ubuntu-mono x11-common xdg-dbus-proxy
+  xdg-desktop-portal xdg-desktop-portal-gtk xml-core yelp yelp-xsl
+Use 'sudo apt autoremove' to remove them.
+The following packages will be REMOVED:
+  cowsay
+0 upgraded, 0 newly installed, 1 to remove and 3 not upgraded.
+After this operation, 93.2 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+(Reading database ... 141296 files and directories currently installed.)
+Removing cowsay (3.03+dfsg2-8) ...
+Processing triggers for man-db (2.10.2-1) ...
+ubuntu@ip-172-31-36-179:/tmp$ apt-get update
+Reading package lists... Done
+E: Could not open lock file /var/lib/apt/lists/lock - open (13: Permission denied)
+E: Unable to lock directory /var/lib/apt/lists/
+W: Problem unlinking the file /var/cache/apt/pkgcache.bin - RemoveCaches (13: Permission denied)
+W: Problem unlinking the file /var/cache/apt/srcpkgcache.bin - RemoveCaches (13: Permission denied)
+ubuntu@ip-172-31-36-179:/tmp$ sudp apt-get update
+Command 'sudp' not found, did you mean:
+  command 'ssdp' from snap ssdp (0.0.1)
+  command 'sfdp' from deb graphviz (2.42.2-6)
+  command 'sup' from deb sup (20100519-3)
+  command 'sudo' from deb sudo (1.9.9-1ubuntu2.4)
+  command 'sudo' from deb sudo-ldap (1.9.9-1ubuntu2.4)
+See 'snap info <snapname>' for additional versions.
+ubuntu@ip-172-31-36-179:/tmp$ sudo apt-get update
+Hit:1 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy InRelease
+Hit:2 http://security.ubuntu.com/ubuntu jammy-security InRelease
+Hit:3 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-updates InRelease
+Get:4 http://eu-north-1.ec2.archive.ubuntu.com/ubuntu jammy-backports InRelease [108 kB]
+Fetched 108 kB in 1s (196 kB/s)    
+Reading package lists... Done
+ubuntu@ip-172-31-36-179:/tmp$ sudo apt-get upgrade
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+Calculating upgrade... Done
+The following packages were automatically installed and are no longer required:
+  adwaita-icon-theme alsa-topology-conf alsa-ucm-conf aspell aspell-en at-spi2-core bubblewrap dconf-gsettings-backend dconf-service dictionaries-common docbook-xml
+  emacsen-common enchant-2 fontconfig fontconfig-config fonts-dejavu-core glib-networking glib-networking-common glib-networking-services gsettings-desktop-schemas
+  gstreamer1.0-gl gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-x gtk-update-icon-cache hicolor-icon-theme hoichess humanity-icon-theme hunspell-en-us
+  libaa1 libasound2 libasound2-data libaspell15 libasyncns0 libatk-bridge2.0-0 libatk1.0-0 libatk1.0-data libatomic1 libatspi2.0-0 libavahi-client3 libavahi-common-data
+  libavahi-common3 libavc1394-0 libcaca0 libcairo-gobject2 libcairo-script-interpreter2 libcairo2 libcanberra0 libcdparanoia0 libcolord2 libcups2 libdatrie1 libdconf1
+  libdeflate0 libdrm-amdgpu1 libdrm-intel1 libdrm-nouveau2 libdrm-radeon1 libdv4 libegl-mesa0 libegl1 libenchant-2-2 libepoxy0 libevdev2 libflac8 libfontconfig1 libgbm1
+  libgdk-pixbuf-2.0-0 libgdk-pixbuf2.0-bin libgdk-pixbuf2.0-common libgl1 libgl1-amber-dri libgl1-mesa-dri libglapi-mesa libglvnd0 libglx-mesa0 libglx0 libgraphene-1.0-0
+  libgraphite2-3 libgstreamer-gl1.0-0 libgstreamer-plugins-base1.0-0 libgstreamer-plugins-good1.0-0 libgtk-3-0 libgtk-3-bin libgtk-3-common libgtk-4-1 libgtk-4-bin
+  libgtk-4-common libhandy-1-0 libharfbuzz-icu0 libharfbuzz0b libhunspell-1.7-0 libhyphen0 libiec61883-0 libjack-jackd2-0 libjavascriptcoregtk-4.0-18 libjbig0
+  libjpeg-turbo8 libjpeg8 liblcms2-2 libllvm15 libltdl7 libmanette-0.2-0 libmp3lame0 libmpg123-0 libogg0 libopengl0 libopenjp2-7 libopus0 liborc-0.4-0 libpango-1.0-0
+  libpangocairo-1.0-0 libpangoft2-1.0-0 libpciaccess0 libpipewire-0.3-0 libpipewire-0.3-common libpipewire-0.3-modules libpixman-1-0 libproxy1v5 libpulse0 libraw1394-11
+  librsvg2-2 librsvg2-common libsamplerate0 libsecret-1-0 libsecret-common libsensors-config libsensors5 libshout3 libsndfile1 libsoup2.4-1 libsoup2.4-common
+  libspa-0.2-modules libspeex1 libtag1v5 libtag1v5-vanilla libtdb1 libthai-data libthai0 libtheora0 libtiff5 libtwolame0 libv4l-0 libv4lconvert0 libvisual-0.4-0
+  libvorbis0a libvorbisenc2 libvorbisfile3 libvpx7 libwavpack1 libwayland-client0 libwayland-cursor0 libwayland-egl1 libwayland-server0 libwebkit2gtk-4.0-37 libwebp7
+  libwebpdemux2 libwebrtc-audio-processing1 libwoff1 libx11-xcb1 libxcb-dri2-0 libxcb-dri3-0 libxcb-glx0 libxcb-present0 libxcb-render0 libxcb-shm0 libxcb-sync1
+  libxcb-xfixes0 libxcomposite1 libxcursor1 libxdamage1 libxfixes3 libxi6 libxinerama1 libxkbcommon0 libxrandr2 libxrender1 libxshmfence1 libxtst6 libxv1 libxxf86vm1
+  libyelp0 pipewire pipewire-bin pipewire-media-session rtkit session-migration sgml-base sgml-data sound-theme-freedesktop ubuntu-mono x11-common xdg-dbus-proxy
+  xdg-desktop-portal xdg-desktop-portal-gtk xml-core yelp yelp-xsl
+Use 'sudo apt autoremove' to remove them.
+The following packages have been kept back:
+  ec2-hibinit-agent libldap-2.5-0 libldap-common
+0 upgraded, 0 newly installed, 0 to remove and 3 not upgraded.
+ubuntu@ip-172-31-36-179:/tmp$ tmux
+[exited]
+ubuntu@ip-172-31-36-179:/tmp$ 

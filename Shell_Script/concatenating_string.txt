@@ -1,0 +1,37 @@
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+Add_Array.sh  F1.txt   addition.sh           cores.sh               firt_array.sh         multiplication.sh  sorted.sh             variable.sh
+Arguments.sh  F2.txt   cal.sh                creative_arguments.sh  hello.sh              multiplication.sj  special_arguments.sh
+Del_Array.sh  File.sh  constant_variable.sh  first_array.sh         multiple_argument.sh  reverse_array.sh   upper.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ touch concatenating_string.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ vim concatenating_string.sh 
+ubuntu@ip-172-31-37-87:~/linux_script$ ./concatenating_string.sh
+-bash: ./concatenating_string.sh: Permission denied
+ubuntu@ip-172-31-37-87:~/linux_script$ chmod 777 concatenating_string.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./concatenating_string.sh
+./concatenating_string.sh: line 3: MR: command not found
+./concatenating_string.sh: line 4:  Test: command not found
+
+ubuntu@ip-172-31-37-87:~/linux_script$ 
+ubuntu@ip-172-31-37-87:~/linux_script$ vim concatenating_string.sh 
+ubuntu@ip-172-31-37-87:~/linux_script$ ./concatenating_string.sh
+MRTest
+ubuntu@ip-172-31-37-87:~/linux_script$ str1="Hello"
+ubuntu@ip-172-31-37-87:~/linux_script$ str2="Test"
+ubuntu@ip-172-31-37-87:~/linux_script$ echo $str1$str2
+HelloTest
+ubuntu@ip-172-31-37-87:~/linux_script$ str3="Pune"
+ubuntu@ip-172-31-37-87:~/linux_script$ echo $str1 $str2 $str3
+Hello Test Pune
+ubuntu@ip-172-31-37-87:~/linux_script$ cat concatenating_string.sh 
+#!/bin/bash
+
+str1="MR"
+str2="Test"
+
+str3=$str1$str2
+
+echo $str3
+
+
+ubuntu@ip-172-31-37-87:~/linux_script$ ^C
+ubuntu@ip-172-31-37-87:~/linux_script$ 

@@ -1,0 +1,35 @@
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+Add_Array.sh  F2.txt       case_statement.sh        creative_arguments.sh  for_loops.sh          multiplication.sh  root.sh               until_loop.sh
+Arguments.sh  File.sh      concatenating_string.sh  else_if.sh             hello.sh              multiplication.sj  sorted.sh             upper.sh
+Del_Array.sh  addition.sh  constant_variable.sh     first_array.sh         if_else.sh            nested_if.sh       special_arguments.sh  variable.sh
+F1.txt        cal.sh       cores.sh                 firt_array.sh          multiple_argument.sh  reverse_array.sh   test_conditions.sh    while_loop.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ vim prime.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ chmod 777 prime.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./prime.sh
+./prime.sh: line 6: syntax error near unexpected token `echo'
+./prime.sh: line 6: `   echo $i'
+ubuntu@ip-172-31-37-87:~/linux_script$ vim prime.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./prime
+-bash: ./prime: No such file or directory
+ubuntu@ip-172-31-37-87:~/linux_script$ ./prime.sh 
+2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+ubuntu@ip-172-31-37-87:~/linux_script$ cat prime.sh
+#!/bin/bash
+
+prime=(2 3 5 7 11 13 17 19 23 29)
+
+
+for i in "${prime[@]}"; do
+        echo $i
+
+done
+ubuntu@ip-172-31-37-87:~/linux_script$ 

@@ -1,0 +1,38 @@
+ubuntu@ip-172-31-37-87:~$ date;cal
+Tue Sep 26 16:31:08 UTC 2023
+Command 'cal' not found, but can be installed with:
+sudo apt install ncal
+ubuntu@ip-172-31-37-87:~$ cal
+Command 'cal' not found, but can be installed with:
+sudo apt install ncal
+ubuntu@ip-172-31-37-87:~$ calculater
+calculater: command not found
+ubuntu@ip-172-31-37-87:~$ sudo apt install cal
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+E: Unable to locate package cal
+ubuntu@ip-172-31-37-87:~$ date;ls
+Tue Sep 26 16:32:05 UTC 2023
+linux_practise  remoting  remoting.jar  workspace
+ubuntu@ip-172-31-37-87:~$ date;ls;ls-l;cd linux_practise
+Tue Sep 26 16:32:41 UTC 2023
+linux_practise  remoting  remoting.jar  workspace
+ls-l: command not found
+ubuntu@ip-172-31-37-87:~/linux_practise$ call
+Command 'call' not found, did you mean:
+  command 'pall' from snap pall (3.0.1)
+  command 'cal' from deb ncal (12.1.7+nmu3ubuntu2)
+  command 'wall' from deb bsdutils (1:2.37.2-4ubuntu3)
+  command 'calc' from deb calc (2.12.7.2-4)
+See 'snap info <snapname>' for additional versions.
+ubuntu@ip-172-31-37-87:~/linux_practise$ cal
+Command 'cal' not found, but can be installed with:
+sudo apt install ncal
+ubuntu@ip-172-31-37-87:~/linux_practise$ date&&mkdir dir1&&touch fil2 &&vim fil2&&exit
+Tue Sep 26 16:49:17 UTC 2023
+
+[1]+  Stopped                 vim fil2
+ubuntu@ip-172-31-37-87:~/linux_practise$ ls
+dir1  fil2  file1  test  thousand
+ubuntu@ip-172-31-37-87:~/linux_practise$

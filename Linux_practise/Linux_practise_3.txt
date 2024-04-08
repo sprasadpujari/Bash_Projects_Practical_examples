@@ -1,0 +1,41 @@
+login as: renapp
+renapp@10.13.168.69's password:
+Last login: Thu Jul 13 00:35:48 2023 from 10.13.172.27
+[renapp@INPU2-REN-DEV1O ~]$ cat test
+Hello Test
+Testone
+[renapp@INPU2-REN-DEV1O ~]$ cat >>first
+test
+[renapp@INPU2-REN-DEV1O ~]$ cat first
+test
+[renapp@INPU2-REN-DEV1O ~]$ clear
+[renapp@INPU2-REN-DEV1O ~]$ cd /
+[renapp@INPU2-REN-DEV1O /]$ ls
+app  boot  etc   lib    media  opt   root  sbin  sys  usr
+bin  dev   home  lib64  mnt    proc  run   srv   tmp  var
+[renapp@INPU2-REN-DEV1O /]$ cd ~
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  first  lib.tgz  mysql  oradiag_renapp  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ cat abc
+cat: abc: Is a directory
+[renapp@INPU2-REN-DEV1O ~]$ pwd
+/home/renapp
+[renapp@INPU2-REN-DEV1O ~]$ cat test
+Hello Test
+Testone
+[renapp@INPU2-REN-DEV1O ~]$ rm first
+[renapp@INPU2-REN-DEV1O ~]$ touch test
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  lib.tgz  mysql  oradiag_renapp  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ touch first second
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  first  lib.tgz  mysql  oradiag_renapp  second  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  first  lib.tgz  mysql  oradiag_renapp  second  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  first  lib.tgz  mysql  oradiag_renapp  second  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ rm first second
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  lib.tgz  mysql  oradiag_renapp  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ clear

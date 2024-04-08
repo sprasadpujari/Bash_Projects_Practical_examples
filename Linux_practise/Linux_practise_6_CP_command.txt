@@ -1,0 +1,51 @@
+login as: renapp
+renapp@10.13.168.69's password:
+Last login: Thu Jul 13 23:13:07 2023 from 10.13.172.27
+[renapp@INPU2-REN-DEV1O ~]$ clear
+[renapp@INPU2-REN-DEV1O ~]$ cat >file1
+Test copy command [renapp@INPU2-REN-DEV1O ~]$ ls
+abc  file1  lib.tgz  mysql  oradiag_renapp  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ cat file
+cat: file: No such file or directory
+[renapp@INPU2-REN-DEV1O ~]$ cat file1
+Test copy command [renapp@INPU2-REN-DEV1O ~]$ ls
+abc  file1  lib.tgz  mysql  oradiag_renapp  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ cat file1
+Test copy command [renapp@INPU2-REN-DEV1O ~]$ cp file1 file2
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  file1  file2  lib.tgz  mysql  oradiag_renapp  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ cat file2
+Test copy command [renapp@INPU2-REN-DEV1O ~]$ cp file1 file2
+[renapp@INPU2-REN-DEV1O ~]$ cat file2
+Test copy command in linux[renapp@INPU2-REN-DEV1O ~]$ mkdir dir1
+[renapp@INPU2-REN-DEV1O ~]$ cp file1 file2 dir1
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  dir1  file1  file2  lib.tgz  mysql  oradiag_renapp  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ cd dir1
+[renapp@INPU2-REN-DEV1O dir1]$ ls
+file1  file2
+[renapp@INPU2-REN-DEV1O dir1]$ cat file2
+Test copy command in linux[renapp@INPU2-REN-DEV1O dir1]$ mkdir dir2
+[renapp@INPU2-REN-DEV1O dir1]$ cp dir1 dir2
+cp: cannot stat ‘dir1’: No such file or directory
+[renapp@INPU2-REN-DEV1O dir1]$ rm dir2
+rm: cannot remove ‘dir2’: Is a directory
+[renapp@INPU2-REN-DEV1O dir1]$ rmdir dir2
+[renapp@INPU2-REN-DEV1O dir1]$ ls
+file1  file2
+[renapp@INPU2-REN-DEV1O dir1]$ cd ~
+[renapp@INPU2-REN-DEV1O ~]$ mkdir dir2
+[renapp@INPU2-REN-DEV1O ~]$ cp dir1 dir2
+cp: omitting directory ‘dir1’
+[renapp@INPU2-REN-DEV1O ~]$ cp -R dir1 dir2
+[renapp@INPU2-REN-DEV1O ~]$ cat dir2
+cat: dir2: Is a directory
+[renapp@INPU2-REN-DEV1O ~]$ cp file1 file2 dir1
+[renapp@INPU2-REN-DEV1O ~]$ cp -i file1 file2
+cp: overwrite ‘file2’? y
+[renapp@INPU2-REN-DEV1O ~]$ cp -v dir1 dir2
+cp: omitting directory ‘dir1’
+[renapp@INPU2-REN-DEV1O ~]$ cp -Rv dir1 dir2
+‘dir1/file1’ -> ‘dir2/dir1/file1’
+‘dir1/file2’ -> ‘dir2/dir1/file2’
+

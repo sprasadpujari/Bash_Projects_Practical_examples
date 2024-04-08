@@ -1,0 +1,42 @@
+ubuntu@ip-172-31-37-87:~/linux_practise$ ls
+file1  test  thousand
+ubuntu@ip-172-31-37-87:~/linux_practise$ vim test
+ubuntu@ip-172-31-37-87:~/linux_practise$ ls
+file1  test  thousand
+ubuntu@ip-172-31-37-87:~/linux_practise$ wc test
+ 1 14 76 test
+ubuntu@ip-172-31-37-87:~/linux_practise$ vim test
+ubuntu@ip-172-31-37-87:~/linux_practise$ echo "Line number ,,word number,,byte/character numbers
+> ;
+> done
+> "
+Line number ,,word number,,byte/character numbers
+;
+done
+
+ubuntu@ip-172-31-37-87:~/linux_practise$ echo "Line number ,,word number,,byte/character numbers"
+Line number ,,word number,,byte/character numbers
+ubuntu@ip-172-31-37-87:~/linux_practise$ ls -l test
+-rw-rw-r-- 1 ubuntu ubuntu 76 Sep 26 13:11 test
+ubuntu@ip-172-31-37-87:~/linux_practise$ echo "wc test - 76 ..ls-l test-76 is match"
+wc test - 76 ..ls-l test-76 is match
+ubuntu@ip-172-31-37-87:~/linux_practise$ wc thousand
+1000 1000 3893 thousand
+ubuntu@ip-172-31-37-87:~/linux_practise$ ls -l thousand
+-rw-rw-r-- 1 ubuntu ubuntu 3893 Sep 26 12:54 thousand
+ubuntu@ip-172-31-37-87:~/linux_practise$ wc -l thousand
+1000 thousand
+ubuntu@ip-172-31-37-87:~/linux_practise$ wc -w thousand 
+1000 thousand
+ubuntu@ip-172-31-37-87:~/linux_practise$ echo "wc -l --l stand for line number,w stand for word count"
+wc -l --l stand for line number,w stand for word count
+ubuntu@ip-172-31-37-87:~/linux_practise$ wc -c thousand
+3893 thousand
+ubuntu@ip-172-31-37-87:~/linux_practise$ wc -f thousand
+wc: invalid option -- 'f'
+Try 'wc --help' for more information.
+ubuntu@ip-172-31-37-87:~/linux_practise$ wc -L thousand
+4 thousand
+ubuntu@ip-172-31-37-87:~/linux_practise$ echo "wc -c c stand for character,,,L stand for longest file"
+wc -c c stand for character,,,L stand for longest file
+ubuntu@ip-172-31-37-87:~/linux_practise$ 

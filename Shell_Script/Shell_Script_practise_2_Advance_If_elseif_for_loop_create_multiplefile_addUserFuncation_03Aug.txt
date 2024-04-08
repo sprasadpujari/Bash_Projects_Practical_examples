@@ -1,0 +1,242 @@
+ubuntu@ip-172-31-89-93:~$ ls
+devops  redme.md  shubham_class
+ubuntu@ip-172-31-89-93:~$ cd devops
+ubuntu@ip-172-31-89-93:~/devops$ ls
+commands.txt  feature1.txt  feature2.txt  feature3.txt  feature4.txt  feature6.txt  fetaure5.txt  keys.txt  redme.md  shell_scripts  shubham_class
+ubuntu@ip-172-31-89-93:~/devops$ cd shell_scripts
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ls
+ 90daysofDevops.sh  '='   Test   compare_number.sh   first_script.sh   if_else.sh   number_compare.sh   user_input.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim if_elseif.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_else.sh 
+Please suggest corrections
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ chmod 777 if_elseif.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_elseif.sh
+./if_elseif.sh: line 7: [: missing `]'
+A is not greater then b & C
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim if_elseif.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_elseif.sh
+./if_elseif.sh: line 7: syntax error in conditional expression
+./if_elseif.sh: line 7: syntax error near `"c"'
+./if_elseif.sh: line 7: `if [[ "a">="b" && "a" >= "c" ]]'
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim if_elseif.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_elseif.sh
+./if_elseif.sh: line 7: syntax error in conditional expression
+./if_elseif.sh: line 7: syntax error near `"c"'
+./if_elseif.sh: line 7: `if [[ "a">="b" && "a" >= "c" ]]'
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim if_elseif.sh
+
+[1]+  Stopped                 vim if_elseif.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim if_elseif.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_elseif.sh
+./if_elseif.sh: line 7: syntax error in conditional expression
+./if_elseif.sh: line 7: syntax error near `"b"'
+./if_elseif.sh: line 7: `if [[ "a" >= "b" && "a" >= "c" ]]'
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim if_elseif.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim if_elseif.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_elseif.sh
+./if_elseif.sh: line 7: syntax error in conditional expression
+./if_elseif.sh: line 7: syntax error near `"c"'
+./if_elseif.sh: line 7: `if [[ "a">="b" && "a" >= "c" ]]'
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim if_elseif.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_elseif.sh
+./if_elseif.sh: line 7: syntax error in conditional expression
+./if_elseif.sh: line 7: syntax error near `"c"'
+./if_elseif.sh: line 7: `if [[ "a">="b" && "a" >= "c" ]]'
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_elseif.sh
+./if_elseif.sh: line 7: syntax error in conditional expression
+./if_elseif.sh: line 7: syntax error near `"c"'
+./if_elseif.sh: line 7: `if [[ "a">="b" && "a" >= "c" ]]'
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim if_elseif.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_elseif.sh
+./if_elseif.sh: line 7: [: missing `]'
+./if_elseif.sh: line 12: [: missing `]'
+./if_elseif.sh: line 16: [: missing `]'
+C  is not greater then b & C
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim if_elseif.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_elseif.sh
+./if_elseif.sh: line 7: [: missing `]'
+./if_elseif.sh: line 12: [: missing `]'
+./if_elseif.sh: line 16: [: missing `]'
+C  is not greater then b & C
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim if_elseif.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_elseif.sh
+./if_elseif.sh: line 7: syntax error in conditional expression
+./if_elseif.sh: line 7: syntax error near `$b'
+./if_elseif.sh: line 7: `if [[ $a >= $b  && $a >= $c ]]'
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim if_elseif.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_elseif.sh
+ C is greater then A and B
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim if_elseif.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_elseif.sh
+A is greater then b and c
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim for_loops.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ chmod 777 forloops.sh
+chmod: cannot access 'forloops.sh': No such file or directory
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./for_loops.sh
+-bash: ./for_loops.sh: Permission denied
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ chmod 777 for_loops.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./for_loops.sh
+./for_loops.sh: line 5: syntax error near unexpected token `done'
+./for_loops.sh: line 5: `done'
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim for_loops.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./for_loops.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim for_loops.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./for_loops.sh
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ touch sfile 1..5.txt
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ls
+ 1..5.txt           '='     '=b'    compare_number.sh   for_loops.sh   if_elseif.sh        sfile
+ 90daysofDevops.sh  '=100'   Test   first_script.sh     if_else.sh     number_compare.sh   user_input.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ rm sfile
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ls
+ 1..5.txt           '='     '=b'    compare_number.sh   for_loops.sh   if_elseif.sh        user_input.sh
+ 90daysofDevops.sh  '=100'   Test   first_script.sh     if_else.sh     number_compare.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ rm 1..5.txt
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ls
+ 90daysofDevops.sh  '='  '=100'  '=b'   Test   compare_number.sh   first_script.sh   for_loops.sh   if_else.sh   if_elseif.sh   number_compare.sh   user_input.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ rm '='
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ls
+ 90daysofDevops.sh  '=100'  '=b'   Test   compare_number.sh   first_script.sh   for_loops.sh   if_else.sh   if_elseif.sh   number_compare.sh   user_input.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ rm '=100'
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ rm '=b'
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ rm 'Test'
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ls
+90daysofDevops.sh  compare_number.sh  first_script.sh  for_loops.sh  if_else.sh  if_elseif.sh  number_compare.sh  user_input.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ touch sfile-{1..5}.txt
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ls
+90daysofDevops.sh  first_script.sh  if_else.sh    number_compare.sh  sfile-2.txt  sfile-4.txt  user_input.sh
+compare_number.sh  for_loops.sh     if_elseif.sh  sfile-1.txt        sfile-3.txt  sfile-5.txt
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim for_loops.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./for_loops.sh 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+90daysofDevops.sh
+compare_number.sh
+first_script.sh
+for_loops.sh
+if_else.sh
+if_elseif.sh
+number_compare.sh
+sfile-1.txt
+sfile-2.txt
+sfile-3.txt
+sfile-4.txt
+sfile-5.txt
+user_input.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim for_loops.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./for_loops.sh 
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+90daysofDevops.sh
+compare_number.sh
+first_script.sh
+for_loops.sh
+if_else.sh
+if_elseif.sh
+number_compare.sh
+sfile-1.txt
+sfile-2.txt
+sfile-3.txt
+sfile-4.txt
+sfile-5.txt
+user_input.sh
+90daysofDevops.sh
+compare_number.sh
+first_script.sh
+for_loops.sh
+if_else.sh
+if_elseif.sh
+number_compare.sh
+sfile-1.txt
+sfile-2.txt
+sfile-3.txt
+sfile-4.txt
+sfile-5.txt
+user_input.sh
+.txt
+90daysofDevops.sh
+compare_number.sh
+first_script.sh
+for_loops.sh
+if_else.sh
+if_elseif.sh
+number_compare.sh
+sfile-1.txt
+sfile-2.txt
+sfile-3.txt
+sfile-4.txt
+sfile-5.txt
+user_input.sh
+.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim for_loops.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim add_user_function.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ chmod 777 add_userfunction.sh
+chmod: cannot access 'add_userfunction.sh': No such file or directory
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ chmod 777 add_user_function.sh 
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./add_user_function.sh 
+useradd: option requires an argument -- 'p'
+Usage: useradd [options] LOGIN
+       useradd -D
+       useradd -D [options]
+
+Options:
+      --badnames                do not check for bad names
+  -b, --base-dir BASE_DIR       base directory for the home directory of the
+                                new account
+      --btrfs-subvolume-home    use BTRFS subvolume for home directory
+  -c, --comment COMMENT         GECOS field of the new account
+  -d, --home-dir HOME_DIR       home directory of the new account
+  -D, --defaults                print or change default useradd configuration
+  -e, --expiredate EXPIRE_DATE  expiration date of the new account
+  -f, --inactive INACTIVE       password inactivity period of the new account
+  -g, --gid GROUP               name or ID of the primary group of the new
+                                account
+  -G, --groups GROUPS           list of supplementary groups of the new
+                                account
+  -h, --help                    display this help message and exit
+  -k, --skel SKEL_DIR           use this alternative skeleton directory
+  -K, --key KEY=VALUE           override /etc/login.defs defaults
+  -l, --no-log-init             do not add the user to the lastlog and
+                                faillog databases
+  -m, --create-home             create the user's home directory
+  -M, --no-create-home          do not create the user's home directory
+  -N, --no-user-group           do not create a group with the same name as
+                                the user
+  -o, --non-unique              allow to create users with duplicate
+                                (non-unique) UID
+  -p, --password PASSWORD       encrypted password of the new account
+  -r, --system                  create a system account
+  -R, --root CHROOT_DIR         directory to chroot into
+  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
+  -s, --shell SHELL             login shell of the new account
+  -u, --uid UID                 user ID of the new account
+  -U, --user-group              create a group with the same name as the user
+  -Z, --selinux-user SEUSER     use a specific SEUSER for the SELinux user mapping
+      --extrausers              Use the extra users database
+
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vi

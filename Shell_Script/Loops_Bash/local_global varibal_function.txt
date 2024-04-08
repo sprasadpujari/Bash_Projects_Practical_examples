@@ -1,0 +1,27 @@
+ubuntu@ip-172-31-37-87:~/linux_script$ vim local_global_function.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ chmod 777 local_global_function.sh 
+ubuntu@ip-172-31-37-87:~/linux_script$ ./local_global_function.sh 
+Before I call my function myfun(),v1:A,v2:B
+inside myfun():v1:,v2:D
+ after I call my function myfun(),v1:A ,v2:D
+ubuntu@ip-172-31-37-87:~/linux_script$ cat local_global_function.sh 
+#!/bin/bash
+
+v1='A'
+v2='B'
+
+myfun(){
+        local v1='C'
+        v2='D'
+
+        echo "inside myfun():v1:$1,v2:$v2"
+}
+
+echo "Before I call my function myfun(),v1:$v1,v2:$v2"
+
+myfun
+
+echo " after I call my function myfun(),v1:$v1 ,v2:$v2"
+
+
+ubuntu@ip-172-31-37-87:~/linux_script

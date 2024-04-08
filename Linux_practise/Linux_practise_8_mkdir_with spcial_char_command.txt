@@ -1,0 +1,279 @@
+login as: renapp
+renapp@10.13.168.69's password:
+Last login: Mon Sep 25 16:58:06 2023 from 10.13.172.149
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  lib.tgz  mysql  oradiag_renapp  rmfil2  TestCases.tar  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ mkdir test_sp
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc      mysql           rmfil2         test_sp
+lib.tgz  oradiag_renapp  TestCases.tar  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ cd test_sp
+[renapp@INPU2-REN-DEV1O test_sp]$ mkdir \$dir1
+[renapp@INPU2-REN-DEV1O test_sp]$ ls
+$dir1
+[renapp@INPU2-REN-DEV1O test_sp]$ cd $dir1
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc      mysql           rmfil2         test_sp
+lib.tgz  oradiag_renapp  TestCases.tar  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ cd test_sp
+[renapp@INPU2-REN-DEV1O test_sp]$ ls
+$dir1
+[renapp@INPU2-REN-DEV1O test_sp]$ cd dir1
+-bash: cd: dir1: No such file or directory
+[renapp@INPU2-REN-DEV1O test_sp]$ mkdir test/>sp
+[renapp@INPU2-REN-DEV1O test_sp]$ ls
+$dir1  sp  test
+[renapp@INPU2-REN-DEV1O test_sp]$ mkdir test\>sp
+[renapp@INPU2-REN-DEV1O test_sp]$ ls
+$dir1  sp  test  test>sp
+[renapp@INPU2-REN-DEV1O test_sp]$ mkdir \$\@\Test\%\
+>
+[renapp@INPU2-REN-DEV1O test_sp]$ ls
+$dir1  sp  test  $@Test%  test>sp
+[renapp@INPU2-REN-DEV1O test_sp]$ mkdir \\\\\\\
+>
+[renapp@INPU2-REN-DEV1O test_sp]$ ls
+\\\  $dir1  sp  test  $@Test%  test>sp
+[renapp@INPU2-REN-DEV1O test_sp]$ mkdir \\\\\\
+mkdir: cannot create directory ‘\\\\\\’: File exists
+[renapp@INPU2-REN-DEV1O test_sp]$
+[renapp@INPU2-REN-DEV1O test_sp]$ mkdir \\\\\\\
+>
+mkdir: cannot create directory ‘\\\\\\’: File exists
+[renapp@INPU2-REN-DEV1O test_sp]$ ls
+\\\  $dir1  sp  test  $@Test%  test>sp
+[renapp@INPU2-REN-DEV1O test_sp]$ cd '$dir1'
+[renapp@INPU2-REN-DEV1O $dir1]$ ls
+[renapp@INPU2-REN-DEV1O $dir1]$ mkdir \!\@\#\$\%\^\&\*\(Test)\
+>
+-bash: syntax error near unexpected token `)'
+[renapp@INPU2-REN-DEV1O $dir1]$ ls
+[renapp@INPU2-REN-DEV1O $dir1]$ ls
+[renapp@INPU2-REN-DEV1O $dir1]$ cd ..
+[renapp@INPU2-REN-DEV1O test_sp]$ cd sp
+-bash: cd: sp: Not a directory
+[renapp@INPU2-REN-DEV1O test_sp]$ ls
+\\\  $dir1  sp  test  $@Test%  test>sp
+[renapp@INPU2-REN-DEV1O test_sp]$ cd test\est
+-bash: cd: testest: No such file or directory
+[renapp@INPU2-REN-DEV1O test_sp]$ cd test
+[renapp@INPU2-REN-DEV1O test]$ cd cd ..
+-bash: cd: cd: No such file or directory
+[renapp@INPU2-REN-DEV1O test]$ cd
+[renapp@INPU2-REN-DEV1O ~]$
+[renapp@INPU2-REN-DEV1O ~]$ cd
+.aaa.html       .bash_history   lib.tgz         TestCases.tar
+.aaa.ini        .bash_logout    mysql/          test_sp/
+.aaa.log        .bash_profile   oradiag_renapp/ valgrind_build/
+.aaa.pdf        .bashrc         rmfil2          .vscode-server/
+abc/            .lesshst        .ssh/
+[renapp@INPU2-REN-DEV1O ~]$ hiv is working with euronet
+[renapp@INPU2-REN-DEV1O ~]$ hiv isls working with euronet
+abc  lib.tgz  mysql  oradiag_renapp  rmfil2  TestCases.tar  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ mkdir test_sp
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc      mysql           rmfil2         test_sp
+lib.tgz  oradiag_renapp  TestCases.tar  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ cd test_sp
+[renapp@INPU2-REN-DEV1O test_sp]$ mkdir \$dir1
+[renapp@INPU2-REN-DEV1O test_sp]$ ls
+$dir1
+[renapp@INPU2-REN-DEV1O test_sp]$ cd $dir1
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc      mysql           rmfil2         test_sp
+lib.tgz  oradiag_renapp  TestCases.tar  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ cd test_sp
+[renapp@INPU2-REN-DEV1O test_sp]$ ls
+$dir1
+[renapp@INPU2-REN-DEV1O test_sp]$ cd dir1
+-bash: cd: dir1: No such file or directory
+[renapp@INPU2-REN-DEV1O test_sp]$ mkdir test/>sp
+[renapp@INPU2-REN-DEV1O test_sp]$ ls
+$dir1  sp  test
+[renapp@INPU2-REN-DEV1O test_sp]$ mkdir test\>sp
+[renapp@INPU2-REN-DEV1O test_sp]$ ls
+$dir1  sp  test  test>sp
+[renapp@INPU2-REN-DEV1O test_sp]$ mkdir \$\@\Test\%\
+>
+[renapp@INPU2-REN-DEV1O test_sp]$ ls
+$dir1  sp  test  $@Test%  test>sp
+[renapp@INPU2-REN-DEV1O test_sp]$ mkdir \\\\\\\
+>
+[renapp@INPU2-REN-DEV1O test_sp]$ ls
+\\\  $dir1  sp  test  $@Test%  test>sp
+[renapp@INPU2-REN-DEV1O test_sp]$ mkdir \\\\\\
+mkdir: cannot create directory ‘\\\\\\’: File exists
+[renapp@INPU2-REN-DEV1O test_sp]$
+[renapp@INPU2-REN-DEV1O test_sp]$ mkdir \\\\\\\
+>
+mkdir: cannot create directory ‘\\\\\\’: File exists
+[renapp@INPU2-REN-DEV1O test_sp]$ ls
+\\\  $dir1  sp  test  $@Test%  test>sp
+[renapp@INPU2-REN-DEV1O test_sp]$ cd '$dir1'
+[renapp@INPU2-REN-DEV1O $dir1]$ ls
+[renapp@INPU2-REN-DEV1O $dir1]$ mkdir \!\@\#\$\%\^\&\*\(Test)\
+>
+-bash: syntax error near unexpected token `)'
+[renapp@INPU2-REN-DEV1O $dir1]$ ls
+[renapp@INPU2-REN-DEV1O $dir1]$ ls
+[renapp@INPU2-REN-DEV1O $dir1]$ cd ..
+[renapp@INPU2-REN-DEV1O test_sp]$ cd sp
+-bash: cd: sp: Not a directory
+[renapp@INPU2-REN-DEV1O test_sp]$ ls
+\\\  $dir1  sp  test  $@Test%  test>sp
+[renapp@INPU2-REN-DEV1O test_sp]$ cd test\est
+-bash: cd: testest: No such file or directory
+[renapp@INPU2-REN-DEV1O test_sp]$ cd test
+[renapp@INPU2-REN-DEV1O test]$ cd cd ..
+-bash: cd: cd: No such file or directory
+[renapp@INPU2-REN-DEV1O test]$ cd
+[renapp@INPU2-REN-DEV1O ~]$
+[renapp@INPU2-REN-DEV1O ~]$ cd
+.aaa.html       .bash_history   lib.tgz         TestCases.tar
+.aaa.ini        .bash_logout    mysql/          test_sp/
+.aaa.log        .bash_profile   oradiag_renapp/ valgrind_build/
+.aaa.pdf        .bashrc         rmfil2          .vscode-server/
+abc/            .lesshst        .ssh/
+[renapp@INPU2-REN-DEV1O ~]$ hiv is working with euronet
+[renapp@INPU2-REN-DEV1O ~]$ hiv is working with euronet
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-bash: hiv: command not found
+[renapp@INPU2-REN-DEV1O ~]$ abc  lib.tgz  mysql  oradiag_renapp  rmfil2  TestCases.tar  valgrind_build
+-bash: abc: command not found
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O ~]$ mkdir test_sp
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O ~]$ ls
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O ~]$ abc      mysql           rmfil2         test_sp
+-bash: abc: command not found
+[renapp@INPU2-REN-DEV1O ~]$ lib.tgz  oradiag_renapp  TestCases.tar  valgrind_build
+-bash: lib.tgz: command not found
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O ~]$ cd test_sp
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O test_sp]$ mkdir \$dir1
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O test_sp]$ ls
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O ~]$ $dir1
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O test_sp]$ cd $dir1
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O ~]$ ls
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O ~]$ abc      mysql           rmfil2         test_sp
+-bash: abc: command not found
+[renapp@INPU2-REN-DEV1O ~]$ lib.tgz  oradiag_renapp  TestCases.tar  valgrind_build
+-bash: lib.tgz: command not found
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O ~]$ cd test_sp
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O test_sp]$ ls
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O ~]$ $dir1
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O test_sp]$ cd dir1
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O ~]$ -bash: cd: dir1: No such file or directory
+-bash: -bash:: command not found
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O test_sp]$ mkdir test/>sp
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O test_sp]$ ls
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O ~]$ $dir1  sp  test
+-bash: sp: command not found
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O test_sp]$ mkdir test\>sp
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O test_sp]$ ls
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O ~]$ $dir1  sp  test  test>sp
+-bash: sp: command not found
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O test_sp]$ mkdir \$\@\Test\%\
+> >
+-bash: syntax error near unexpected token `newline'
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O test_sp]$ ls
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O ~]$ $dir1  sp  test  $@Test%  test>sp
+-bash: sp: command not found
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O test_sp]$ mkdir \\\\\\\
+> >
+-bash: syntax error near unexpected token `newline'
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O test_sp]$ ls
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O ~]$ \\\  $dir1  sp  test  $@Test%  test>sp
+-bash: \ : command not found
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O test_sp]$ mkdir \\\\\\
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O ~]$ mkdir: cannot create directory ‘\\\\\\’: File exists-bash: mkdir:: command not found
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O test_sp]$
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O test_sp]$ mkdir \\\\\\\
+> >
+-bash: syntax error near unexpected token `newline'
+[renapp@INPU2-REN-DEV1O ~]$ mkdir: cannot create directory ‘\\\\\\’: File exists-bash: mkdir:: command not found
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O test_sp]$ ls
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O ~]$ \\\  $dir1  sp  test  $@Test%  test>sp
+-bash: \ : command not found
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O test_sp]$ cd '$dir1'
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O $dir1]$ ls
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O ~]$ [renapp@INPU2-REN-DEV1O $dir1]$ mkdir \!\@\#\$\%\^\&\*\(Test)\
+> >
+-bash: syntax error near unexpected token `)'
+[renapp@INPU2-REN-DEV1O ~]$ -bash: syntax error near unexpected token `)'
+> [renapp@INPU2-REN-DEV1O $dir1]$ ls
+> [renapp@INPU2-REN-DEV1O $dir1]$ ls
+> [renapp@INPU2-REN-DEV1O $dir1]$ cd ..
+> [renapp@INPU2-REN-DEV1O test_sp]$ cd sp
+> -bash: cd: sp: Not a directory
+> [renapp@INPU2-REN-DEV1O test_sp]$ ls
+> \\\  $dir1  sp  test  $@Test%  test>sp
+> [renapp@INPU2-REN-DEV1O test_sp]$ cd test\est
+> -bash: cd: testest: No such file or directory
+> [renapp@INPU2-REN-DEV1O test_sp]$ cd test
+> [renapp@INPU2-REN-DEV1O test]$ cd cd ..
+> -bash: cd: cd: No such file or directory
+> [renapp@INPU2-REN-DEV1O test]$ cd
+> [renapp@INPU2-REN-DEV1O ~]$
+> [renapp@INPU2-REN-DEV1O ~]$ cd
+> .aaa.html       .bash_history   lib.tgz         TestCases.tar
+> .aaa.ini        .bash_logout    mysql/          test_sp/
+> .aaa.log        .bash_profile   oradiag_renapp/ valgrind_build/
+> .aaa.pdf        .bashrc         rmfil2          .vscode-server/
+> abc/            .lesshst        .ssh/
+> [renapp@INPU2-REN-DEV1O ~]$ hiv is working with euronet
+> [renapp@INPU2-REN-DEV1O ~]$ hiv is working with euronet
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>
+>

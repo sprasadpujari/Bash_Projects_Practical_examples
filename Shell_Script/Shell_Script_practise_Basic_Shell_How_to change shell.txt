@@ -1,0 +1,141 @@
+ubuntu@ip-172-31-37-87:~$ cat /etc/shells
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/usr/bin/bash
+/bin/rbash
+/usr/bin/rbash
+/usr/bin/sh
+/bin/dash
+/usr/bin/dash
+/usr/bin/tmux
+/usr/bin/screen
+ubuntu@ip-172-31-37-87:~$ sudo apt-get install -y zsh
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+The following additional packages will be installed:
+  zsh-common
+Suggested packages:
+  zsh-doc
+The following NEW packages will be installed:
+  zsh zsh-common
+0 upgraded, 2 newly installed, 0 to remove and 64 not upgraded.
+Need to get 4794 kB of archives.
+After this operation, 18.2 MB of additional disk space will be used.
+Get:1 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy/main amd64 zsh-common all 5.8.1-1 [3985 kB]
+Get:2 http://us-east-1.ec2.archive.ubuntu.com/ubuntu jammy/main amd64 zsh amd64 5.8.1-1 [809 kB]
+Fetched 4794 kB in 0s (29.6 MB/s)
+Selecting previously unselected package zsh-common.
+(Reading database ... 109631 files and directories currently installed.)
+Preparing to unpack .../zsh-common_5.8.1-1_all.deb ...
+Unpacking zsh-common (5.8.1-1) ...
+Selecting previously unselected package zsh.
+Preparing to unpack .../archives/zsh_5.8.1-1_amd64.deb ...
+Unpacking zsh (5.8.1-1) ...
+Setting up zsh-common (5.8.1-1) ...
+Setting up zsh (5.8.1-1) ...
+Processing triggers for man-db (2.10.2-1) ...
+Scanning processes...                                                                                                                                                       
+Scanning candidates...                                                                                                                                                      
+Scanning linux images...                                                                                                                                                    
+
+Restarting services...
+ systemctl restart acpid.service chrony.service cron.service multipathd.service packagekit.service polkit.service rsyslog.service serial-getty@ttyS0.service snapd.service ssh.service systemd-journald.service systemd-networkd.service systemd-resolved.service systemd-udevd.service
+Service restarts being deferred:
+ /etc/needrestart/restart.d/dbus.service
+ systemctl restart getty@tty1.service
+ systemctl restart networkd-dispatcher.service
+ systemctl restart systemd-logind.service
+ systemctl restart unattended-upgrades.service
+
+No containers need to be restarted.
+
+No user sessions are running outdated binaries.
+
+No VM guests are running outdated hypervisor (qemu) binaries on this host.
+ubuntu@ip-172-31-37-87:~$ cat /etc/shells
+# /etc/shells: valid login shells
+/bin/sh
+/bin/bash
+/usr/bin/bash
+/bin/rbash
+/usr/bin/rbash
+/usr/bin/sh
+/bin/dash
+/usr/bin/dash
+/usr/bin/tmux
+/usr/bin/screen
+/bin/zsh
+/usr/bin/zsh
+ubuntu@ip-172-31-37-87:~$ echo &SHELL
+[1] 46377
+
+SHELL: command not found
+[1]+  Done                    echo
+ubuntu@ip-172-31-37-87:~$ echo $SHELL
+/bin/bash
+ubuntu@ip-172-31-37-87:~$ chsh -s /bin/zsh
+Password: 
+chsh: PAM: Authentication failure
+ubuntu@ip-172-31-37-87:~$  ls /var
+backups  cache  crash  lib  local  lock  log  mail  opt  run  snap  spool  tmp
+ubuntu@ip-172-31-37-87:~$ grep bash /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+ubuntu:x:1000:1000:Ubuntu:/home/ubuntu:/bin/bash
+ubuntu@ip-172-31-37-87:~$ ls
+linux_practise  remoting  remoting.jar  wildcards  workspace
+ubuntu@ip-172-31-37-87:~$ mkdir linux_script
+ubuntu@ip-172-31-37-87:~$ cd linux_script
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+ubuntu@ip-172-31-37-87:~/linux_script$ touch hello.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ls -l
+total 0
+-rw-rw-r-- 1 ubuntu ubuntu 0 Oct  5 13:23 hello.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ vim hello.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ cat hello.sh
+echo "Hello Friends"
+
+
+ubuntu@ip-172-31-37-87:~/linux_script$ bash hello.sh
+Hello Friends
+ubuntu@ip-172-31-37-87:~/linux_script$ zsh hello.sh
+Hello Friends
+ubuntu@ip-172-31-37-87:~/linux_script$ sh hello.sh
+Hello Friends
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+hello.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ vim hello.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ cd .
+ubuntu@ip-172-31-37-87:~/linux_script$ cd ..
+ubuntu@ip-172-31-37-87:~$ pwd
+/home/ubuntu
+ubuntu@ip-172-31-37-87:~$ cd linux_script
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+hello.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ls l
+ls: cannot access 'l': No such file or directory
+ubuntu@ip-172-31-37-87:~/linux_script$ ls -l
+total 4
+-rw-rw-r-- 1 ubuntu ubuntu 35 Oct  5 13:30 hello.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./hello.sh
+-bash: ./hello.sh: Permission denied
+ubuntu@ip-172-31-37-87:~/linux_script$ chmod u+x hello.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ls -l
+total 4
+-rwxrw-r-- 1 ubuntu ubuntu 35 Oct  5 13:30 hello.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./hello.sh
+Hello Friends
+ubuntu@ip-172-31-37-87:~/linux_script$ touch File.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ls -l
+total 4
+-rw-rw-r-- 1 ubuntu ubuntu  0 Oct  5 13:33 File.sh
+-rwxrw-r-- 1 ubuntu ubuntu 35 Oct  5 13:30 hello.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ chmod u+wrx File.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ls -l
+total 4
+-rwxrw-r-- 1 ubuntu ubuntu  0 Oct  5 13:33 File.sh
+-rwxrw-r-- 1 ubuntu ubuntu 35 Oct  5 13:30 hello.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./File.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+File.sh  hello.sh

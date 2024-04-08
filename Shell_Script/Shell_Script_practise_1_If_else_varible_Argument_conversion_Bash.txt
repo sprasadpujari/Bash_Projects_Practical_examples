@@ -1,0 +1,161 @@
+ubuntu@ip-172-31-89-93:~/devops$ mkdir shell_scripts
+ubuntu@ip-172-31-89-93:~/devops$ cd shell_scripts
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ echo "Hello"
+Hello
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ which bash
+/usr/bin/bash
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano first_script.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ bash first_script.sh 
+This is my first devops shell script
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./first_script.sh
+-bash: ./first_script.sh: Permission denied
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ls -l
+total 4
+-rw-rw-r-- 1 ubuntu ubuntu 58 Aug  1 17:45 first_script.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ chmod 777 first_script.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ls -l
+total 4
+-rwxrwxrwx 1 ubuntu ubuntu 58 Aug  1 17:45 first_script.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./first_script.sh
+This is my first devops shell script
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano first_script.sh 
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./first_script.sh
+This is my first devops shell script
+/bin/bash
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano first_script.sh 
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./first_script.sh
+This is my first devops shell script
+/bin/bash
+Hello shiv
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano first_script.sh 
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./first_script.sh
+This is my first devops shell script
+Hello shiv
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano first_script.sh 
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./first_script.sh
+This is my first devops shell script
+Hello shiv,Please enter your age
+31
+My age is 31
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano first_script.sh 
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./first_script.sh
+This is my first devops shell script
+Hello shiv,Please enter your age
+31
+My age is 31
+Sub: Hello
+Me : Hi,How are you ?
+Sub:I'm good too
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ 
+
+
+ubuntu@ip-172-31-89-93:~$ ls
+devops  redme.md  shubham_class
+ubuntu@ip-172-31-89-93:~$ cd devops
+ubuntu@ip-172-31-89-93:~/devops$ ls
+commands.txt  feature1.txt  feature2.txt  feature3.txt  feature4.txt  feature6.txt  fetaure5.txt  keys.txt  redme.md  shell_scripts  shubham_class
+ubuntu@ip-172-31-89-93:~/devops$ cd shell_scripts
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano first_script.sh 
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano first_script.sh Test
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./first_script.sh 
+This is my first devops shell script
+Hello shiv,Please enter your age
+26
+My age is 26
+Sub: Hello 
+Me : Hi,How are you ?
+Sub:I'm good too
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano first_script.sh Test
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./first_script.sh 
+This is my first devops shell script
+Hello shiv,Please enter your age
+26
+My age is 26
+Sub: Hello,I'm  
+Me : Hi,How are you ?
+Sub:I'm good too
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./first_script.sh Test
+This is my first devops shell script
+Hello shiv,Please enter your age
+26
+My age is 26
+Sub: Hello,I'm  Test
+Me : Hi,How are you ?
+Sub:I'm good too
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ 
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano if_else.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_else.sh Test
+-bash: ./if_else.sh: Permission denied
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ chomd 777 if_else.sh
+Command 'chomd' not found, did you mean:
+  command 'chmod' from deb coreutils (8.32-4.1ubuntu1)
+Try: sudo apt install <deb name>
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ chmod 777 if_else.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_else.sh Test
+./if_else.sh: line 3: if[Test=like]: command not found
+./if_else.sh: line 5: syntax error near unexpected token `then'
+./if_else.sh: line 5: `then '
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano if_else.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_else.sh Test
+./if_else.sh: line 3: if[Test=like]: command not found
+./if_else.sh: line 4: syntax error near unexpected token `then'
+./if_else.sh: line 4: `then '
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano if_else.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_else.sh lol
+./if_else.sh: line 3: [lol: command not found
+Please suggest corrections
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_else.sh like
+./if_else.sh: line 3: [like: command not found
+Please suggest corrections
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_else.sh like
+./if_else.sh: line 3: [like: command not found
+Please suggest corrections
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano if_else.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_else.sh Like
+./if_else.sh: line 3: [Like: command not found
+Please suggest corrections
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_else.sh Like
+./if_else.sh: line 3: [Like: command not found
+Please suggest corrections
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano if_else.sh 
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_else.sh Like
+Please like shell script first
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_else.sh Test
+Please suggest corrections
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ cat if_else.sh
+#!/bin/bash
+
+if [ "$1" = "Like" ]
+then
+echo "Please like shell script first"
+else
+echo "Please suggest corrections"
+fi
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ cat first_script.sh 
+#!/bin/bash
+
+echo "This is my first devops shell script"
+
+#echo $BASH
+
+name="shiv"
+
+echo "Hello ${name},Please enter your age"
+
+read age
+echo "My age is ${age}"
+
+echo  "Sub: Hello,I'm  $1"
+
+sleep 2
+
+echo "Me : Hi,How are you ?"
+
+sleep 2
+
+echo "Sub:I'm good too"
+
+
+
+
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ 

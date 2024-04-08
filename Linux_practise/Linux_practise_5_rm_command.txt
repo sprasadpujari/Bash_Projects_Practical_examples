@@ -1,0 +1,150 @@
+login as: renapp
+renapp@10.13.168.69's password:
+Last login: Thu Jul 13 05:07:01 2023 from 10.13.190.37
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc   dir2     mysql           test   test2
+dir1  lib.tgz  oradiag_renapp  test1  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ cd test2
+[renapp@INPU2-REN-DEV1O test2]$ ls
+[renapp@INPU2-REN-DEV1O test2]$ cat test2
+cat: test2: No such file or directory
+[renapp@INPU2-REN-DEV1O test2]$ cd ~
+[renapp@INPU2-REN-DEV1O ~]$ cd test1
+[renapp@INPU2-REN-DEV1O test1]$ ls
+[renapp@INPU2-REN-DEV1O test1]$ cat test1
+cat: test1: No such file or directory
+[renapp@INPU2-REN-DEV1O test1]$ cd test
+-bash: cd: test: No such file or directory
+[renapp@INPU2-REN-DEV1O test1]$ ls
+[renapp@INPU2-REN-DEV1O test1]$ cd ~
+[renapp@INPU2-REN-DEV1O ~]$ cd dir2
+[renapp@INPU2-REN-DEV1O dir2]$ ls
+text1  text2
+[renapp@INPU2-REN-DEV1O dir2]$ cat text1
+Hello Test
+[renapp@INPU2-REN-DEV1O dir2]$ cat text2
+Test dir2[renapp@INPU2-REN-DEV1O dir2]$ cat >text2
+test dir2
+[renapp@INPU2-REN-DEV1O dir2]$ cat text2
+test dir2
+[renapp@INPU2-REN-DEV1O dir2]$ cp text2 dir1
+[renapp@INPU2-REN-DEV1O dir2]$ cd ~
+[renapp@INPU2-REN-DEV1O ~]$ cd dir1
+[renapp@INPU2-REN-DEV1O dir1]$ ls
+text1  text2
+[renapp@INPU2-REN-DEV1O dir1]$ rm text2
+[renapp@INPU2-REN-DEV1O dir1]$ ls
+text1
+[renapp@INPU2-REN-DEV1O dir1]$ cd ~
+[renapp@INPU2-REN-DEV1O ~]$ cd dir2
+[renapp@INPU2-REN-DEV1O dir2]$ ls
+dir1  text1  text2
+[renapp@INPU2-REN-DEV1O dir2]$ cp text2 dir1
+[renapp@INPU2-REN-DEV1O dir2]$ cd ~
+[renapp@INPU2-REN-DEV1O ~]$ cd dir1
+[renapp@INPU2-REN-DEV1O dir1]$ ls
+text1
+[renapp@INPU2-REN-DEV1O dir1]$ cd ~
+[renapp@INPU2-REN-DEV1O ~]$ mkdir dir3
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc   dir2  lib.tgz  oradiag_renapp  test1  valgrind_build
+dir1  dir3  mysql    test            test2
+[renapp@INPU2-REN-DEV1O ~]$ rm -R dir3
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc   dir2     mysql           test   test2
+dir1  lib.tgz  oradiag_renapp  test1  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ rm -i dir1
+rm: cannot remove ‘dir1’: Is a directory
+[renapp@INPU2-REN-DEV1O ~]$ touch text2 text3
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc   dir2     mysql           test   test2  text3
+dir1  lib.tgz  oradiag_renapp  test1  text2  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ rm -i text2
+rm: remove regular empty file ‘text2’? y
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc   dir2     mysql           test   test2  valgrind_build
+dir1  lib.tgz  oradiag_renapp  test1  text3
+[renapp@INPU2-REN-DEV1O ~]$ rm -Ri dir1
+rm: descend into directory ‘dir1’? n
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc   dir2     mysql           test   test2  valgrind_build
+dir1  lib.tgz  oradiag_renapp  test1  text3
+[renapp@INPU2-REN-DEV1O ~]$ rm -Rf text3
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc   dir2     mysql           test   test2
+dir1  lib.tgz  oradiag_renapp  test1  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ rm text3
+rm: cannot remove ‘text3’: No such file or directory
+[renapp@INPU2-REN-DEV1O ~]$ rm -Rf text3
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc   dir2     mysql           test   test2
+dir1  lib.tgz  oradiag_renapp  test1  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ rm -Rv dir1
+removed ‘dir1/text1’
+removed directory: ‘dir1’
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  dir2  lib.tgz  mysql  oradiag_renapp  test  test1  test2  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ rm -R dir2 test1 test2
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  lib.tgz  mysql  oradiag_renapp  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ mkdir dir1
+[renapp@INPU2-REN-DEV1O ~]$ touch dir1/text1
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  dir1  lib.tgz  mysql  oradiag_renapp  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ cd dir1
+[renapp@INPU2-REN-DEV1O dir1]$ ls
+text1
+[renapp@INPU2-REN-DEV1O dir1]$ mkdir dir2 dir3
+[renapp@INPU2-REN-DEV1O dir1]$ touch dir2/text2
+[renapp@INPU2-REN-DEV1O dir1]$ rm -R dir2 dir3
+[renapp@INPU2-REN-DEV1O dir1]$ ls
+text1
+[renapp@INPU2-REN-DEV1O dir1]$ cd ~
+[renapp@INPU2-REN-DEV1O ~]$ mkdir dir2 dir3
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  dir1  dir2  dir3  lib.tgz  mysql  oradiag_renapp  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ touch dir2/text2 dir3/text3
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  dir1  dir2  dir3  lib.tgz  mysql  oradiag_renapp  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ cd dir2
+[renapp@INPU2-REN-DEV1O dir2]$ ls
+text2
+[renapp@INPU2-REN-DEV1O dir2]$ cd ~
+[renapp@INPU2-REN-DEV1O ~]$ cd dir3
+[renapp@INPU2-REN-DEV1O dir3]$ ls
+text3
+[renapp@INPU2-REN-DEV1O dir3]$ rm text3
+[renapp@INPU2-REN-DEV1O dir3]$ ls
+[renapp@INPU2-REN-DEV1O dir3]$ cd ~
+[renapp@INPU2-REN-DEV1O ~]$ rmdir dir3
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  dir1  dir2  lib.tgz  mysql  oradiag_renapp  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ rmdir dir3
+rmdir: failed to remove ‘dir3’: No such file or directory
+[renapp@INPU2-REN-DEV1O ~]$ rm -R dir2
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  dir1  lib.tgz  mysql  oradiag_renapp  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ rm -Ri dir1
+rm: descend into directory ‘dir1’? n
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  dir1  lib.tgz  mysql  oradiag_renapp  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ rm -Rv dir1
+removed ‘dir1/text1’
+removed directory: ‘dir1’
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  lib.tgz  mysql  oradiag_renapp  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ mkdir dir1
+[renapp@INPU2-REN-DEV1O ~]$ touch dir1/text1
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  dir1  lib.tgz  mysql  oradiag_renapp  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ rm -Rv dir1
+removed ‘dir1/text1’
+removed directory: ‘dir1’
+[renapp@INPU2-REN-DEV1O ~]$ mkdir dir1
+[renapp@INPU2-REN-DEV1O ~]$ touch dir1/text1
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  dir1  lib.tgz  mysql  oradiag_renapp  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ rm -Rf dir1
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  lib.tgz  mysql  oradiag_renapp  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$

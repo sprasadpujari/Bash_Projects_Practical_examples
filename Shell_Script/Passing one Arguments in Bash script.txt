@@ -1,0 +1,39 @@
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+File.sh  cal.sh  constant_variable.sh  cores.sh  hello.sh  variable.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ touch Arguments.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ vim Arguments.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./Arguments.sh
+-bash: ./Arguments.sh: Permission denied
+ubuntu@ip-172-31-37-87:~/linux_script$ chmod 777 Arguments.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+Arguments.sh  File.sh  cal.sh  constant_variable.sh  cores.sh  hello.sh  variable.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./Arguments.sh
+Please enter your filename:
+/etc/passwd
+There are 36 lines in /etc/passwd
+ubuntu@ip-172-31-37-87:~/linux_script$ wc -l /etc/passwd
+36 /etc/passwd
+ubuntu@ip-172-31-37-87:~/linux_script$ export $PATH
+-bash: export: `/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin': not a valid identifier
+ubuntu@ip-172-31-37-87:~/linux_script$ echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+ubuntu@ip-172-31-37-87:~/linux_script$ pwd
+/home/ubuntu/linux_script
+ubuntu@ip-172-31-37-87:~/linux_script$ export PATH=$PATH:/home/ubuntu/linux_script
+ubuntu@ip-172-31-37-87:~/linux_script$ echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/linux_script
+ubuntu@ip-172-31-37-87:~/linux_script$ Arguments.sh
+Please enter your filename:
+/etc/group
+There are 62 lines in /etc/group
+ubuntu@ip-172-31-37-87:~/linux_script$ cat Arguments.sh
+#!/bin/bash
+
+echo "Please enter your filename:"
+
+read filename
+
+nlines=$(wc -l < $filename)
+
+echo "There are $nlines lines in $filename"
+ubuntu@ip-172-31-37-87:~/linux_script$ 

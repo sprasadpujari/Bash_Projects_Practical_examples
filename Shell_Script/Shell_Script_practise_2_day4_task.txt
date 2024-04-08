@@ -1,0 +1,232 @@
+ubuntu@ip-172-31-89-93:~$ ls
+devops  redme.md  shubham_class
+ubuntu@ip-172-31-89-93:~$ cd devops
+ubuntu@ip-172-31-89-93:~/devops$ ls
+commands.txt  feature1.txt  feature2.txt  feature3.txt  feature4.txt  feature6.txt  fetaure5.txt  keys.txt  redme.md  shell_scripts  shubham_class
+ubuntu@ip-172-31-89-93:~/devops$ cd shell_scripts
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano first_script.sh 
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano first_script.sh Test
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./first_script.sh 
+This is my first devops shell script
+Hello shiv,Please enter your age
+26
+My age is 26
+Sub: Hello 
+Me : Hi,How are you ?
+Sub:I'm good too
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano first_script.sh Test
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./first_script.sh 
+This is my first devops shell script
+Hello shiv,Please enter your age
+26
+My age is 26
+Sub: Hello,I'm  
+Me : Hi,How are you ?
+Sub:I'm good too
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./first_script.sh Test
+This is my first devops shell script
+Hello shiv,Please enter your age
+26
+My age is 26
+Sub: Hello,I'm  Test
+Me : Hi,How are you ?
+Sub:I'm good too
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ 
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano if_else.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_else.sh Test
+-bash: ./if_else.sh: Permission denied
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ chomd 777 if_else.sh
+Command 'chomd' not found, did you mean:
+  command 'chmod' from deb coreutils (8.32-4.1ubuntu1)
+Try: sudo apt install <deb name>
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ chmod 777 if_else.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_else.sh Test
+./if_else.sh: line 3: if[Test=like]: command not found
+./if_else.sh: line 5: syntax error near unexpected token `then'
+./if_else.sh: line 5: `then '
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano if_else.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_else.sh Test
+./if_else.sh: line 3: if[Test=like]: command not found
+./if_else.sh: line 4: syntax error near unexpected token `then'
+./if_else.sh: line 4: `then '
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano if_else.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_else.sh lol
+./if_else.sh: line 3: [lol: command not found
+Please suggest corrections
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_else.sh like
+./if_else.sh: line 3: [like: command not found
+Please suggest corrections
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_else.sh like
+./if_else.sh: line 3: [like: command not found
+Please suggest corrections
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano if_else.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_else.sh Like
+./if_else.sh: line 3: [Like: command not found
+Please suggest corrections
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_else.sh Like
+./if_else.sh: line 3: [Like: command not found
+Please suggest corrections
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano if_else.sh 
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_else.sh Like
+Please like shell script first
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./if_else.sh Test
+Please suggest corrections
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ cat if_else.sh
+#!/bin/bash
+
+if [ "$1" = "Like" ]
+then
+echo "Please like shell script first"
+else
+echo "Please suggest corrections"
+fi
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ cat first_script.sh 
+#!/bin/bash
+
+echo "This is my first devops shell script"
+
+#echo $BASH
+
+name="shiv"
+
+echo "Hello ${name},Please enter your age"
+
+read age
+echo "My age is ${age}"
+
+echo  "Sub: Hello,I'm  $1"
+
+sleep 2
+
+echo "Me : Hi,How are you ?"
+
+sleep 2
+
+echo "Sub:I'm good too"
+
+
+
+
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano 90daysofDevops.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./ 90daysofDevops.sh 
+-bash: ./: Is a directory
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./90daysofDevops.sh 
+-bash: ./90daysofDevops.sh: Permission denied
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ chmod 777 90daysofDevops.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./90daysofDevops.sh 
+I will complete #90DaysOofDevOps challenge
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano user_input.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ chmod 777 user_input.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./user_input.sh 
+Please enter you name:
+tes
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./user_input.sh Sprasad
+Please enter you name:
+sprasad
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano user_input.sh 
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./user_input.sh Sprasad
+Please enter you name:Sprasad
+sprasad
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./first_script.sh 
+This is my first devops shell script
+Hello shiv,Please enter your age
+26
+My age is 26
+Sub: Hello,I'm  
+Me : Hi,How are you ?
+Sub:I'm good too
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano first_script.sh 
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano user_input.sh 
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./user_input.sh Sprasad
+Please enter you name:Sprasad
+shiv
+My name is shiv
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano compare_number.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./compare_number.sh 20
+-bash: ./compare_number.sh: Permission denied
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ chmod 777 compare_number.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./compare_number.sh 20
+number  is correct
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./compare_number.sh 21
+number is incorrect
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ nano number_compare.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ chmod 777 number_compare.sh 
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./number_compare.sh 
+./number_compare.sh: line 5: [ var1: command not found
+Var2 is greater then var1
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ 	
+
+
+Welcome to Ubuntu 22.04.2 LTS (GNU/Linux 5.19.0-1025-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+  System information as of Tue Aug  1 19:23:26 UTC 2023
+
+  System load:  0.0               Processes:             97
+  Usage of /:   27.4% of 7.57GB   Users logged in:       0
+  Memory usage: 29%               IPv4 address for eth0: 172.31.89.93
+  Swap usage:   0%
+
+ * Ubuntu Pro delivers the most comprehensive open source security and
+   compliance features.
+
+   https://ubuntu.com/aws/pro
+
+Expanded Security Maintenance for Applications is not enabled.
+
+98 updates can be applied immediately.
+64 of these updates are standard security updates.
+To see these additional updates run: apt list --upgradable
+
+Enable ESM Apps to receive additional future security updates.
+See https://ubuntu.com/esm or run: sudo pro status
+
+
+Last login: Tue Aug  1 18:15:55 2023 from 18.206.107.28
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+ubuntu@ip-172-31-89-93:~$ cd devops
+ubuntu@ip-172-31-89-93:~/devops$ ls
+commands.txt  feature1.txt  feature2.txt  feature3.txt  feature4.txt  feature6.txt  fetaure5.txt  keys.txt  redme.md  shell_scripts  shubham_class
+ubuntu@ip-172-31-89-93:~/devops$ cd shell_scripts
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ cat user_input.sh 
+
+#!/bin/bash
+
+echo "Please enter you name:$1"
+
+read  name 
+
+echo "My name is ${name}"
+
+
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ cat compare_number.sh 
+#!/bin/bash
+
+if [ "$1" = "20" ]
+then
+echo "number  is correct"
+
+else
+echo "number is incorrect"
+
+fi
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ cat number_compare.sh 
+#!/bin/bash
+var1=10
+var2=20
+
+if [" var1" >= "var2"]
+then
+echo "Var1 is greater than var2"
+
+else 
+echo "Var2 is greater then var1"
+
+fi
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ^C
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ 

@@ -1,0 +1,18 @@
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+Add_Array.sh  F1.txt   addition.sh           cores.sh               firt_array.sh         multiplication.sh  sorted.sh             variable.sh
+Arguments.sh  F2.txt   cal.sh                creative_arguments.sh  hello.sh              multiplication.sj  special_arguments.sh
+Del_Array.sh  File.sh  constant_variable.sh  first_array.sh         multiple_argument.sh  reverse_array.sh   upper.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./multiplication.sh 5
+Giga GB is equal to 5120 MB
+ubuntu@ip-172-31-37-87:~/linux_script$ ./multiplication.sh 3
+Giga GB is equal to 3072 MB
+ubuntu@ip-172-31-37-87:~/linux_script$ cat multiplication.sh
+#!/bin/bash
+
+Giga=$1
+
+Mega=$(( $Giga * 1024))
+
+echo "Giga GB is equal to $Mega MB"
+ubuntu@ip-172-31-37-87:~/linux_script$ ^C
+ubuntu@ip-172-31-37-87:~/linux_script$ 

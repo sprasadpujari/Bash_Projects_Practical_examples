@@ -1,0 +1,118 @@
+ubuntu@ip-172-31-37-87:~$ ls
+linux_practise  linux_script  remoting  remoting.jar  wildcards  workspace
+ubuntu@ip-172-31-37-87:~$ cd linux_script
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+Add_Array.sh  F1.txt   addition.sh              constant_variable.sh   else_if.sh      hello.sh              multiplication.sh  root.sh               upper.sh
+Arguments.sh  F2.txt   cal.sh                   cores.sh               first_array.sh  if_else.sh            multiplication.sj  sorted.sh             variable.sh
+Del_Array.sh  File.sh  concatenating_string.sh  creative_arguments.sh  firt_array.sh   multiple_argument.sh  reverse_array.sh   special_arguments.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ touch nested_if.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ vim nested_if.sh 
+ubuntu@ip-172-31-37-87:~/linux_script$ chmod 777 nested_if.sh 
+ubuntu@ip-172-31-37-87:~/linux_script$ ./nested_if.sh 
+./nested_if.sh: line 19: syntax error: unexpected end of file
+ubuntu@ip-172-31-37-87:~/linux_script$ shellcheck nested_if.sh 
+
+In nested_if.sh line 1:
+#/bin/bash
+ ^-- SC1113 (error): Use #!, not just #, for the shebang.
+
+
+In nested_if.sh line 5:
+if [ $WEATHER -gt 5 ];
+^-- SC1046 (error): Couldn't find 'fi' for this 'if'.
+^-- SC1073 (error): Couldn't parse this if expression. Fix to allow more checks.
+
+
+In nested_if.sh line 19:
+
+^-- SC1047 (error): Expected 'fi' matching previously mentioned 'if'.
+^-- SC1072 (error): Expected 'fi'. Fix any mentioned problems and try again.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC1046 -- Couldn't find 'fi' for this 'if'.
+  https://www.shellcheck.net/wiki/SC1113 -- Use #!, not just #, for the sheba...
+  https://www.shellcheck.net/wiki/SC1047 -- Expected 'fi' matching previously...
+ubuntu@ip-172-31-37-87:~/linux_script$ vim  nested_if.sh 
+ubuntu@ip-172-31-37-87:~/linux_script$ ./nested_if.sh 
+./nested_if.sh: line 19: syntax error: unexpected end of file
+ubuntu@ip-172-31-37-87:~/linux_script$ shellcheck nested_if.sh 
+
+In nested_if.sh line 5:
+if [ $WEATHER -gt 5 ];
+^-- SC1046 (error): Couldn't find 'fi' for this 'if'.
+^-- SC1073 (error): Couldn't parse this if expression. Fix to allow more checks.
+
+
+In nested_if.sh line 19:
+
+^-- SC1047 (error): Expected 'fi' matching previously mentioned 'if'.
+^-- SC1072 (error): Expected 'fi'. Fix any mentioned problems and try again.
+
+For more information:
+  https://www.shellcheck.net/wiki/SC1046 -- Couldn't find 'fi' for this 'if'.
+  https://www.shellcheck.net/wiki/SC1047 -- Expected 'fi' matching previously...
+  https://www.shellcheck.net/wiki/SC1072 -- Expected 'fi'. Fix any mentioned ...
+ubuntu@ip-172-31-37-87:~/linux_script$ vim  nested_if.sh 
+ubuntu@ip-172-31-37-87:~/linux_script$ ./nested_if.sh 
+./nested_if.sh: line 5: [: -gt: unary operator expected
+It is freezing outside
+ubuntu@ip-172-31-37-87:~/linux_script$ shellcheck nested_if.sh 
+
+In nested_if.sh line 5:
+if [ $WEATHER -gt 5 ];
+     ^------^ SC2086 (info): Double quote to prevent globbing and word splitting.
+
+Did you mean: 
+if [ "$WEATHER" -gt 5 ];
+
+
+In nested_if.sh line 8:
+        if [ $WEATHER -lt 15 ]; then
+             ^------^ SC2086 (info): Double quote to prevent globbing and word splitting.
+
+Did you mean: 
+        if [ "$WEATHER" -lt 15 ]; then
+
+
+In nested_if.sh line 11:
+        elif [ $WEATHER -lt 25 ]; then
+               ^------^ SC2086 (info): Double quote to prevent globbing and word splitting.
+
+Did you mean: 
+        elif [ "$WEATHER" -lt 25 ]; then
+
+For more information:
+  https://www.shellcheck.net/wiki/SC2086 -- Double quote to prevent globbing ...
+ubuntu@ip-172-31-37-87:~/linux_script$ ./nested_if.sh 
+./nested_if.sh: line 5: [: -gt: unary operator expected
+It is freezing outside
+ubuntu@ip-172-31-37-87:~/linux_script$ ./nested_if.sh 6
+It is clod outside
+ubuntu@ip-172-31-37-87:~/linux_script$ ./nested_if.sh 0
+It is freezing outside
+ubuntu@ip-172-31-37-87:~/linux_script$ ./nested_if.sh  -5
+It is freezing outside
+ubuntu@ip-172-31-37-87:~/linux_script$ ./nested_if.sh  25
+Its hot outside
+ubuntu@ip-172-31-37-87:~/linux_script$ cat nested_if.sh 
+#!/bin/bash
+
+WEATHER=$1
+
+if [ $WEATHER -gt 5 ];
+
+then
+        if [ $WEATHER -lt 15 ]; then
+                echo "It is clod outside"
+
+        elif [ $WEATHER -lt 25 ]; then
+                echo "it is nice weather"
+       else 
+               echo "Its hot outside"
+        fi
+
+else 
+        echo "It is freezing outside"
+
+fi
+ubuntu@ip-172-31-37-87:~/linux_script$ ^C

@@ -1,0 +1,96 @@
+ubuntu@ip-172-31-36-179:~$ ls
+A  File2  File2.txt  FileM3  colors.txt  devops.txt  dir1  dir2  fruits.txt  loops.sh  take_backup.sh
+ubuntu@ip-172-31-36-179:~$ cat colors.txt
+Red Pink Orange
+Red
+Pink
+Orange
+white
+ubuntu@ip-172-31-36-179:~$ grep Red colors.txt
+Red Pink Orange
+Red
+ubuntu@ip-172-31-36-179:~$ cat fruits.txt
+Kiwi
+Banana
+Guavaubuntu@ip-172-31-36-179:~$ cat devops.txt
+Apple
+Orange
+Banana
+Kiwi
+Cherray
+Guva
+ubuntu@ip-172-31-36-179:~$ grep kiwi fruits.txt devops.txt
+ubuntu@ip-172-31-36-179:~$ 
+ubuntu@ip-172-31-36-179:~$ ls
+A  File2  File2.txt  FileM3  colors.txt  devops.txt  dir1  dir2  fruits.txt  loops.sh  take_backup.sh
+ubuntu@ip-172-31-36-179:~$ grep Kiwi fruits.txt devops.txt
+fruits.txt:Kiwi
+devops.txt:Kiwi
+ubuntu@ip-172-31-36-179:~$ grep -i banana devops.txt
+Banana
+ubuntu@ip-172-31-36-179:~$ grep -i banana fruits.txt devops.txt
+fruits.txt:Banana
+devops.txt:Banana
+ubuntu@ip-172-31-36-179:~$ grep -r kiwi
+ubuntu@ip-172-31-36-179:~$ grep -r Kiwi
+fruits.txt:Kiwi
+.bash_history:echo "Kiwi" devops.txt
+devops.txt:Kiwi
+ubuntu@ip-172-31-36-179:~$ grep -v Kiwi devops.txt
+Apple
+Orange
+Banana
+Cherray
+Guva
+ubuntu@ip-172-31-36-179:~$ grep -c Kiwi devops.txt
+1
+ubuntu@ip-172-31-36-179:~$ cat devops.txt
+Apple
+Orange
+Banana
+Kiwi
+Cherray
+Guva
+ubuntu@ip-172-31-36-179:~$ grep -c Guva devops.txt
+1
+ubuntu@ip-172-31-36-179:~$ grep -l Guva devops.txt
+devops.txt
+ubuntu@ip-172-31-36-179:~$ grep -l Kiwi
+test
+^X^C
+ubuntu@ip-172-31-36-179:~$ cat devops.txt
+Apple
+Orange
+Banana
+Kiwi
+Cherray
+Guva
+ubuntu@ip-172-31-36-179:~$ grep -l Kiwi devops.txt
+devops.txt
+ubuntu@ip-172-31-36-179:~$ grep -L Mango fruits.txt devops.txt
+fruits.txt
+devops.txt
+ubuntu@ip-172-31-36-179:~$ grep -n Kiwi fruits.txt devops.txt
+fruits.txt:1:Kiwi
+devops.txt:4:Kiwi
+ubuntu@ip-172-31-36-179:~$ grep ^Kiwi devops.txt fruits.txt
+devops.txt:Kiwi
+fruits.txt:Kiwi
+ubuntu@ip-172-31-36-179:~$ grep ^root /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+ubuntu@ip-172-31-36-179:~$ grep Guva devops.txt
+Guva
+ubuntu@ip-172-31-36-179:~$ grep Guva fruits.txt
+ubuntu@ip-172-31-36-179:~$ grep /bin/bash /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+ubuntu:x:1000:1000:Ubuntu:/home/ubuntu:/bin/bash
+ubuntu@ip-172-31-36-179:~$ grep Kiwi devops.txt > /mnt/find.txt
+-bash: /mnt/find.txt: Permission denied
+ubuntu@ip-172-31-36-179:~$ grep Kiwi devops.txt >mnt/find.txt
+-bash: mnt/find.txt: No such file or directory
+ubuntu@ip-172-31-36-179:~$ sudo grep Kiwi devops.txt > /mnt/find.txt
+-bash: /mnt/find.txt: Permission denied
+ubuntu@ip-172-31-36-179:~$ grep Kiwi devops.txt > find.txt
+ubuntu@ip-172-31-36-179:~$ sudo grep Kiwi devops.txt >/mnt/find.txt
+-bash: /mnt/find.txt: Permission denied
+ubuntu@ip-172-31-36-179:~$ 

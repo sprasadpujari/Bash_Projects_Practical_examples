@@ -1,0 +1,52 @@
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O test1]$ text1
+-bash: text1: command not found
+[renapp@INPU2-REN-DEV1O test1]$ [renapp@INPU2-REN-DEV1O test1]$ cd test2
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O test1]$ -bash: cd: test2: No such file or directory
+-bash: -bash:: command not found
+[renapp@INPU2-REN-DEV1O test1]$ [renapp@INPU2-REN-DEV1O test1]$ mkdir test2 test3
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O test1]$ [renapp@INPU2-REN-DEV1O test1]$ ls
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O test1]$ test2  test3  text1
+-bash: test2: command not found
+[renapp@INPU2-REN-DEV1O test1]$ [renapp@INPU2-REN-DEV1O test1]$ rmdir test1 test2 test3
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O test1]$ rmdir: failed to remove ‘test1’: No such file or directory
+-bash: rmdir:: command not found
+[renapp@INPU2-REN-DEV1O test1]$ [renapp@INPU2-REN-DEV1O test1]$
+-bash: [renapp@INPU2-REN-DEV1O: command not found
+[renapp@INPU2-REN-DEV1O test1]$ clear
+[renapp@INPU2-REN-DEV1O test1]$ ls
+text1
+[renapp@INPU2-REN-DEV1O test1]$ cd ~
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  first  lib.tgz  mysql  oradiag_renapp  test  test1  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ rm first
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  lib.tgz  mysql  oradiag_renapp  test  test1  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ mkdir test2 test3
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  lib.tgz  mysql  oradiag_renapp  test  test1  test2  test3  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ touch test2/text2
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  lib.tgz  mysql  oradiag_renapp  test  test1  test2  test3  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ cd test2
+[renapp@INPU2-REN-DEV1O test2]$ ls
+text2
+[renapp@INPU2-REN-DEV1O test2]$ rm text2
+[renapp@INPU2-REN-DEV1O test2]$ ls
+[renapp@INPU2-REN-DEV1O test2]$ cat >text2
+test
+[renapp@INPU2-REN-DEV1O test2]$ ls
+text2
+[renapp@INPU2-REN-DEV1O test2]$ cat test2
+cat: test2: No such file or directory
+[renapp@INPU2-REN-DEV1O test2]$ cat text2
+test
+[renapp@INPU2-REN-DEV1O test2]$ cd ~
+[renapp@INPU2-REN-DEV1O ~]$ rmdir test1 test2 test3
+rmdir: failed to remove ‘test1’: Directory not empty
+rmdir: failed to remove ‘test2’: Directory not empty
+[renapp@INPU2-REN-DEV1O ~]$

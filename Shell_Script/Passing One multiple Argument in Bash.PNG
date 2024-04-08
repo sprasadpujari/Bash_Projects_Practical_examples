@@ -1,0 +1,24 @@
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+Arguments.sh  File.sh  cal.sh  constant_variable.sh  cores.sh  hello.sh  multiple_argument.sh  variable.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./multiple_argument.sh /etc/passwd
+./multiple_argument.sh: line 4: $2: ambiguous redirect
+./multiple_argument.sh: line 5: $3: ambiguous redirect
+There are 36 lines in /etc/passwd
+There are  lines in /etc/passwd
+There are 36 lines in /etc/passwd
+ubuntu@ip-172-31-37-87:~/linux_script$ cat multiple_argument.sh 
+#!/bin/bash
+
+n1=$(wc -l < $1)
+n2=$(wc -l < $2)
+n3=$(wc -l < $3)
+
+
+echo "There are $n1 lines in $1"
+
+echo "There are $n2 lines in $1"
+
+echo "There are $n1 lines in $1"
+ubuntu@ip-172-31-37-87:~/linux_script$ ^C
+ubuntu@ip-172-31-37-87:~/linux_script$ 
+

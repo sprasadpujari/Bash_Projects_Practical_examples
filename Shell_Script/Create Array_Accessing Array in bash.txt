@@ -1,0 +1,72 @@
+ubuntu@ip-172-31-37-87:~$ ls
+linux_practise  linux_script  remoting  remoting.jar  wildcards  workspace
+ubuntu@ip-172-31-37-87:~$ cd linux_script
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+Arguments.sh  File.sh  cal.sh  constant_variable.sh  cores.sh  creative_arguments.sh  hello.sh  multiple_argument.sh  special_arguments.sh  upper.sh  variable.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ touch first_array.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ vim firt_array.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+Arguments.sh  cal.sh                cores.sh               first_array.sh  hello.sh              special_arguments.sh  variable.sh
+File.sh       constant_variable.sh  creative_arguments.sh  firt_array.sh   multiple_argument.sh  upper.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ cat firt_array.sh
+#!/bin/bash
+
+file_name=("F1.txt" "F2.txt" "F3.txt" "F4.txt")
+
+echo ${file_name[2]} ${file_name[3]}
+ubuntu@ip-172-31-37-87:~/linux_script$ chmod 777 firt_array.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+Arguments.sh  cal.sh                cores.sh               first_array.sh  hello.sh              special_arguments.sh  variable.sh
+File.sh       constant_variable.sh  creative_arguments.sh  firt_array.sh   multiple_argument.sh  upper.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./firt_array.sh
+F3.txt F4.txt
+ubuntu@ip-172-31-37-87:~/linux_script$ ls -l
+total 44
+-rwxrwxrwx 1 ubuntu ubuntu 137 Oct  9 09:43 Arguments.sh
+-rwxrw-r-- 1 ubuntu ubuntu   0 Oct  5 13:33 File.sh
+-rwxrwxrwx 1 ubuntu ubuntu  58 Oct  6 17:18 cal.sh
+-rwxrwxrwx 1 ubuntu ubuntu  53 Oct  6 10:49 constant_variable.sh
+-rwxrwxrwx 1 ubuntu ubuntu 109 Oct  6 09:45 cores.sh
+-rwxrwxrwx 1 ubuntu ubuntu  43 Oct  9 10:32 creative_arguments.sh
+-rw-rw-r-- 1 ubuntu ubuntu   0 Oct  9 13:28 first_array.sh
+-rwxrwxrwx 1 ubuntu ubuntu  99 Oct  9 13:35 firt_array.sh
+-rwxrw-r-- 1 ubuntu ubuntu 175 Oct  6 12:26 hello.sh
+-rwxrwxrwx 1 ubuntu ubuntu 167 Oct  9 10:19 multiple_argument.sh
+-rwxrwxrwx 1 ubuntu ubuntu 132 Oct  9 10:45 special_arguments.sh
+-rwxrwxrwx 1 ubuntu ubuntu 154 Oct  9 11:24 upper.sh
+-rwxrwxrwx 1 ubuntu ubuntu  74 Oct  6 10:21 variable.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ vim firt_array.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./firt_array.sh
+F3.txt F4.txt
+ubuntu@ip-172-31-37-87:~/linux_script$ ls -l
+total 44
+-rwxrwxrwx 1 ubuntu ubuntu 137 Oct  9 09:43 Arguments.sh
+-rw-rw-r-- 1 ubuntu ubuntu   0 Oct  9 13:47 F1.txt
+-rw-rw-r-- 1 ubuntu ubuntu   0 Oct  9 13:47 F2.txt
+-rwxrw-r-- 1 ubuntu ubuntu   0 Oct  5 13:33 File.sh
+-rwxrwxrwx 1 ubuntu ubuntu  58 Oct  6 17:18 cal.sh
+-rwxrwxrwx 1 ubuntu ubuntu  53 Oct  6 10:49 constant_variable.sh
+-rwxrwxrwx 1 ubuntu ubuntu 109 Oct  6 09:45 cores.sh
+-rwxrwxrwx 1 ubuntu ubuntu  43 Oct  9 10:32 creative_arguments.sh
+-rw-rw-r-- 1 ubuntu ubuntu   0 Oct  9 13:28 first_array.sh
+-rwxrwxrwx 1 ubuntu ubuntu 140 Oct  9 13:47 firt_array.sh
+-rwxrw-r-- 1 ubuntu ubuntu 175 Oct  6 12:26 hello.sh
+-rwxrwxrwx 1 ubuntu ubuntu 167 Oct  9 10:19 multiple_argument.sh
+-rwxrwxrwx 1 ubuntu ubuntu 132 Oct  9 10:45 special_arguments.sh
+-rwxrwxrwx 1 ubuntu ubuntu 154 Oct  9 11:24 upper.sh
+-rwxrwxrwx 1 ubuntu ubuntu  74 Oct  6 10:21 variable.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ vim firt_array.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./firt_array.sh
+F3.txt F4.txt
+F1.txt F2.txt F3.txt F4.txt
+ubuntu@ip-172-31-37-87:~/linux_script$ vim firt_array.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./firt_array.sh
+F3.txt F4.txt
+F1.txt F2.txt F3.txt F4.txt
+F1.txt F2.txt F3.txt F4.txt
+ubuntu@ip-172-31-37-87:~/linux_script$ vim firt_array.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./firt_array.sh
+F3.txt F4.txt
+F1.txt F2.txt F3.txt F4.txt
+4
+ubuntu@ip-172-31-37-87:~/linux_script$ clear

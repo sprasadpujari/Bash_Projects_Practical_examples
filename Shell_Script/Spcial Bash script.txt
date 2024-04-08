@@ -1,0 +1,32 @@
+ubuntu@ip-172-31-37-87:~$ ls
+linux_practise  linux_script  remoting  remoting.jar  wildcards  workspace
+ubuntu@ip-172-31-37-87:~$ cd linux_script
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+Arguments.sh  File.sh  cal.sh  constant_variable.sh  cores.sh  creative_arguments.sh  hello.sh  multiple_argument.sh  variable.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ touch special_arguments.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ echo $$
+67794
+ubuntu@ip-172-31-37-87:~/linux_script$ ps -p 67794
+    PID TTY          TIME CMD
+  67794 pts/0    00:00:00 bash
+ubuntu@ip-172-31-37-87:~/linux_script$ vim special_arguments.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ chmod 777 special_arguments.sh 
+ubuntu@ip-172-31-37-87:~/linux_script$ ./special_arguments.sh  Ubuntu
+The name of script is : ./special_arguments.sh
+The number of arguments is : 1
+ The value of all argument is : Ubuntu
+ubuntu@ip-172-31-37-87:~/linux_script$ ./special_arguments.sh  Ubuntu redhat
+The name of script is : ./special_arguments.sh
+The number of arguments is : 2
+ The value of all argument is : Ubuntu redhat
+ubuntu@ip-172-31-37-87:~/linux_script$ cat special_arguments.sh 
+#!/bin/bash
+
+echo "The name of script is : $0"
+
+echo "The number of arguments is : $#"
+
+echo " The value of all argument is : $@"
+
+
+ubuntu@ip-172-31-37-87:~/linux_script$ ^

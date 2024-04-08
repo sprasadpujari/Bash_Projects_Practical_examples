@@ -1,0 +1,29 @@
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+File.sh  cores.sh  hello.sh  variable.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ age=24
+ubuntu@ip-172-31-37-87:~/linux_script$ echo $age
+24
+ubuntu@ip-172-31-37-87:~/linux_script$ age=35
+ubuntu@ip-172-31-37-87:~/linux_script$ echo $age
+35
+ubuntu@ip-172-31-37-87:~/linux_script$ age=45
+ubuntu@ip-172-31-37-87:~/linux_script$ echo $age
+45
+ubuntu@ip-172-31-37-87:~/linux_script$ color=white
+ubuntu@ip-172-31-37-87:~/linux_script$ echo $color
+white
+ubuntu@ip-172-31-37-87:~/linux_script$ echo=black
+ubuntu@ip-172-31-37-87:~/linux_script$ color=black
+ubuntu@ip-172-31-37-87:~/linux_script$ echo $color
+black
+ubuntu@ip-172-31-37-87:~/linux_script$ color=ornge
+ubuntu@ip-172-31-37-87:~/linux_script$ echo $color
+ornge
+ubuntu@ip-172-31-37-87:~/linux_script$ type $color
+-bash: type: ornge: not found
+ubuntu@ip-172-31-37-87:~/linux_script$ type color
+-bash: type: color: not found
+ubuntu@ip-172-31-37-87:~/linux_script$ tem=30.5
+ubuntu@ip-172-31-37-87:~/linux_script$ echo $tem
+30.5
+ubuntu@ip-172-31-37-87:~/linux_script$ 

@@ -1,0 +1,247 @@
+ubuntu@ip-172-31-89-93:~$ ls
+devops  redme.md  shubham_class
+ubuntu@ip-172-31-89-93:~$ cd devops
+ubuntu@ip-172-31-89-93:~/devops$ ls
+commands.txt  feature1.txt  feature2.txt  feature3.txt  feature4.txt  feature6.txt  fetaure5.txt  keys.txt  redme.md  shell_scripts  shubham_class
+ubuntu@ip-172-31-89-93:~/devops$ cd shell_scripts
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ls
+90daysofDevops.sh     compare_number.sh  for_loops.sh  if_elseif.sh       sfile-1.txt  sfile-3.txt  sfile-5.txt
+add_user_function.sh  first_script.sh    if_else.sh    number_compare.sh  sfile-2.txt  sfile-4.txt  user_input.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim add_user_function.sh 
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./add_user_function.sh 
+Usage: useradd [options] LOGIN
+       useradd -D
+       useradd -D [options]
+
+Options:
+      --badnames                do not check for bad names
+  -b, --base-dir BASE_DIR       base directory for the home directory of the
+                                new account
+      --btrfs-subvolume-home    use BTRFS subvolume for home directory
+  -c, --comment COMMENT         GECOS field of the new account
+  -d, --home-dir HOME_DIR       home directory of the new account
+  -D, --defaults                print or change default useradd configuration
+  -e, --expiredate EXPIRE_DATE  expiration date of the new account
+  -f, --inactive INACTIVE       password inactivity period of the new account
+  -g, --gid GROUP               name or ID of the primary group of the new
+                                account
+  -G, --groups GROUPS           list of supplementary groups of the new
+                                account
+  -h, --help                    display this help message and exit
+  -k, --skel SKEL_DIR           use this alternative skeleton directory
+  -K, --key KEY=VALUE           override /etc/login.defs defaults
+  -l, --no-log-init             do not add the user to the lastlog and
+                                faillog databases
+  -m, --create-home             create the user's home directory
+  -M, --no-create-home          do not create the user's home directory
+  -N, --no-user-group           do not create a group with the same name as
+                                the user
+  -o, --non-unique              allow to create users with duplicate
+                                (non-unique) UID
+  -p, --password PASSWORD       encrypted password of the new account
+  -r, --system                  create a system account
+  -R, --root CHROOT_DIR         directory to chroot into
+  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
+  -s, --shell SHELL             login shell of the new account
+  -u, --uid UID                 user ID of the new account
+  -U, --user-group              create a group with the same name as the user
+  -Z, --selinux-user SEUSER     use a specific SEUSER for the SELinux user mapping
+      --extrausers              Use the extra users database
+
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ sudo ./add_user_function.sh 
+Usage: useradd [options] LOGIN
+       useradd -D
+       useradd -D [options]
+
+Options:
+      --badnames                do not check for bad names
+  -b, --base-dir BASE_DIR       base directory for the home directory of the
+                                new account
+      --btrfs-subvolume-home    use BTRFS subvolume for home directory
+  -c, --comment COMMENT         GECOS field of the new account
+  -d, --home-dir HOME_DIR       home directory of the new account
+  -D, --defaults                print or change default useradd configuration
+  -e, --expiredate EXPIRE_DATE  expiration date of the new account
+  -f, --inactive INACTIVE       password inactivity period of the new account
+  -g, --gid GROUP               name or ID of the primary group of the new
+                                account
+  -G, --groups GROUPS           list of supplementary groups of the new
+                                account
+  -h, --help                    display this help message and exit
+  -k, --skel SKEL_DIR           use this alternative skeleton directory
+  -K, --key KEY=VALUE           override /etc/login.defs defaults
+  -l, --no-log-init             do not add the user to the lastlog and
+                                faillog databases
+  -m, --create-home             create the user's home directory
+  -M, --no-create-home          do not create the user's home directory
+  -N, --no-user-group           do not create a group with the same name as
+                                the user
+  -o, --non-unique              allow to create users with duplicate
+                                (non-unique) UID
+  -p, --password PASSWORD       encrypted password of the new account
+  -r, --system                  create a system account
+  -R, --root CHROOT_DIR         directory to chroot into
+  -P, --prefix PREFIX_DIR       prefix directory where are located the /etc/* files
+  -s, --shell SHELL             login shell of the new account
+  -u, --uid UID                 user ID of the new account
+  -U, --user-group              create a group with the same name as the user
+  -Z, --selinux-user SEUSER     use a specific SEUSER for the SELinux user mapping
+      --extrausers              Use the extra users database
+
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim add_user_function.sh 
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ sudo ./add_user_function.sh 
+user added successfully
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ cd ~
+ubuntu@ip-172-31-89-93:~$ cat /etc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd:/usr/sbin/nologin
+messagebus:x:102:105::/nonexistent:/usr/sbin/nologin
+systemd-timesync:x:103:106:systemd Time Synchronization,,,:/run/systemd:/usr/sbin/nologin
+syslog:x:104:111::/home/syslog:/usr/sbin/nologin
+_apt:x:105:65534::/nonexistent:/usr/sbin/nologin
+tss:x:106:112:TPM software stack,,,:/var/lib/tpm:/bin/false
+uuidd:x:107:113::/run/uuidd:/usr/sbin/nologin
+tcpdump:x:108:114::/nonexistent:/usr/sbin/nologin
+sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
+pollinate:x:110:1::/var/cache/pollinate:/bin/false
+landscape:x:111:116::/var/lib/landscape:/usr/sbin/nologin
+fwupd-refresh:x:112:117:fwupd-refresh user,,,:/run/systemd:/usr/sbin/nologin
+ec2-instance-connect:x:113:65534::/nonexistent:/usr/sbin/nologin
+_chrony:x:114:121:Chrony daemon,,,:/var/lib/chrony:/usr/sbin/nologin
+ubuntu:x:1000:1000:Ubuntu:/home/ubuntu:/bin/bash
+lxd:x:999:100::/var/snap/lxd/common/lxd:/bin/false
+Testp:x:1001:1001::/home/Testp:/bin/sh
+ubuntu@ip-172-31-89-93:~$ cd devops
+ubuntu@ip-172-31-89-93:~/devops$ cd shell_scripts
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ls
+90daysofDevops.sh     compare_number.sh  for_loops.sh  if_elseif.sh       sfile-1.txt  sfile-3.txt  sfile-5.txt
+add_user_function.sh  first_script.sh    if_else.sh    number_compare.sh  sfile-2.txt  sfile-4.txt  user_input.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ mkdir backup
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ls
+90daysofDevops.sh     backup             first_script.sh  if_else.sh    number_compare.sh  sfile-2.txt  sfile-4.txt  user_input.sh
+add_user_function.sh  compare_number.sh  for_loops.sh     if_elseif.sh  sfile-1.txt        sfile-3.txt  sfile-5.txt
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ cd backup
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts/backup$ cd..
+cd..: command not found
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts/backup$ cd ..
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ls
+90daysofDevops.sh     backup             first_script.sh  if_else.sh    number_compare.sh  sfile-2.txt  sfile-4.txt  user_input.sh
+add_user_function.sh  compare_number.sh  for_loops.sh     if_elseif.sh  sfile-1.txt        sfile-3.txt  sfile-5.txt
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim backup_file.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ pwd
+/home/ubuntu/devops/shell_scripts
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim backup_file.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ls
+90daysofDevops.sh     backup          compare_number.sh  for_loops.sh  if_elseif.sh       sfile-1.txt  sfile-3.txt  sfile-5.txt
+add_user_function.sh  backup_file.sh  first_script.sh    if_else.sh    number_compare.sh  sfile-2.txt  sfile-4.txt  user_input.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim backup_file.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ chmod 777 backup_file.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./backup_file.sh
+Taking backup on 2023-08-03-19-38-53
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim backup_file.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./backup_file.sh
+Taking backup on 2023-08-03-19-40-58
+Backup_file success
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim backup_file.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./backup_file.sh
+Taking backup on 2023-08-03-19-48-07
+Backup_file success
+tar: Removing leading `/' from member names
+Backup complete
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim backup_file.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./backup_file.sh
+Taking backup on 2023-08-03-19-49-54
+Backup_file success
+tar: Removing leading `/' from member names
+tar: /home/ubuntu/devops/shell_scripts/backup/2023-08-03-19-49-54.tgz: Cannot stat: No such file or directory
+tar: Removing leading `/' from hard link targets
+tar: Exiting with failure status due to previous errors
+Backup complete
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ vim backup_file.sh
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ./backup_file.sh
+Taking backup on 2023-08-03-19-51-00
+Backup_file success
+Backup complete
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ ls
+--absolute-names   add_user_function.sh  backup_file.sh     first_script.sh  if_else.sh    number_compare.sh  sfile-2.txt  sfile-4.txt  user_input.sh
+90daysofDevops.sh  backup                compare_number.sh  for_loops.sh     if_elseif.sh  sfile-1.txt        sfile-3.txt  sfile-5.txt
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts$ cd backup
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts/backup$ ls
+2023-08-03-19-48-07.tgz  2023-08-03-19-51-00.tgz
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts/backup$ tar xf 2023-08-03-19-51-00.tgz
+tar: Removing leading `/' from member names
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts/backup$ tar xf 2023-08-03-19-48-07.tgz
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts/backup$ ls
+2023-08-03-19-48-07.tgz  2023-08-03-19-51-00.tgz  home
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts/backup$ cd home
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts/backup/home$ ls
+ubuntu
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts/backup/home$ cd ubuntu
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts/backup/home/ubuntu$ ls
+devops
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts/backup/home/ubuntu$ cd devops
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts/backup/home/ubuntu/devops$ ls
+shell_scripts
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts/backup/home/ubuntu/devops$ cd shell_scripts
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts/backup/home/ubuntu/devops/shell_scripts$ ls
+--absolute-names   add_user_function.sh  backup_file.sh     first_script.sh  if_else.sh    number_compare.sh  sfile-2.txt  sfile-4.txt  user_input.sh
+90daysofDevops.sh  backup                compare_number.sh  for_loops.sh     if_elseif.sh  sfile-1.txt        sfile-3.txt  sfile-5.txt
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts/backup/home/ubuntu/devops/shell_scripts$ cat backup_file.sh
+#!/bin/bash
+
+src_dir=/home/ubuntu/devops/shell_scripts
+
+tgt_dir=/home/ubuntu/devops/shell_scripts/backup
+
+curr_timestamp=$(date "+%Y-%m-%d-%H-%M-%S")
+backup_file=$tgt_dir/$curr_timestamp.tgz
+
+echo "Taking backup on $curr_timestamp"
+echo "Backup_file success"
+
+tar czf $backup_file $src_dir
+
+echo "Backup complete"
+
+
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts/backup/home/ubuntu/devops/shell_scripts$ cat add_user.sh
+cat: add_user.sh: No such file or directory
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts/backup/home/ubuntu/devops/shell_scripts$ ls
+--absolute-names   add_user_function.sh  backup_file.sh     first_script.sh  if_else.sh    number_compare.sh  sfile-2.txt  sfile-4.txt  user_input.sh
+90daysofDevops.sh  backup                compare_number.sh  for_loops.sh     if_elseif.sh  sfile-1.txt        sfile-3.txt  sfile-5.txt
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts/backup/home/ubuntu/devops/shell_scripts$ cat add_user_function.sh
+#!/bin/bash
+
+add_user()
+{
+USER=$1
+PASS=$2
+
+useradd -m -p $PASS $USER && echo "user added successfully"
+
+}
+
+#MAIN
+
+add_user Testp test@123
+
+
+ubuntu@ip-172-31-89-93:~/devops/shell_scripts/backup/home/ubuntu/devops/shell_scripts$ 

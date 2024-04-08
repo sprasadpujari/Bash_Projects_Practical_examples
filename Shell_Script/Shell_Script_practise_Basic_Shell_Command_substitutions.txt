@@ -1,0 +1,23 @@
+ubuntu@ip-172-31-37-87:~$ Today=$(date)
+ubuntu@ip-172-31-37-87:~$ echo $Today
+Fri Oct 6 11:10:31 UTC 2023
+ubuntu@ip-172-31-37-87:~$ cat /etc/os-release
+PRETTY_NAME="Ubuntu 22.04.2 LTS"
+NAME="Ubuntu"
+VERSION_ID="22.04"
+VERSION="22.04.2 LTS (Jammy Jellyfish)"
+VERSION_CODENAME=jammy
+ID=ubuntu
+ID_LIKE=debian
+HOME_URL="https://www.ubuntu.com/"
+SUPPORT_URL="https://help.ubuntu.com/"
+BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+UBUNTU_CODENAME=jammy
+ubuntu@ip-172-31-37-87:~$ cat /etc/os-release |grep '^NAME='
+NAME="Ubuntu"
+ubuntu@ip-172-31-37-87:~$ distro=$(cat /etc/os-release |grep '^NAME=')
+ubuntu@ip-172-31-37-87:~$ echo $distro
+NAME="Ubuntu"
+ubuntu@ip-172-31-37-87:~$ 
+

@@ -1,0 +1,29 @@
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+Add_Array.sh  Del_Array.sh  F2.txt   cal.sh                cores.sh               first_array.sh  hello.sh              reverse_array.sh      upper.sh
+Arguments.sh  F1.txt        File.sh  constant_variable.sh  creative_arguments.sh  firt_array.sh   multiple_argument.sh  special_arguments.sh  variable.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ touch sorted.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ vim sorted.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./sorted.sh
+-bash: ./sorted.sh: Permission denied
+ubuntu@ip-172-31-37-87:~/linux_script$ chmod 777 sorted.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./sorted.sh 
+Before sorting array num: 
+1 2 3 5 4
+After sorting array num: 
+1 2 3 5
+ubuntu@ip-172-31-37-87:~/linux_script$ vim sorted.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./sorted.sh 
+Before sorting array num: 
+1 2 3 5 4
+After sorting array num: 
+1 2 3 5 4
+ubuntu@ip-172-31-37-87:~/linux_script$ cat sorted.sh 
+#!/bin/bash
+num=(1 2 3 5 4)
+echo "Before sorting array num: "
+echo ${num[@]}
+unset num[4]
+num+=(4)
+echo "After sorting array num: "
+echo ${num[@]}
+ubuntu@ip-172-31-37-87:~/linux_script$ 

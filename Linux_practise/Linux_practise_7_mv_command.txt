@@ -1,0 +1,47 @@
+login as: renapp
+renapp@10.13.168.69's password:
+Last login: Fri Jul 14 04:33:43 2023 from 10.13.190.65
+[renapp@INPU2-REN-DEV1O ~]$ clear
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc   dir2   file2    mysql           test
+dir1  file1  lib.tgz  oradiag_renapp  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ mv file1 file2 dir1
+[renapp@INPU2-REN-DEV1O ~]$ cd dir1
+[renapp@INPU2-REN-DEV1O dir1]$ ls
+file1  file2
+[renapp@INPU2-REN-DEV1O dir1]$ cd ~
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  dir1  dir2  lib.tgz  mysql  oradiag_renapp  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ mv dir2 dir1
+[renapp@INPU2-REN-DEV1O ~]$ ls
+abc  dir1  lib.tgz  mysql  oradiag_renapp  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ cd dir1
+[renapp@INPU2-REN-DEV1O dir1]$ ls
+dir2  file1  file2
+[renapp@INPU2-REN-DEV1O dir1]$ cat >file1
+test remove command [renapp@INPU2-REN-DEV1O dir1]$ rm file1
+[renapp@INPU2-REN-DEV1O dir1]$ cd ~
+[renapp@INPU2-REN-DEV1O ~]$ cat >rmfile1
+Test rm file [renapp@INPU2-REN-DEV1O ~]$ ls
+abc  dir1  lib.tgz  mysql  oradiag_renapp  rmfile1  test  valgrind_build
+[renapp@INPU2-REN-DEV1O ~]$ touch rmfil2
+[renapp@INPU2-REN-DEV1O ~]$ mv -i rmfile1 dir1
+[renapp@INPU2-REN-DEV1O ~]$ cd dir1
+[renapp@INPU2-REN-DEV1O dir1]$ ls
+dir2  file2  rmfile1
+[renapp@INPU2-REN-DEV1O dir1]$ cd ~
+[renapp@INPU2-REN-DEV1O ~]$ mv -i file1 dir1
+mv: cannot stat ‘file1’: No such file or directory
+[renapp@INPU2-REN-DEV1O ~]$ mv -i test dir1
+[renapp@INPU2-REN-DEV1O ~]$ touch file3
+[renapp@INPU2-REN-DEV1O ~]$ mv -i file3 dir1
+[renapp@INPU2-REN-DEV1O ~]$ touch file4
+[renapp@INPU2-REN-DEV1O ~]$ mv -Rv file4 dir1
+mv: invalid option -- 'R'
+Try 'mv --help' for more information.
+[renapp@INPU2-REN-DEV1O ~]$ mv -iv file4 dir1
+‘file4’ -> ‘dir1/file4’
+[renapp@INPU2-REN-DEV1O ~]$ cd dir1
+[renapp@INPU2-REN-DEV1O dir1]$ ls
+dir2  file2  file3  file4  rmfile1  test
+[renapp@INPU2-REN-DEV1O dir1]$

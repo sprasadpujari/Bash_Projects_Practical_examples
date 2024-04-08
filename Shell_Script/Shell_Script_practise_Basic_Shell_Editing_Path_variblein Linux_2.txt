@@ -1,0 +1,38 @@
+ubuntu@ip-172-31-37-87:~$ ls
+linux_practise  linux_script  remoting  remoting.jar  wildcards  workspace
+ubuntu@ip-172-31-37-87:~$ 
+ubuntu@ip-172-31-37-87:~$ cd linux_script
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+File.sh  hello.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ cd ..
+ubuntu@ip-172-31-37-87:~$ ls -l
+total 1360
+drwxrwxr-x 3 ubuntu ubuntu    4096 Sep 26 16:57 linux_practise
+drwxrwxr-x 2 ubuntu ubuntu    4096 Oct  5 13:33 linux_script
+drwxrwxr-x 4 ubuntu ubuntu    4096 Aug 28 19:16 remoting
+-rw-rw-r-- 1 ubuntu ubuntu 1370647 Aug 28 19:16 remoting.jar
+drwxrwxr-x 3 ubuntu ubuntu    4096 Sep 27 13:29 wildcards
+drwxrwxr-x 4 ubuntu ubuntu    4096 Aug 28 19:57 workspace
+ubuntu@ip-172-31-37-87:~$ cd linux_scripts
+-bash: cd: linux_scripts: No such file or directory
+ubuntu@ip-172-31-37-87:~$ cd linux_script
+ubuntu@ip-172-31-37-87:~/linux_script$ ls -l
+total 4
+-rwxrw-r-- 1 ubuntu ubuntu  0 Oct  5 13:33 File.sh
+-rwxrw-r-- 1 ubuntu ubuntu 35 Oct  5 13:30 hello.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ hello.sh
+hello.sh: command not found
+ubuntu@ip-172-31-37-87:~/linux_script$ ./hello.sh
+Hello Friends
+ubuntu@ip-172-31-37-87:~/linux_script$ pwd
+/home/ubuntu/linux_script
+ubuntu@ip-172-31-37-87:~/linux_script$ /home/ubuntu/linux_script/hello.sh
+Hello Friends
+ubuntu@ip-172-31-37-87:~/linux_script$ echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+ubuntu@ip-172-31-37-87:~/linux_script$ export PATH=$PATH:/home/ubuntu/linux_script
+ubuntu@ip-172-31-37-87:~/linux_script$ echo $PATH
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ubuntu/linux_script
+ubuntu@ip-172-31-37-87:~/linux_script$ hello.sh
+Hello Friends
+ubuntu@ip-172-31-37-87:~/linux_script$ 

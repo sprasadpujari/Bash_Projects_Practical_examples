@@ -1,0 +1,27 @@
+ubuntu@ip-172-31-37-87:~$ ls
+190125.txt  Basic_linux  Test  Test.tar  Test_new  Test_perm  latest.zip  linux_practise  linux_script  ping_result.txt  remoting  remoting.jar  wildcards  workspace
+ubuntu@ip-172-31-37-87:~$ cd linux+script
+-bash: cd: linux+script: No such file or directory
+ubuntu@ip-172-31-37-87:~$ cd linux_script
+ubuntu@ip-172-31-37-87:~/linux_script$ ls
+Add_Array.sh  F2.txt       case_statement.sh        creative_arguments.sh  for_loops.sh          multiplication.sh  root.sh               upper.sh
+Arguments.sh  File.sh      concatenating_string.sh  else_if.sh             hello.sh              multiplication.sj  sorted.sh             variable.sh
+Del_Array.sh  addition.sh  constant_variable.sh     first_array.sh         if_else.sh            nested_if.sh       special_arguments.sh
+F1.txt        cal.sh       cores.sh                 firt_array.sh          multiple_argument.sh  reverse_array.sh   test_conditions.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ vim while_loop.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ chmod while_loop.sh
+chmod: missing operand after ‘while_loop.sh’
+Try 'chmod --help' for more information.
+ubuntu@ip-172-31-37-87:~/linux_script$ chmod 777 while_loop.sh
+ubuntu@ip-172-31-37-87:~/linux_script$ ./while_loop.sh 
+ Hello frinds 0
+ Hello frinds 1
+ Hello frinds 2
+ Hello frinds 3
+ Hello frinds 4
+ Hello frinds 5
+ Hello frinds 6
+ Hello frinds 7
+ Hello frinds 8
+ Hello frinds 9
+ubuntu@ip-172-31-37-87:~/linux_script$ 
